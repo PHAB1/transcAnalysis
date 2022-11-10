@@ -1,0 +1,9 @@
+samples: samples.tsv
+
+files_path:
+    genome_reg: /array/pedrobarros/genome_ref/GRCh38.gtf
+    genome_fa: /array/pedrobarros/genome_ref/GRCh38.fa
+
+params:
+    stranded: yes
+    read_len: 151

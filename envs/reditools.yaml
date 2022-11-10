@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+dependencies:
+  - python=2
+  - htslib=1.9
+  - pysam
+  - tabix
+  - samtools=1.9
+  - scipy=1.2.1
+  - wget=1.20.1
+  - bcftools
+  - sortedcontainers
+  - psutil
+  - netifaces
+  - mpi4py
+  - openmpi
+  - git
