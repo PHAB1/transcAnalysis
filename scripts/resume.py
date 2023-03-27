@@ -3,6 +3,7 @@ import glob
 
 exp = open(snakemake.input[0],"r")
 nc = snakemake.input[1]
+#dif_exp = pd.read_csv(snakemake.input[2])
 rmats = snakemake.input[2]
 red = snakemake.input[3]
 output = snakemake.output[0]

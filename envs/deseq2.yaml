@@ -2,5 +2,5 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3
-  - samtools=1.2 
+  - bioconductor-deseq2
+  - r-base=4

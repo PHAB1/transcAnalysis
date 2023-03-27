@@ -1,13 +1,5 @@
 sample,letter,group
-SRR14749965Aligned.sortedByCoord.out.bam,A1,A
-SRR14749966Aligned.sortedByCoord.out.bam,A2,A
-SRR14749967Aligned.sortedByCoord.out.bam,A3,A
-SRR14749968Aligned.sortedByCoord.out.bam,A4,A
-SRR14749969Aligned.sortedByCoord.out.bam,A5,A
-SRR14749973Aligned.sortedByCoord.out.bam,A6,A
-SRR14749982Aligned.sortedByCoord.out.bam,B1,B
-SRR14749983Aligned.sortedByCoord.out.bam,B2,B
-SRR14749984Aligned.sortedByCoord.out.bam,B3,B
-SRR14749985Aligned.sortedByCoord.out.bam,B4,B
-SRR14749986Aligned.sortedByCoord.out.bam,B5,B
-SRR14749987Aligned.sortedByCoord.out.bam,B6,B
+/array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A3Aligned_sorted.out.bam,R_Ctrl_3,R_Ctrl
+/array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A2Aligned_sorted.out.bam,R_Ctrl_2,R_Ctrl
+/array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A3Aligned_sorted.out.bam,S_Ctrl_3,S_Ctrl
+/array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A1Aligned_sorted.out.bam,S_Ctrl_1,S_Ctrl

@@ -45,6 +45,20 @@ rule htseq_nc:
     shell:
         "htseq-count -f bam -r pos {input} --additional-attr=gene_type > {output}"
 
+rule dif_exp:
+    input:
+        htseq_cod="expression/exp",
+        htseq_nc="non-coding/exp"
+    params:
+        sampleData=samples["sample"]
+    conda:
+        "envs/deseq2.yaml"
+    output:
+        out_cod="expression/exp/dif_exp.csv",
+	out_nc="non-coding/exp/dif_exp.csv"
+    script:
+        "scripts/dif_exp.R"
+
 rule rmats:
     input:
        f1="f1.rmats",
@@ -72,10 +86,26 @@ rule reditools:
     script:
         "scripts/reditools.py"
 
+'''
+rule SPRINT:
+    input:
+         samples["sample"]
+    conda:
+        "envs/sprint.yaml"
+    params:
+        genome=config["files_path"]["genome_fa"]
+    threads: workflow.cores
+    output:
+        directory("RED")
+    script:
+        "scripts/SPRINT.py"
+'''
+
 rule integration:
     input:
         exp = "expression/exp",
         nc_exp = "non-coding/exp",
+	#dif_exp = "expression/exp/dif_exp.csv",
         rmats = "rmats/",
         red = "RED/"
     conda:
