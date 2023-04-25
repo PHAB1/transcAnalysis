@@ -6,7 +6,7 @@ Prerequisites
 Before you start, make sure you have the following prerequisites installed on your system:
 
 - Anaconda3 (v23.1.0)
-- Snakemake (7.25.0)
+- Snakemake (v7.25.0)
 
 ## Usage
 
