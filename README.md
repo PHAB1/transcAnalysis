@@ -23,6 +23,6 @@ To run the pipeline, use the following command:
 ```
 cd transcAnalysis
 
-snakemake --cores [NUMBER OF CORES] --configfile [CONFIG FILE]
+snakemake --cores [NUMBER OF CORES] --use-conda
 ```
-<sub>Note that it is necessary to edit the config file before running the pipeline.</sub>
+<sub>Note that it is necessary to edit the config and the samples.tsv file before running the pipeline.</sub>
