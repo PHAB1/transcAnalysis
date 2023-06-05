@@ -25,4 +25,4 @@ cd transcAnalysis
 
 snakemake --cores [NUMBER OF CORES] --configfile [CONFIG FILE]
 ```
-<sub>Note that it is necessary to edit the config file before running the pipeline.</sub>
+<sub>Note that it is necessary to edit the config and the samples.tsv file before running the pipeline.</sub>
