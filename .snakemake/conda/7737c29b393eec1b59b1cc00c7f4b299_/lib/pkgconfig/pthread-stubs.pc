@@ -1,9 +1,0 @@
-prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-
-Name: pthread stubs
-Description: Meta package for pthread symbols - defaults to heavyweight ones if the C runtime does not provide lightweight ones.
-Version: 0.4
-Cflags: 
-Libs: 

@@ -1,9 +1,0 @@
-prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
- 
-Name: XExtProto
-Description: XExt extension headers
-Version: 7.3.0
-Cflags: -I${includedir}

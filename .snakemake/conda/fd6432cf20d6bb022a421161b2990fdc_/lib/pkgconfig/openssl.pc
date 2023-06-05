@@ -1,9 +1,0 @@
-prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/fd6432cf20d6bb022a421161b2990fdc_
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
-
-Name: OpenSSL
-Description: Secure Sockets Layer and cryptography libraries and tools
-Version: 3.1.1
-Requires: libssl libcrypto

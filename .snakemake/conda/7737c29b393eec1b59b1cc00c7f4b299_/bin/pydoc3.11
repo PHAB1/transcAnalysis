@@ -1,5 +1,0 @@
-#!/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/bin/python3.11
-
-import pydoc
-if __name__ == '__main__':
-    pydoc.cli()
