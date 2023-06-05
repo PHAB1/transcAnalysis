@@ -1,0 +1,4 @@
+[http]
+        sslVerify = true
+        sslCAPath = /array2/pedrobarros/transcAnalysis/.snakemake/conda/f354c447986014a2d888c0a769ba5781_/ssl/cacert.pem
+        sslCAInfo = /array2/pedrobarros/transcAnalysis/.snakemake/conda/f354c447986014a2d888c0a769ba5781_/ssl/cacert.pem

@@ -1,0 +1,11 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/f354c447986014a2d888c0a769ba5781_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.2.1
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

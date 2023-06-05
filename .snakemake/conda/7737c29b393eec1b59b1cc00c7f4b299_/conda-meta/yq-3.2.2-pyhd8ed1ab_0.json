@@ -1,0 +1,214 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "argcomplete >=1.8.1",
+    "jq",
+    "python >=3.6",
+    "pyyaml >=5.3.1",
+    "setuptools",
+    "toml >=0.10.0",
+    "tomlkit >=0.11.6",
+    "xmltodict >=0.11.0"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/yq-3.2.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/tomlq",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/LICENSE",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/yq-3.2.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/yq/__init__.py",
+    "lib/python3.11/site-packages/yq/__main__.py",
+    "lib/python3.11/site-packages/yq/dumper.py",
+    "lib/python3.11/site-packages/yq/loader.py",
+    "lib/python3.11/site-packages/yq/parser.py",
+    "lib/python3.11/site-packages/yq/version.py",
+    "lib/python3.11/site-packages/yq/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/yq/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/yq/__pycache__/dumper.cpython-311.pyc",
+    "lib/python3.11/site-packages/yq/__pycache__/loader.cpython-311.pyc",
+    "lib/python3.11/site-packages/yq/__pycache__/parser.cpython-311.pyc",
+    "lib/python3.11/site-packages/yq/__pycache__/version.cpython-311.pyc",
+    "bin/yq",
+    "bin/xq"
+  ],
+  "fn": "yq-3.2.2-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/yq-3.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e028c252352d88b554214cbe1cff9f7a",
+  "name": "yq",
+  "noarch": "python",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/yq-3.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/tomlq",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/yq_1682205044037/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "c910f3f55dfc3a8fc66908d5fba6f7757bb069c2202520ef4bd2f3f6ae14cde4",
+        "sha256_in_prefix": "8b0299dbf1db2638992e0dc6d024f2c74fb1cd6e67d38358e3c8d00192d249d7",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "sha256_in_prefix": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "size_in_bytes": 10273
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "210a801024684e1704a1c22d2126d07493c35f4204b53f41854d5f5077db692b",
+        "sha256_in_prefix": "210a801024684e1704a1c22d2126d07493c35f4204b53f41854d5f5077db692b",
+        "size_in_bytes": 8621
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2a25ed283c431bcc7b21d4228bee3cf73e6b4493b1fa3ddf60292a4d7dfaf41e",
+        "sha256_in_prefix": "2a25ed283c431bcc7b21d4228bee3cf73e6b4493b1fa3ddf60292a4d7dfaf41e",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e00fc3ef02cac5098a1284342a8f0c1aa7f6af464d61e41ae550920c7753e889",
+        "sha256_in_prefix": "e00fc3ef02cac5098a1284342a8f0c1aa7f6af464d61e41ae550920c7753e889",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3a9af8c95e3cad78ccc2cb9a34aa4d1ad5956fdd4e8f8b7d840287390ecb829b",
+        "sha256_in_prefix": "3a9af8c95e3cad78ccc2cb9a34aa4d1ad5956fdd4e8f8b7d840287390ecb829b",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/yq-3.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b84fc7f1a12c9cba581676535c0d400d3306125b1ca8793271c08ff174721359",
+        "sha256_in_prefix": "b84fc7f1a12c9cba581676535c0d400d3306125b1ca8793271c08ff174721359",
+        "size_in_bytes": 3
+      },
+      {
+        "_path": "site-packages/yq/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "64499744624f6160f26c6c0842e8b26cd4000bb2fdee49e60cc10ed08fd9f54e",
+        "sha256_in_prefix": "64499744624f6160f26c6c0842e8b26cd4000bb2fdee49e60cc10ed08fd9f54e",
+        "size_in_bytes": 13755
+      },
+      {
+        "_path": "site-packages/yq/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "93d0a041afb7c6f7d57082bf8dad962ac2adc234266bd918272418ecb6a035ee",
+        "sha256_in_prefix": "93d0a041afb7c6f7d57082bf8dad962ac2adc234266bd918272418ecb6a035ee",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/yq/dumper.py",
+        "path_type": "hardlink",
+        "sha256": "0a487d25bcec03f60d7756b46f51940404bc792700a3e57a6f341204da2a38d9",
+        "sha256_in_prefix": "0a487d25bcec03f60d7756b46f51940404bc792700a3e57a6f341204da2a38d9",
+        "size_in_bytes": 3531
+      },
+      {
+        "_path": "site-packages/yq/loader.py",
+        "path_type": "hardlink",
+        "sha256": "a3446402ba72654e0f080cb88b1ee9e80c125d78c611106a417072b930ea92d6",
+        "sha256_in_prefix": "a3446402ba72654e0f080cb88b1ee9e80c125d78c611106a417072b930ea92d6",
+        "size_in_bytes": 8172
+      },
+      {
+        "_path": "site-packages/yq/parser.py",
+        "path_type": "hardlink",
+        "sha256": "8c55499bd36a6cfeba6759a2ec4b7d3db053c47ea7a6da1c2d95c69eb31b8d37",
+        "sha256_in_prefix": "8c55499bd36a6cfeba6759a2ec4b7d3db053c47ea7a6da1c2d95c69eb31b8d37",
+        "size_in_bytes": 5911
+      },
+      {
+        "_path": "site-packages/yq/version.py",
+        "path_type": "hardlink",
+        "sha256": "c6ea77fef21ac7f43c7d9006d8d8c7aa4c62d300353a69eb630ff5f15bccbb22",
+        "sha256_in_prefix": "c6ea77fef21ac7f43c7d9006d8d8c7aa4c62d300353a69eb630ff5f15bccbb22",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/dumper.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/loader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/parser.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yq/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/yq",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/xq",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cafdbc03ce4cf01fda16408a4bd275817157bc4c0acc4f5567b02c6daf17ce6c",
+  "size": 23187,
+  "subdir": "noarch",
+  "timestamp": 1682205175000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/yq-3.2.2-pyhd8ed1ab_0.conda",
+  "version": "3.2.2"
+}

@@ -1,0 +1,1698 @@
+{
+  "build": "pyh7cba7a3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "natsort",
+    "ncls >=0.0.63",
+    "pandas",
+    "pyrle",
+    "python",
+    "sorted_nearest >=0.0.33",
+    "tabulate"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/pyranges-0.0.127-pyh7cba7a3_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/book/_bookdown.yml",
+    "lib/python3.7/site-packages/book/build_book.yml",
+    "lib/python3.7/site-packages/book/colocalization.Rmd",
+    "lib/python3.7/site-packages/book/compile.R",
+    "lib/python3.7/site-packages/book/compile2.R",
+    "lib/python3.7/site-packages/book/concat.Rmd",
+    "lib/python3.7/site-packages/book/count_overlaps.Rmd",
+    "lib/python3.7/site-packages/book/coverage.Rmd",
+    "lib/python3.7/site-packages/book/creating.Rmd",
+    "lib/python3.7/site-packages/book/custom_methods.Rmd",
+    "lib/python3.7/site-packages/book/databases.Rmd",
+    "lib/python3.7/site-packages/book/exons.py",
+    "lib/python3.7/site-packages/book/fisher_exact.Rmd",
+    "lib/python3.7/site-packages/book/genomicfeatures.Rmd",
+    "lib/python3.7/site-packages/book/index.Rmd",
+    "lib/python3.7/site-packages/book/insert.Rmd",
+    "lib/python3.7/site-packages/book/intersection.Rmd",
+    "lib/python3.7/site-packages/book/iterate.Rmd",
+    "lib/python3.7/site-packages/book/join.Rmd",
+    "lib/python3.7/site-packages/book/knearest.Rmd",
+    "lib/python3.7/site-packages/book/make_book.py",
+    "lib/python3.7/site-packages/book/manipulation.Rmd",
+    "lib/python3.7/site-packages/book/mcc.Rmd",
+    "lib/python3.7/site-packages/book/multithreading.Rmd",
+    "lib/python3.7/site-packages/book/nearest.Rmd",
+    "lib/python3.7/site-packages/book/piping.Rmd",
+    "lib/python3.7/site-packages/book/printing.Rmd",
+    "lib/python3.7/site-packages/book/pyranges.css",
+    "lib/python3.7/site-packages/book/reldist.Rmd",
+    "lib/python3.7/site-packages/book/rowbased_statistics.Rmd",
+    "lib/python3.7/site-packages/book/runlength_dict.Rmd",
+    "lib/python3.7/site-packages/book/runlengths.Rmd",
+    "lib/python3.7/site-packages/book/simes.Rmd",
+    "lib/python3.7/site-packages/book/single_range_methods.Rmd",
+    "lib/python3.7/site-packages/book/sort.Rmd",
+    "lib/python3.7/site-packages/book/subset.Rmd",
+    "lib/python3.7/site-packages/book/subsetting_pyrles.Rmd",
+    "lib/python3.7/site-packages/book/subsetting_rles.Rmd",
+    "lib/python3.7/site-packages/book/subtract.Rmd",
+    "lib/python3.7/site-packages/book/summary.Rmd",
+    "lib/python3.7/site-packages/book/tutorial.Rmd",
+    "lib/python3.7/site-packages/book/writing.Rmd",
+    "lib/python3.7/site-packages/docs/Makefile",
+    "lib/python3.7/site-packages/docs/conf.py",
+    "lib/python3.7/site-packages/docs/index.html",
+    "lib/python3.7/site-packages/docs/index.rst",
+    "lib/python3.7/site-packages/docs/make.bat",
+    "lib/python3.7/site-packages/docs/requirements.txt",
+    "lib/python3.7/site-packages/graphs/hypothesis-tested-brightgreen.svg",
+    "lib/python3.7/site-packages/graphs/main_paper_annotation_binary.png",
+    "lib/python3.7/site-packages/graphs/memory.png",
+    "lib/python3.7/site-packages/graphs/time.png",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/LICENSE",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/METADATA",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/RECORD",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/pyranges-0.0.127.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pyranges/__init__.py",
+    "lib/python3.7/site-packages/pyranges/data.py",
+    "lib/python3.7/site-packages/pyranges/docs",
+    "lib/python3.7/site-packages/pyranges/example_data/aorta.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/aorta2.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/bw.bw",
+    "lib/python3.7/site-packages/pyranges/example_data/chipseq.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/chipseq_background.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/chromsizes.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/control.bam",
+    "lib/python3.7/site-packages/pyranges/example_data/control.bam.bai",
+    "lib/python3.7/site-packages/pyranges/example_data/cpg.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/ensembl.gtf",
+    "lib/python3.7/site-packages/pyranges/example_data/ensembl_human.gtf.gz",
+    "lib/python3.7/site-packages/pyranges/example_data/exons.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/f1.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/f2.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/gencode_human.gtf.gz",
+    "lib/python3.7/site-packages/pyranges/example_data/lamina.bed",
+    "lib/python3.7/site-packages/pyranges/example_data/ucsc_human.bed.gz",
+    "lib/python3.7/site-packages/pyranges/genomicfeatures.py",
+    "lib/python3.7/site-packages/pyranges/get_fasta.py",
+    "lib/python3.7/site-packages/pyranges/helpers.py",
+    "lib/python3.7/site-packages/pyranges/methods/__init__.py",
+    "lib/python3.7/site-packages/pyranges/methods/attr.py",
+    "lib/python3.7/site-packages/pyranges/methods/boundaries.py",
+    "lib/python3.7/site-packages/pyranges/methods/call.py",
+    "lib/python3.7/site-packages/pyranges/methods/cluster.py",
+    "lib/python3.7/site-packages/pyranges/methods/concat.py",
+    "lib/python3.7/site-packages/pyranges/methods/coverage.py",
+    "lib/python3.7/site-packages/pyranges/methods/drop.py",
+    "lib/python3.7/site-packages/pyranges/methods/drop_duplicates.py",
+    "lib/python3.7/site-packages/pyranges/methods/getitem.py",
+    "lib/python3.7/site-packages/pyranges/methods/init.py",
+    "lib/python3.7/site-packages/pyranges/methods/insert.py",
+    "lib/python3.7/site-packages/pyranges/methods/intersection.py",
+    "lib/python3.7/site-packages/pyranges/methods/itergrs.py",
+    "lib/python3.7/site-packages/pyranges/methods/join.py",
+    "lib/python3.7/site-packages/pyranges/methods/k_nearest.py",
+    "lib/python3.7/site-packages/pyranges/methods/max_disjoint.py",
+    "lib/python3.7/site-packages/pyranges/methods/merge.py",
+    "lib/python3.7/site-packages/pyranges/methods/nearest.py",
+    "lib/python3.7/site-packages/pyranges/methods/new_position.py",
+    "lib/python3.7/site-packages/pyranges/methods/sort.py",
+    "lib/python3.7/site-packages/pyranges/methods/spliced_subsequence.py",
+    "lib/python3.7/site-packages/pyranges/methods/split.py",
+    "lib/python3.7/site-packages/pyranges/methods/statistics.py",
+    "lib/python3.7/site-packages/pyranges/methods/subsequence.py",
+    "lib/python3.7/site-packages/pyranges/methods/subtraction.py",
+    "lib/python3.7/site-packages/pyranges/methods/summary.py",
+    "lib/python3.7/site-packages/pyranges/methods/to_rle.py",
+    "lib/python3.7/site-packages/pyranges/methods/windows.py",
+    "lib/python3.7/site-packages/pyranges/multioverlap.py",
+    "lib/python3.7/site-packages/pyranges/multithreaded.py",
+    "lib/python3.7/site-packages/pyranges/out.py",
+    "lib/python3.7/site-packages/pyranges/pyranges_main.py",
+    "lib/python3.7/site-packages/pyranges/readers.py",
+    "lib/python3.7/site-packages/pyranges/statistics.py",
+    "lib/python3.7/site-packages/pyranges/stats.py",
+    "lib/python3.7/site-packages/pyranges/subset.py",
+    "lib/python3.7/site-packages/pyranges/tostring2.py",
+    "lib/python3.7/site-packages/tests/.fuse_hidden0000017200000002",
+    "lib/python3.7/site-packages/tests/helpers.py",
+    "lib/python3.7/site-packages/tests/hi",
+    "lib/python3.7/site-packages/tests/property_based/__init__.py",
+    "lib/python3.7/site-packages/tests/property_based/hypothesis_helper.py",
+    "lib/python3.7/site-packages/tests/property_based/test_binary.py",
+    "lib/python3.7/site-packages/tests/property_based/test_do_not_error.py",
+    "lib/python3.7/site-packages/tests/property_based/test_unary.py",
+    "lib/python3.7/site-packages/tests/unit/__init__.py",
+    "lib/python3.7/site-packages/tests/unit/chip_10.bed",
+    "lib/python3.7/site-packages/tests/unit/conftest.py",
+    "lib/python3.7/site-packages/tests/unit/data/test_data.py",
+    "lib/python3.7/site-packages/tests/unit/df_dict_mismatch/test_mismatch.py",
+    "lib/python3.7/site-packages/tests/unit/f1.bed",
+    "lib/python3.7/site-packages/tests/unit/f2.bed",
+    "lib/python3.7/site-packages/tests/unit/getitem/test_getitem.py",
+    "lib/python3.7/site-packages/tests/unit/hi",
+    "lib/python3.7/site-packages/tests/unit/join/test_join.py",
+    "lib/python3.7/site-packages/tests/unit/k_nearest.py",
+    "lib/python3.7/site-packages/tests/unit/new_position/test_new_position.py",
+    "lib/python3.7/site-packages/tests/unit/out/test_out.py",
+    "lib/python3.7/site-packages/tests/unit/slack/test_slack.py",
+    "lib/python3.7/site-packages/tests/unit/statistics.py",
+    "lib/python3.7/site-packages/tests/unit/test_change_chromosome_custom.py",
+    "lib/python3.7/site-packages/tests/unit/test_concat.py",
+    "lib/python3.7/site-packages/tests/unit/test_count_overlaps.py",
+    "lib/python3.7/site-packages/tests/unit/test_data/ensembl.gtf",
+    "lib/python3.7/site-packages/tests/unit/test_data/gencode.gff3",
+    "lib/python3.7/site-packages/tests/unit/test_data/test_sorted.bam",
+    "lib/python3.7/site-packages/tests/unit/test_data/test_sorted.bam.bai",
+    "lib/python3.7/site-packages/tests/unit/test_genomicfeatures.py",
+    "lib/python3.7/site-packages/tests/unit/test_getset_attr.py",
+    "lib/python3.7/site-packages/tests/unit/test_guessers.py",
+    "lib/python3.7/site-packages/tests/unit/test_io.py",
+    "lib/python3.7/site-packages/tests/unit/test_pickle.py",
+    "lib/python3.7/site-packages/tests/unit/test_stranded.py",
+    "lib/python3.7/site-packages/tests/unit/unit/__init__.py",
+    "lib/python3.7/site-packages/tests/unit/unstrand/test_unstrand.py",
+    "lib/python3.7/site-packages/tests/unit/windows/test_windows.py",
+    "lib/python3.7/site-packages/book/__pycache__/exons.cpython-37.pyc",
+    "lib/python3.7/site-packages/book/__pycache__/make_book.cpython-37.pyc",
+    "lib/python3.7/site-packages/docs/__pycache__/conf.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/data.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/genomicfeatures.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/get_fasta.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/attr.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/boundaries.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/call.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/cluster.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/concat.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/coverage.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/drop.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/drop_duplicates.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/getitem.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/init.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/insert.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/intersection.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/itergrs.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/join.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/k_nearest.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/max_disjoint.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/merge.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/nearest.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/new_position.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/sort.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/spliced_subsequence.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/split.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/statistics.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/subsequence.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/subtraction.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/summary.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/to_rle.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/methods/__pycache__/windows.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/multioverlap.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/multithreaded.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/out.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/pyranges_main.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/readers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/statistics.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/stats.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/subset.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyranges/__pycache__/tostring2.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/__pycache__/helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/property_based/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/property_based/__pycache__/hypothesis_helper.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/property_based/__pycache__/test_binary.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/property_based/__pycache__/test_do_not_error.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/property_based/__pycache__/test_unary.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/conftest.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/data/__pycache__/test_data.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/df_dict_mismatch/__pycache__/test_mismatch.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/getitem/__pycache__/test_getitem.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/join/__pycache__/test_join.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/k_nearest.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/new_position/__pycache__/test_new_position.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/out/__pycache__/test_out.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/slack/__pycache__/test_slack.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/statistics.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_change_chromosome_custom.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_concat.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_count_overlaps.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_genomicfeatures.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_getset_attr.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_guessers.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_io.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_pickle.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/__pycache__/test_stranded.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/unit/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/unstrand/__pycache__/test_unstrand.cpython-37.pyc",
+    "lib/python3.7/site-packages/tests/unit/windows/__pycache__/test_windows.cpython-37.pyc"
+  ],
+  "fn": "pyranges-0.0.127-pyh7cba7a3_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/pyranges-0.0.127-pyh7cba7a3_0",
+    "type": 1
+  },
+  "md5": "cbec2a617fc6a1c1f36a77c6101045ca",
+  "name": "pyranges",
+  "noarch": "python",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/pyranges-0.0.127-pyh7cba7a3_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/book/_bookdown.yml",
+        "path_type": "hardlink",
+        "sha256": "4e891e27e7ec935ccaeb1d90f569cb0ac573bd7c213e0f1eea52bbf445c9e524",
+        "sha256_in_prefix": "4e891e27e7ec935ccaeb1d90f569cb0ac573bd7c213e0f1eea52bbf445c9e524",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "site-packages/book/build_book.yml",
+        "path_type": "hardlink",
+        "sha256": "85cad31e712e4c12dc26bf741ed726aed918471a7962ab2508fa1c20e27075a6",
+        "sha256_in_prefix": "85cad31e712e4c12dc26bf741ed726aed918471a7962ab2508fa1c20e27075a6",
+        "size_in_bytes": 859
+      },
+      {
+        "_path": "site-packages/book/colocalization.Rmd",
+        "path_type": "hardlink",
+        "sha256": "49686fe0acc809a83bea1bce6e00ae66c0a644d992dbd6839f7af9af647d0868",
+        "sha256_in_prefix": "49686fe0acc809a83bea1bce6e00ae66c0a644d992dbd6839f7af9af647d0868",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "site-packages/book/compile.R",
+        "path_type": "hardlink",
+        "sha256": "414a4809e23fb8ca1254c50e556743f95c48c29392c0fdead14e804528adeff8",
+        "sha256_in_prefix": "414a4809e23fb8ca1254c50e556743f95c48c29392c0fdead14e804528adeff8",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/book/compile2.R",
+        "path_type": "hardlink",
+        "sha256": "bdb92cec9be6d3974573e9e32947239934460dfd2d8f7bcc670e08d4d119f461",
+        "sha256_in_prefix": "bdb92cec9be6d3974573e9e32947239934460dfd2d8f7bcc670e08d4d119f461",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "site-packages/book/concat.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5a81aabad6abf0a0eb6c3262c5410b29a5e019275a19dac82cb1ff3ae4e5b198",
+        "sha256_in_prefix": "5a81aabad6abf0a0eb6c3262c5410b29a5e019275a19dac82cb1ff3ae4e5b198",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/book/count_overlaps.Rmd",
+        "path_type": "hardlink",
+        "sha256": "0952cb6f3b926fdd4acb3bd80fe03276a62230535c8a24f4a4b33b8811c9e07c",
+        "sha256_in_prefix": "0952cb6f3b926fdd4acb3bd80fe03276a62230535c8a24f4a4b33b8811c9e07c",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/book/coverage.Rmd",
+        "path_type": "hardlink",
+        "sha256": "6a9f2cb5a46b31265fef579ab6c5f2b55d54a4f94cb37f259c5416aad69d78b8",
+        "sha256_in_prefix": "6a9f2cb5a46b31265fef579ab6c5f2b55d54a4f94cb37f259c5416aad69d78b8",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "site-packages/book/creating.Rmd",
+        "path_type": "hardlink",
+        "sha256": "ec7fdaabac3e7aa32a97a6a9ce70c197d1d3f7ec9107291760f234b0efba6df6",
+        "sha256_in_prefix": "ec7fdaabac3e7aa32a97a6a9ce70c197d1d3f7ec9107291760f234b0efba6df6",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "site-packages/book/custom_methods.Rmd",
+        "path_type": "hardlink",
+        "sha256": "baa2c561a32aede6cf736163554cd6947e7ee6baeaef288d101a61974570eb67",
+        "sha256_in_prefix": "baa2c561a32aede6cf736163554cd6947e7ee6baeaef288d101a61974570eb67",
+        "size_in_bytes": 1286
+      },
+      {
+        "_path": "site-packages/book/databases.Rmd",
+        "path_type": "hardlink",
+        "sha256": "74c415e9cc19525a3f50abe59d35259998dcec92febc33ce8e760683ea3aac22",
+        "sha256_in_prefix": "74c415e9cc19525a3f50abe59d35259998dcec92febc33ce8e760683ea3aac22",
+        "size_in_bytes": 992
+      },
+      {
+        "_path": "site-packages/book/exons.py",
+        "path_type": "hardlink",
+        "sha256": "e8b8b533fd800e9ec380a09b558acf4c6d1962fe52cca493533b23fc687e21f0",
+        "sha256_in_prefix": "e8b8b533fd800e9ec380a09b558acf4c6d1962fe52cca493533b23fc687e21f0",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "site-packages/book/fisher_exact.Rmd",
+        "path_type": "hardlink",
+        "sha256": "94351c3fdf48748a391b9b6dfbce427ff8d9820634134e6a791cc2669a8fec81",
+        "sha256_in_prefix": "94351c3fdf48748a391b9b6dfbce427ff8d9820634134e6a791cc2669a8fec81",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/book/genomicfeatures.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c8bf2bcc1d1a239eace530b31a14923a742dd2df8d32eead988f36716f0a73cd",
+        "sha256_in_prefix": "c8bf2bcc1d1a239eace530b31a14923a742dd2df8d32eead988f36716f0a73cd",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "site-packages/book/index.Rmd",
+        "path_type": "hardlink",
+        "sha256": "24caa0f761016b691420ca560e9703fe84a96c92dfb18b98039c66fe93e48050",
+        "sha256_in_prefix": "24caa0f761016b691420ca560e9703fe84a96c92dfb18b98039c66fe93e48050",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "site-packages/book/insert.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c0b2701b0fe3fa8375c0dcc45cfa1c29f21c0a4fd21beefcd29c2af9660ac970",
+        "sha256_in_prefix": "c0b2701b0fe3fa8375c0dcc45cfa1c29f21c0a4fd21beefcd29c2af9660ac970",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "site-packages/book/intersection.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7fff08c53cf0bcebf1e5e3fab290c410190c588c4ffe2f08b2f95f33a6f551ae",
+        "sha256_in_prefix": "7fff08c53cf0bcebf1e5e3fab290c410190c588c4ffe2f08b2f95f33a6f551ae",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "site-packages/book/iterate.Rmd",
+        "path_type": "hardlink",
+        "sha256": "3703506e934eda14182a8e570bb0c8f734ef12c8453e1b47820c0c478d85c7ae",
+        "sha256_in_prefix": "3703506e934eda14182a8e570bb0c8f734ef12c8453e1b47820c0c478d85c7ae",
+        "size_in_bytes": 1772
+      },
+      {
+        "_path": "site-packages/book/join.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c8213578aa8dc84cf90ad43aca34512f7252f5e2b8916a7c04f55418004ebcdd",
+        "sha256_in_prefix": "c8213578aa8dc84cf90ad43aca34512f7252f5e2b8916a7c04f55418004ebcdd",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "site-packages/book/knearest.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a04d2c2ce2c02c6921d9f2dbeff622f37a8b8f070c17e0b966035dfce7aee62f",
+        "sha256_in_prefix": "a04d2c2ce2c02c6921d9f2dbeff622f37a8b8f070c17e0b966035dfce7aee62f",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "site-packages/book/make_book.py",
+        "path_type": "hardlink",
+        "sha256": "d48b5c4b4fab368bbd1eacb8e6ec06181e2cb27efb6afa7e7fdee9f378d3e18e",
+        "sha256_in_prefix": "d48b5c4b4fab368bbd1eacb8e6ec06181e2cb27efb6afa7e7fdee9f378d3e18e",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "site-packages/book/manipulation.Rmd",
+        "path_type": "hardlink",
+        "sha256": "cb9e8fc584fc449dafcf541a17ebb19e6d814f0d97164b1e8617ceb303da574c",
+        "sha256_in_prefix": "cb9e8fc584fc449dafcf541a17ebb19e6d814f0d97164b1e8617ceb303da574c",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "site-packages/book/mcc.Rmd",
+        "path_type": "hardlink",
+        "sha256": "0708a6241661132a4e9801641f59eb95395ab4301ef6fc91af0cfdc2a911fe1a",
+        "sha256_in_prefix": "0708a6241661132a4e9801641f59eb95395ab4301ef6fc91af0cfdc2a911fe1a",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "site-packages/book/multithreading.Rmd",
+        "path_type": "hardlink",
+        "sha256": "3105ed09ab0acb6e60d9561a1afdfd0d67982c371d82c14ae5e5ae328b1a19f5",
+        "sha256_in_prefix": "3105ed09ab0acb6e60d9561a1afdfd0d67982c371d82c14ae5e5ae328b1a19f5",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "site-packages/book/nearest.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a0e9c8af58ab39ca379aeb0f335107611931b2d815730d8e54c013fa999c2497",
+        "sha256_in_prefix": "a0e9c8af58ab39ca379aeb0f335107611931b2d815730d8e54c013fa999c2497",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "site-packages/book/piping.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c36580d149c6390f33f2e8cdf1e996f04adc8c8f65d51e0a3898ab72ef6ce5fc",
+        "sha256_in_prefix": "c36580d149c6390f33f2e8cdf1e996f04adc8c8f65d51e0a3898ab72ef6ce5fc",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/book/printing.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7f9cea678754ba9f62fd3a254dd43f574ee8a754fa143ce0c36ee9dba30033bd",
+        "sha256_in_prefix": "7f9cea678754ba9f62fd3a254dd43f574ee8a754fa143ce0c36ee9dba30033bd",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "site-packages/book/pyranges.css",
+        "path_type": "hardlink",
+        "sha256": "d421cce2623bf4f512df486295f405043dc2ea60f00875b78b32bd0d3f9b90b6",
+        "sha256_in_prefix": "d421cce2623bf4f512df486295f405043dc2ea60f00875b78b32bd0d3f9b90b6",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/book/reldist.Rmd",
+        "path_type": "hardlink",
+        "sha256": "be7d02b5bce65c19118136983a24119b87da979b90d962a4778e8c836bf0d721",
+        "sha256_in_prefix": "be7d02b5bce65c19118136983a24119b87da979b90d962a4778e8c836bf0d721",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/book/rowbased_statistics.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b2e9ad58a067f5195adf7311d30d65f6cb6592050287be7e0a22d8dbca1d130d",
+        "sha256_in_prefix": "b2e9ad58a067f5195adf7311d30d65f6cb6592050287be7e0a22d8dbca1d130d",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "site-packages/book/runlength_dict.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f1329e0eae12b7f9eac7ba96baf414dc569627326a3ddb6b1aa2eab37410a47c",
+        "sha256_in_prefix": "f1329e0eae12b7f9eac7ba96baf414dc569627326a3ddb6b1aa2eab37410a47c",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "site-packages/book/runlengths.Rmd",
+        "path_type": "hardlink",
+        "sha256": "1e5ae21ca6614d9ec21ee781f8136e4394a1256e9c98235707aa16e73658d6d0",
+        "sha256_in_prefix": "1e5ae21ca6614d9ec21ee781f8136e4394a1256e9c98235707aa16e73658d6d0",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "site-packages/book/simes.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b94f0d15aaa1272bb3d33cca95a608c5c0bffde7a5fb598c509047a8b7b62d5c",
+        "sha256_in_prefix": "b94f0d15aaa1272bb3d33cca95a608c5c0bffde7a5fb598c509047a8b7b62d5c",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/book/single_range_methods.Rmd",
+        "path_type": "hardlink",
+        "sha256": "db6e4a95ab98dd69b359bb4e304d27cad8f7f90dda5d0157ad7077ff27f345dd",
+        "sha256_in_prefix": "db6e4a95ab98dd69b359bb4e304d27cad8f7f90dda5d0157ad7077ff27f345dd",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "site-packages/book/sort.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8f237f30837476f4578d4394f88408ec7a05eb631e49f037d19ab3ae0dd8019a",
+        "sha256_in_prefix": "8f237f30837476f4578d4394f88408ec7a05eb631e49f037d19ab3ae0dd8019a",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/book/subset.Rmd",
+        "path_type": "hardlink",
+        "sha256": "560113c6ae125e925a0ce477935a120f6b84b63d0da0c03cb06a9a5e21e25b13",
+        "sha256_in_prefix": "560113c6ae125e925a0ce477935a120f6b84b63d0da0c03cb06a9a5e21e25b13",
+        "size_in_bytes": 1680
+      },
+      {
+        "_path": "site-packages/book/subsetting_pyrles.Rmd",
+        "path_type": "hardlink",
+        "sha256": "850020310f8579d9dea5284eb44952f8f9c182aa551ce097299f59ef011792b8",
+        "sha256_in_prefix": "850020310f8579d9dea5284eb44952f8f9c182aa551ce097299f59ef011792b8",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "site-packages/book/subsetting_rles.Rmd",
+        "path_type": "hardlink",
+        "sha256": "37846b27dacac82b7965ef3361e642a5829127b64991bfd3d07d4bda30f77c2c",
+        "sha256_in_prefix": "37846b27dacac82b7965ef3361e642a5829127b64991bfd3d07d4bda30f77c2c",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "site-packages/book/subtract.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b74ccf2bac57dbbc379797830967f2f285ff3e8cba4d47bb0decaccb7cf60e54",
+        "sha256_in_prefix": "b74ccf2bac57dbbc379797830967f2f285ff3e8cba4d47bb0decaccb7cf60e54",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "site-packages/book/summary.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8e7d9e688f9af4a8a6a71cac8e09f2ee48a80b18299434bc2fa6bd48c97cd57b",
+        "sha256_in_prefix": "8e7d9e688f9af4a8a6a71cac8e09f2ee48a80b18299434bc2fa6bd48c97cd57b",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "site-packages/book/tutorial.Rmd",
+        "path_type": "hardlink",
+        "sha256": "44f3bbd98cdbaee7496ffea9760eb6e0cf29d1766c57205435cb1b2a9d7893d9",
+        "sha256_in_prefix": "44f3bbd98cdbaee7496ffea9760eb6e0cf29d1766c57205435cb1b2a9d7893d9",
+        "size_in_bytes": 21863
+      },
+      {
+        "_path": "site-packages/book/writing.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f868225d95b822cd889d46aaa8e4c747aa61659be31582755a60af1cda691afc",
+        "sha256_in_prefix": "f868225d95b822cd889d46aaa8e4c747aa61659be31582755a60af1cda691afc",
+        "size_in_bytes": 1869
+      },
+      {
+        "_path": "site-packages/docs/Makefile",
+        "path_type": "hardlink",
+        "sha256": "8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307",
+        "sha256_in_prefix": "8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/docs/conf.py",
+        "path_type": "hardlink",
+        "sha256": "d16f916ece1f884c831c039859e180b5ddd9a94d840bec134ac56c85c75c9e88",
+        "sha256_in_prefix": "d16f916ece1f884c831c039859e180b5ddd9a94d840bec134ac56c85c75c9e88",
+        "size_in_bytes": 2188
+      },
+      {
+        "_path": "site-packages/docs/index.html",
+        "path_type": "hardlink",
+        "sha256": "869bc24610f11612f98d21adedf5e58cb96cbc9afda7d434ece8303a42f9e737",
+        "sha256_in_prefix": "869bc24610f11612f98d21adedf5e58cb96cbc9afda7d434ece8303a42f9e737",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/docs/index.rst",
+        "path_type": "hardlink",
+        "sha256": "1ce967146891024b67daf1a5d070cae7379c4fc92cfd449ca4c97397e135444b",
+        "sha256_in_prefix": "1ce967146891024b67daf1a5d070cae7379c4fc92cfd449ca4c97397e135444b",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "site-packages/docs/make.bat",
+        "path_type": "hardlink",
+        "sha256": "b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8",
+        "sha256_in_prefix": "b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/docs/requirements.txt",
+        "path_type": "hardlink",
+        "sha256": "ec34e247fb9f8dd242ab5de724d4ffa2741a12d401c16ec22af6f58bc4d368bf",
+        "sha256_in_prefix": "ec34e247fb9f8dd242ab5de724d4ffa2741a12d401c16ec22af6f58bc4d368bf",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/graphs/hypothesis-tested-brightgreen.svg",
+        "path_type": "hardlink",
+        "sha256": "917747e4eb80fdbbf4aa98e90ca4b8db8361e743c30826d65197bb3ac5113f10",
+        "sha256_in_prefix": "917747e4eb80fdbbf4aa98e90ca4b8db8361e743c30826d65197bb3ac5113f10",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/graphs/main_paper_annotation_binary.png",
+        "path_type": "hardlink",
+        "sha256": "80c91c95072e74c07658c5b4bef9601e19e6f76131f4364fa659b8bf2798a9d7",
+        "sha256_in_prefix": "80c91c95072e74c07658c5b4bef9601e19e6f76131f4364fa659b8bf2798a9d7",
+        "size_in_bytes": 223199
+      },
+      {
+        "_path": "site-packages/graphs/memory.png",
+        "path_type": "hardlink",
+        "sha256": "c5f4fa975263792ee35c5e05ae35d091d7e591f0976f74fa8dfb084fb7ab6c07",
+        "sha256_in_prefix": "c5f4fa975263792ee35c5e05ae35d091d7e591f0976f74fa8dfb084fb7ab6c07",
+        "size_in_bytes": 198843
+      },
+      {
+        "_path": "site-packages/graphs/time.png",
+        "path_type": "hardlink",
+        "sha256": "26b9fff1894651d1fb23d00a48d7a4ad481bf9eac7d14cfd2cebd941b52f24cc",
+        "sha256_in_prefix": "26b9fff1894651d1fb23d00a48d7a4ad481bf9eac7d14cfd2cebd941b52f24cc",
+        "size_in_bytes": 172675
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "620ff3c20bc64cd2b59513ebaf49ca8d65be7b0115eb4bfee41ba690e1120067",
+        "sha256_in_prefix": "620ff3c20bc64cd2b59513ebaf49ca8d65be7b0115eb4bfee41ba690e1120067",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1cdeb34bea085931980129ed71421125eadc3f1823da8032f18a74047d4f5437",
+        "sha256_in_prefix": "1cdeb34bea085931980129ed71421125eadc3f1823da8032f18a74047d4f5437",
+        "size_in_bytes": 15121
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b9558ed53a139e325e11fb2ab2302d295d20b941da97078f94cd0f03d469b5f6",
+        "sha256_in_prefix": "b9558ed53a139e325e11fb2ab2302d295d20b941da97078f94cd0f03d469b5f6",
+        "size_in_bytes": 17454
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f9cc35d5e668e7a47a9ead75737fbaea75413c120929a2cc533f74e9ff73a1e0",
+        "sha256_in_prefix": "f9cc35d5e668e7a47a9ead75737fbaea75413c120929a2cc533f74e9ff73a1e0",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/pyranges-0.0.127.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "df3daa6849248ef8fa07cf42fde3e9b43a724d76c8c7582e47ca0424b011eabc",
+        "sha256_in_prefix": "df3daa6849248ef8fa07cf42fde3e9b43a724d76c8c7582e47ca0424b011eabc",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pyranges/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a56d08f5ad6228302320ec36cc863058956f08aea6d97ad194febf46e3d4684d",
+        "sha256_in_prefix": "a56d08f5ad6228302320ec36cc863058956f08aea6d97ad194febf46e3d4684d",
+        "size_in_bytes": 19729
+      },
+      {
+        "_path": "site-packages/pyranges/data.py",
+        "path_type": "hardlink",
+        "sha256": "a5585a1feaaaa56836786c83ce14791463162f507dcafbb56a0b6bc99de1c6bb",
+        "sha256_in_prefix": "a5585a1feaaaa56836786c83ce14791463162f507dcafbb56a0b6bc99de1c6bb",
+        "size_in_bytes": 23042
+      },
+      {
+        "_path": "site-packages/pyranges/docs",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/aorta.bed",
+        "path_type": "hardlink",
+        "sha256": "f5084003883cecfbc247f47d820dd04578194e4674688cf1f30ac4e856639002",
+        "sha256_in_prefix": "f5084003883cecfbc247f47d820dd04578194e4674688cf1f30ac4e856639002",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/aorta2.bed",
+        "path_type": "hardlink",
+        "sha256": "f3f8f04f7b0b9007dfebc05ad7bbf1d34e28d0795188d3d5c3f059133c6a2fd9",
+        "sha256_in_prefix": "f3f8f04f7b0b9007dfebc05ad7bbf1d34e28d0795188d3d5c3f059133c6a2fd9",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/bw.bw",
+        "path_type": "hardlink",
+        "sha256": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+        "sha256_in_prefix": "cfbf15ba7e9559db9841b246a12a79b51c44b2215137b652dc8f35b100b7ae86",
+        "size_in_bytes": 12966
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/chipseq.bed",
+        "path_type": "hardlink",
+        "sha256": "15f23a78957cc8f9f2b63b801bc79cb5c58ed039284c502364807660c9ed0616",
+        "sha256_in_prefix": "15f23a78957cc8f9f2b63b801bc79cb5c58ed039284c502364807660c9ed0616",
+        "size_in_bytes": 309369
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/chipseq_background.bed",
+        "path_type": "hardlink",
+        "sha256": "77bae4001e88a25c01c8c66fca975679c6f4784604f663bf80c9dabdaf0389e5",
+        "sha256_in_prefix": "77bae4001e88a25c01c8c66fca975679c6f4784604f663bf80c9dabdaf0389e5",
+        "size_in_bytes": 309045
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/chromsizes.bed",
+        "path_type": "hardlink",
+        "sha256": "c678dfa273c2511ac6f927000b98cf1022dcc3c274ee71d2554d79ba50884757",
+        "sha256_in_prefix": "c678dfa273c2511ac6f927000b98cf1022dcc3c274ee71d2554d79ba50884757",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/control.bam",
+        "path_type": "hardlink",
+        "sha256": "9834cf011191ca0b8ac26e2708355f5790cde42906ccdbf3f34bcdd382855d40",
+        "sha256_in_prefix": "9834cf011191ca0b8ac26e2708355f5790cde42906ccdbf3f34bcdd382855d40",
+        "size_in_bytes": 69054
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/control.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "601a5d9b0a09ca1566605c61f508663c49a47558bf14bda0687daa5765e5d9c1",
+        "sha256_in_prefix": "601a5d9b0a09ca1566605c61f508663c49a47558bf14bda0687daa5765e5d9c1",
+        "size_in_bytes": 1716400
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/cpg.bed",
+        "path_type": "hardlink",
+        "sha256": "ebe73c8fe5d484e8671c9d8e691ff8a7814669f45d731a7dcb1e1d188536dce0",
+        "sha256_in_prefix": "ebe73c8fe5d484e8671c9d8e691ff8a7814669f45d731a7dcb1e1d188536dce0",
+        "size_in_bytes": 28209
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/ensembl.gtf",
+        "path_type": "hardlink",
+        "sha256": "4600a84339d7907ddc6d918c544f254ecf75dcf5bbe1c91cd92cd38326734edb",
+        "sha256_in_prefix": "4600a84339d7907ddc6d918c544f254ecf75dcf5bbe1c91cd92cd38326734edb",
+        "size_in_bytes": 36057
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/ensembl_human.gtf.gz",
+        "path_type": "hardlink",
+        "sha256": "e92bab071fe4395fd7b00ab53e778c17e21121f6badad0db99c1fe8027d86f7c",
+        "sha256_in_prefix": "e92bab071fe4395fd7b00ab53e778c17e21121f6badad0db99c1fe8027d86f7c",
+        "size_in_bytes": 35943
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/exons.bed",
+        "path_type": "hardlink",
+        "sha256": "94f3e25938b833042e83882c5fd72db6fc560d214504a9aaaa668c6fc97e30a1",
+        "sha256_in_prefix": "94f3e25938b833042e83882c5fd72db6fc560d214504a9aaaa668c6fc97e30a1",
+        "size_in_bytes": 64417
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/f1.bed",
+        "path_type": "hardlink",
+        "sha256": "d78dc4a9036dabd957a5d65c5c776e0b1efa00637d22c7d6732efcf32b379892",
+        "sha256_in_prefix": "d78dc4a9036dabd957a5d65c5c776e0b1efa00637d22c7d6732efcf32b379892",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/f2.bed",
+        "path_type": "hardlink",
+        "sha256": "4a711cac82c0a2091f46c59ae642587934511d2682624f8d80dd08713235680f",
+        "sha256_in_prefix": "4a711cac82c0a2091f46c59ae642587934511d2682624f8d80dd08713235680f",
+        "size_in_bytes": 30
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/gencode_human.gtf.gz",
+        "path_type": "hardlink",
+        "sha256": "816862634191ef91c826b0903df9923b39b934d828992e5fe6c03a6a3f863891",
+        "sha256_in_prefix": "816862634191ef91c826b0903df9923b39b934d828992e5fe6c03a6a3f863891",
+        "size_in_bytes": 81253
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/lamina.bed",
+        "path_type": "hardlink",
+        "sha256": "b3be303f536336b83df394c075f86b49a971d950846dd736abc60e551209ce70",
+        "sha256_in_prefix": "b3be303f536336b83df394c075f86b49a971d950846dd736abc60e551209ce70",
+        "size_in_bytes": 55608
+      },
+      {
+        "_path": "site-packages/pyranges/example_data/ucsc_human.bed.gz",
+        "path_type": "hardlink",
+        "sha256": "dff9cacba4efa995a6960f1e2b72c386b092f0e36c1c06055c4a4c7c36c4afc8",
+        "sha256_in_prefix": "dff9cacba4efa995a6960f1e2b72c386b092f0e36c1c06055c4a4c7c36c4afc8",
+        "size_in_bytes": 62555
+      },
+      {
+        "_path": "site-packages/pyranges/genomicfeatures.py",
+        "path_type": "hardlink",
+        "sha256": "3edd054f910559c9e9b11bc97767a8c8b95ca1289cc40af512824e20f5ed6d41",
+        "sha256_in_prefix": "3edd054f910559c9e9b11bc97767a8c8b95ca1289cc40af512824e20f5ed6d41",
+        "size_in_bytes": 26391
+      },
+      {
+        "_path": "site-packages/pyranges/get_fasta.py",
+        "path_type": "hardlink",
+        "sha256": "030240ab5556b314ed080fe15fa1f97be59231611d934295b8cb941ccd594a78",
+        "sha256_in_prefix": "030240ab5556b314ed080fe15fa1f97be59231611d934295b8cb941ccd594a78",
+        "size_in_bytes": 6962
+      },
+      {
+        "_path": "site-packages/pyranges/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "86b329ec8e47ac73df92fd1be0fa51d22de8a95689bd17fba22f5bdd0dcbc50b",
+        "sha256_in_prefix": "86b329ec8e47ac73df92fd1be0fa51d22de8a95689bd17fba22f5bdd0dcbc50b",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "site-packages/pyranges/methods/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyranges/methods/attr.py",
+        "path_type": "hardlink",
+        "sha256": "51fbc87247b2c04370127ca7a36e97a3e075fc2bc0fba412603c324918167bd1",
+        "sha256_in_prefix": "51fbc87247b2c04370127ca7a36e97a3e075fc2bc0fba412603c324918167bd1",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "site-packages/pyranges/methods/boundaries.py",
+        "path_type": "hardlink",
+        "sha256": "4db7cc7f1001ff024a160f527314b47b2d9c0b7d1b57bd3465a9af345853cbd1",
+        "sha256_in_prefix": "4db7cc7f1001ff024a160f527314b47b2d9c0b7d1b57bd3465a9af345853cbd1",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/pyranges/methods/call.py",
+        "path_type": "hardlink",
+        "sha256": "89bd95a448a1f30325814bb60667ed5057d9b25a7d9ddf2cf1b02bab289c9583",
+        "sha256_in_prefix": "89bd95a448a1f30325814bb60667ed5057d9b25a7d9ddf2cf1b02bab289c9583",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/pyranges/methods/cluster.py",
+        "path_type": "hardlink",
+        "sha256": "733b9b96e88dacbe0b3c5019423a9e1b99c9eda181bca4c6afa9e2f11aa4bce8",
+        "sha256_in_prefix": "733b9b96e88dacbe0b3c5019423a9e1b99c9eda181bca4c6afa9e2f11aa4bce8",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "site-packages/pyranges/methods/concat.py",
+        "path_type": "hardlink",
+        "sha256": "00061379f8b04955bd0c09fe460396f94e75c4d48a321c2b7554247c95647626",
+        "sha256_in_prefix": "00061379f8b04955bd0c09fe460396f94e75c4d48a321c2b7554247c95647626",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "site-packages/pyranges/methods/coverage.py",
+        "path_type": "hardlink",
+        "sha256": "03210458592f2568eb994a7ad5f19ce3f3048c5863f4040ee7169dedced1e02f",
+        "sha256_in_prefix": "03210458592f2568eb994a7ad5f19ce3f3048c5863f4040ee7169dedced1e02f",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "site-packages/pyranges/methods/drop.py",
+        "path_type": "hardlink",
+        "sha256": "5334aee36d8cd09fe008ba0f59c42cea33a2f9a3f6eaeb1c2e9dd4ec885d8169",
+        "sha256_in_prefix": "5334aee36d8cd09fe008ba0f59c42cea33a2f9a3f6eaeb1c2e9dd4ec885d8169",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "site-packages/pyranges/methods/drop_duplicates.py",
+        "path_type": "hardlink",
+        "sha256": "4342c8892639c14ae335cf3bfdcbf30ee047cec5a9b464c713cccfdf2c4b742b",
+        "sha256_in_prefix": "4342c8892639c14ae335cf3bfdcbf30ee047cec5a9b464c713cccfdf2c4b742b",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/pyranges/methods/getitem.py",
+        "path_type": "hardlink",
+        "sha256": "4d99f550ce23f1cab53cdc708cc76a2d7fcb97f88daa40d4ac32354f055687b1",
+        "sha256_in_prefix": "4d99f550ce23f1cab53cdc708cc76a2d7fcb97f88daa40d4ac32354f055687b1",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "site-packages/pyranges/methods/init.py",
+        "path_type": "hardlink",
+        "sha256": "2218ae4cda75b2d84ce4249ad156d41f5b88aadbafe5c7aa0b3c2c92b310339b",
+        "sha256_in_prefix": "2218ae4cda75b2d84ce4249ad156d41f5b88aadbafe5c7aa0b3c2c92b310339b",
+        "size_in_bytes": 5265
+      },
+      {
+        "_path": "site-packages/pyranges/methods/insert.py",
+        "path_type": "hardlink",
+        "sha256": "d2ccee9a4f47424bc2907dfd0a4ecc74d03d2ae198670457441dc19b4f653df1",
+        "sha256_in_prefix": "d2ccee9a4f47424bc2907dfd0a4ecc74d03d2ae198670457441dc19b4f653df1",
+        "size_in_bytes": 992
+      },
+      {
+        "_path": "site-packages/pyranges/methods/intersection.py",
+        "path_type": "hardlink",
+        "sha256": "a4d974dbcd70fcc55cf04aef6a298dcb617924f0c3034664abbae9bdc9ec3240",
+        "sha256_in_prefix": "a4d974dbcd70fcc55cf04aef6a298dcb617924f0c3034664abbae9bdc9ec3240",
+        "size_in_bytes": 3357
+      },
+      {
+        "_path": "site-packages/pyranges/methods/itergrs.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyranges/methods/join.py",
+        "path_type": "hardlink",
+        "sha256": "56eb270a2d961b0865f5bd91e772242eb56cfe25cb4090057211e9d8a9dde860",
+        "sha256_in_prefix": "56eb270a2d961b0865f5bd91e772242eb56cfe25cb4090057211e9d8a9dde860",
+        "size_in_bytes": 5352
+      },
+      {
+        "_path": "site-packages/pyranges/methods/k_nearest.py",
+        "path_type": "hardlink",
+        "sha256": "74b0b17491c29f9df0ab3e34d3165bb557da07e1feff78aa020a7067452cd494",
+        "sha256_in_prefix": "74b0b17491c29f9df0ab3e34d3165bb557da07e1feff78aa020a7067452cd494",
+        "size_in_bytes": 4448
+      },
+      {
+        "_path": "site-packages/pyranges/methods/max_disjoint.py",
+        "path_type": "hardlink",
+        "sha256": "335ebcc683d1d524d1bf5d537ed702c779bb51b648c526ac72c6a520d68eb81e",
+        "sha256_in_prefix": "335ebcc683d1d524d1bf5d537ed702c779bb51b648c526ac72c6a520d68eb81e",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "site-packages/pyranges/methods/merge.py",
+        "path_type": "hardlink",
+        "sha256": "f80a29abd286dd3c209fc7b6ef24365c0806288b38ffe10fe277d5a049f00327",
+        "sha256_in_prefix": "f80a29abd286dd3c209fc7b6ef24365c0806288b38ffe10fe277d5a049f00327",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "site-packages/pyranges/methods/nearest.py",
+        "path_type": "hardlink",
+        "sha256": "5cd28c5c6f2c1909e0547426cecba803febfa505cfe3ae90e9a88dfc7e356188",
+        "sha256_in_prefix": "5cd28c5c6f2c1909e0547426cecba803febfa505cfe3ae90e9a88dfc7e356188",
+        "size_in_bytes": 4493
+      },
+      {
+        "_path": "site-packages/pyranges/methods/new_position.py",
+        "path_type": "hardlink",
+        "sha256": "b13b8e4c73d45a1daac42413f7213af1ddde02ae16f7137eceeec2c107a8e8dd",
+        "sha256_in_prefix": "b13b8e4c73d45a1daac42413f7213af1ddde02ae16f7137eceeec2c107a8e8dd",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "site-packages/pyranges/methods/sort.py",
+        "path_type": "hardlink",
+        "sha256": "359437e345bf9fd4d2661d822b0d1659d09017389d9ad02527f916e4d3ee9548",
+        "sha256_in_prefix": "359437e345bf9fd4d2661d822b0d1659d09017389d9ad02527f916e4d3ee9548",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "site-packages/pyranges/methods/spliced_subsequence.py",
+        "path_type": "hardlink",
+        "sha256": "bbf4d34a36a3853b2da2b341d6f3e3323d7d2d7b33882671f0bdda10146422ac",
+        "sha256_in_prefix": "bbf4d34a36a3853b2da2b341d6f3e3323d7d2d7b33882671f0bdda10146422ac",
+        "size_in_bytes": 3384
+      },
+      {
+        "_path": "site-packages/pyranges/methods/split.py",
+        "path_type": "hardlink",
+        "sha256": "34136171f863e9a471c5bbe4020bbf3c78fdbd23b7a76fc9fed7941fcc9df0eb",
+        "sha256_in_prefix": "34136171f863e9a471c5bbe4020bbf3c78fdbd23b7a76fc9fed7941fcc9df0eb",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/pyranges/methods/statistics.py",
+        "path_type": "hardlink",
+        "sha256": "1a72ea2b4c38807059c1080e32a7eaa97496c5f4daff9b8211af3c401b03ee46",
+        "sha256_in_prefix": "1a72ea2b4c38807059c1080e32a7eaa97496c5f4daff9b8211af3c401b03ee46",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "site-packages/pyranges/methods/subsequence.py",
+        "path_type": "hardlink",
+        "sha256": "643756221dcb742d4309b945492a28e984f10ecc8b8a093dec402c1445dc8339",
+        "sha256_in_prefix": "643756221dcb742d4309b945492a28e984f10ecc8b8a093dec402c1445dc8339",
+        "size_in_bytes": 2841
+      },
+      {
+        "_path": "site-packages/pyranges/methods/subtraction.py",
+        "path_type": "hardlink",
+        "sha256": "62f0908ae888c85b22245a8f27e9373849407f4ebc083e7758d689ed99c7d7ad",
+        "sha256_in_prefix": "62f0908ae888c85b22245a8f27e9373849407f4ebc083e7758d689ed99c7d7ad",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "site-packages/pyranges/methods/summary.py",
+        "path_type": "hardlink",
+        "sha256": "be250948d67ba813069b51479b576fcae63b5360a74d61a40b78dfac047c8c84",
+        "sha256_in_prefix": "be250948d67ba813069b51479b576fcae63b5360a74d61a40b78dfac047c8c84",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "site-packages/pyranges/methods/to_rle.py",
+        "path_type": "hardlink",
+        "sha256": "da9f9d2aa37a2fd5af961990a03c87e5807252123df6141f8a812459cef52044",
+        "sha256_in_prefix": "da9f9d2aa37a2fd5af961990a03c87e5807252123df6141f8a812459cef52044",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "site-packages/pyranges/methods/windows.py",
+        "path_type": "hardlink",
+        "sha256": "fefbb58a36a57a0e42d399f5644494c492519d79c2fe2696f67b364ac7c7df7a",
+        "sha256_in_prefix": "fefbb58a36a57a0e42d399f5644494c492519d79c2fe2696f67b364ac7c7df7a",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/pyranges/multioverlap.py",
+        "path_type": "hardlink",
+        "sha256": "52c3d9df28fb2bcfa9abf40a1c28847aecd7732fa0c2f0e3a93909218f689176",
+        "sha256_in_prefix": "52c3d9df28fb2bcfa9abf40a1c28847aecd7732fa0c2f0e3a93909218f689176",
+        "size_in_bytes": 6758
+      },
+      {
+        "_path": "site-packages/pyranges/multithreaded.py",
+        "path_type": "hardlink",
+        "sha256": "8a61363d7b899564bdc758cf50c62849a422fa7dc42bf2227089cb658b71d3e3",
+        "sha256_in_prefix": "8a61363d7b899564bdc758cf50c62849a422fa7dc42bf2227089cb658b71d3e3",
+        "size_in_bytes": 14015
+      },
+      {
+        "_path": "site-packages/pyranges/out.py",
+        "path_type": "hardlink",
+        "sha256": "fd4c47fd00e71dc81a898becdb3957f9e18dd222461b72560a153df654ca3701",
+        "sha256_in_prefix": "fd4c47fd00e71dc81a898becdb3957f9e18dd222461b72560a153df654ca3701",
+        "size_in_bytes": 9307
+      },
+      {
+        "_path": "site-packages/pyranges/pyranges_main.py",
+        "path_type": "hardlink",
+        "sha256": "b37200dbf9ad8a77966c8dad53dd2458a82d8a1f73b2886edfa2f812fb793acc",
+        "sha256_in_prefix": "b37200dbf9ad8a77966c8dad53dd2458a82d8a1f73b2886edfa2f812fb793acc",
+        "size_in_bytes": 269898
+      },
+      {
+        "_path": "site-packages/pyranges/readers.py",
+        "path_type": "hardlink",
+        "sha256": "7f44c80c9d5222b44ed7e13ef3aaa8bec813280cec7d758d9e0e3c3dd462619a",
+        "sha256_in_prefix": "7f44c80c9d5222b44ed7e13ef3aaa8bec813280cec7d758d9e0e3c3dd462619a",
+        "size_in_bytes": 20525
+      },
+      {
+        "_path": "site-packages/pyranges/statistics.py",
+        "path_type": "hardlink",
+        "sha256": "57bcbc74b204d3cb8c1797dd5df075c3507541abe9309fe197868aebdb2546c7",
+        "sha256_in_prefix": "57bcbc74b204d3cb8c1797dd5df075c3507541abe9309fe197868aebdb2546c7",
+        "size_in_bytes": 28777
+      },
+      {
+        "_path": "site-packages/pyranges/stats.py",
+        "path_type": "hardlink",
+        "sha256": "05a2532b582a4ac0fcedffcbc3ac80fe99cc09be313d6e82bd0ec74f7bc1188b",
+        "sha256_in_prefix": "05a2532b582a4ac0fcedffcbc3ac80fe99cc09be313d6e82bd0ec74f7bc1188b",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/pyranges/subset.py",
+        "path_type": "hardlink",
+        "sha256": "dab982484b59a55c47b5027a48067f743dc94ce3983b4c5b1b3fa2a778fc1a3f",
+        "sha256_in_prefix": "dab982484b59a55c47b5027a48067f743dc94ce3983b4c5b1b3fa2a778fc1a3f",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "site-packages/pyranges/tostring2.py",
+        "path_type": "hardlink",
+        "sha256": "0a5d878ba7b6dc54b1d33322c967f174f44206c29c1aa99a914d68de0c6b1d00",
+        "sha256_in_prefix": "0a5d878ba7b6dc54b1d33322c967f174f44206c29c1aa99a914d68de0c6b1d00",
+        "size_in_bytes": 9667
+      },
+      {
+        "_path": "site-packages/tests/.fuse_hidden0000017200000002",
+        "path_type": "hardlink",
+        "sha256": "b6ba49d3cd3d0e174835704f4fdd0b0d1f1db6199d8f01e0d50b09457dd776e9",
+        "sha256_in_prefix": "b6ba49d3cd3d0e174835704f4fdd0b0d1f1db6199d8f01e0d50b09457dd776e9",
+        "size_in_bytes": 11164
+      },
+      {
+        "_path": "site-packages/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "f6b9fc1906fe6b3cfaf21d7df93aad99831651242dc873e31ccdf37c57d9dd17",
+        "sha256_in_prefix": "f6b9fc1906fe6b3cfaf21d7df93aad99831651242dc873e31ccdf37c57d9dd17",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "site-packages/tests/hi",
+        "path_type": "hardlink",
+        "sha256": "ce9cb9508460b650dfba52e1c1f0d08aa8ccf4a28c87c64e7db37209a9b5b376",
+        "sha256_in_prefix": "ce9cb9508460b650dfba52e1c1f0d08aa8ccf4a28c87c64e7db37209a9b5b376",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/tests/property_based/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/property_based/hypothesis_helper.py",
+        "path_type": "hardlink",
+        "sha256": "3243a3021eadfdf19328e04ec81bb4218fe1940a66c18d86a69c8e2493f339a9",
+        "sha256_in_prefix": "3243a3021eadfdf19328e04ec81bb4218fe1940a66c18d86a69c8e2493f339a9",
+        "size_in_bytes": 8495
+      },
+      {
+        "_path": "site-packages/tests/property_based/test_binary.py",
+        "path_type": "hardlink",
+        "sha256": "e9462599e8e707a7703295d4f7627cd0d18842606153f708845f75cbb3a44499",
+        "sha256_in_prefix": "e9462599e8e707a7703295d4f7627cd0d18842606153f708845f75cbb3a44499",
+        "size_in_bytes": 18779
+      },
+      {
+        "_path": "site-packages/tests/property_based/test_do_not_error.py",
+        "path_type": "hardlink",
+        "sha256": "438ed4ac9f95c12b99586f39094254184ee61b6ec0869c64fc57fef084d42a16",
+        "sha256_in_prefix": "438ed4ac9f95c12b99586f39094254184ee61b6ec0869c64fc57fef084d42a16",
+        "size_in_bytes": 3338
+      },
+      {
+        "_path": "site-packages/tests/property_based/test_unary.py",
+        "path_type": "hardlink",
+        "sha256": "b015807d613f35340b57de07b99c31e1eebd31b03f865adca9d747ebe5a59946",
+        "sha256_in_prefix": "b015807d613f35340b57de07b99c31e1eebd31b03f865adca9d747ebe5a59946",
+        "size_in_bytes": 9408
+      },
+      {
+        "_path": "site-packages/tests/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/unit/chip_10.bed",
+        "path_type": "hardlink",
+        "sha256": "067c604fb28ea21815d9718c060c4ca41a94a45b8a3bc2915e2424bfd5488ab0",
+        "sha256_in_prefix": "067c604fb28ea21815d9718c060c4ca41a94a45b8a3bc2915e2424bfd5488ab0",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "site-packages/tests/unit/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "4b3c2ff86e7529a4e0e6c71f67742b1bf745f64b2e94420ebb3bc30aaf383fb6",
+        "sha256_in_prefix": "4b3c2ff86e7529a4e0e6c71f67742b1bf745f64b2e94420ebb3bc30aaf383fb6",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "site-packages/tests/unit/data/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "a955408407faec9cf2c094ff6a4660befd4534b1476f3091ac8d0a6370ab4887",
+        "sha256_in_prefix": "a955408407faec9cf2c094ff6a4660befd4534b1476f3091ac8d0a6370ab4887",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "site-packages/tests/unit/df_dict_mismatch/test_mismatch.py",
+        "path_type": "hardlink",
+        "sha256": "fc1a7b5d0883a1f45c9e4767902faa84e4866798994a80173312970c4f012ebd",
+        "sha256_in_prefix": "fc1a7b5d0883a1f45c9e4767902faa84e4866798994a80173312970c4f012ebd",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "site-packages/tests/unit/f1.bed",
+        "path_type": "hardlink",
+        "sha256": "7138c3b91f0b43012a969eaab68413f75aaa106a0946bc9c8ab9c4a3296863b7",
+        "sha256_in_prefix": "7138c3b91f0b43012a969eaab68413f75aaa106a0946bc9c8ab9c4a3296863b7",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/tests/unit/f2.bed",
+        "path_type": "hardlink",
+        "sha256": "6b05b3297d3c22a579450f0cc58b915e9f586aa855f9743190c6a6fd01206867",
+        "sha256_in_prefix": "6b05b3297d3c22a579450f0cc58b915e9f586aa855f9743190c6a6fd01206867",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "site-packages/tests/unit/getitem/test_getitem.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/unit/hi",
+        "path_type": "hardlink",
+        "sha256": "ce9cb9508460b650dfba52e1c1f0d08aa8ccf4a28c87c64e7db37209a9b5b376",
+        "sha256_in_prefix": "ce9cb9508460b650dfba52e1c1f0d08aa8ccf4a28c87c64e7db37209a9b5b376",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/tests/unit/join/test_join.py",
+        "path_type": "hardlink",
+        "sha256": "aa1444c99d1dc1e1e816f4afcff569b465020b8f03bb259b8e8ada8cf49ee0f3",
+        "sha256_in_prefix": "aa1444c99d1dc1e1e816f4afcff569b465020b8f03bb259b8e8ada8cf49ee0f3",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "site-packages/tests/unit/k_nearest.py",
+        "path_type": "hardlink",
+        "sha256": "9ab98082e3d8ca8ada2344937a9a464f44b76a8dd288a3e2eb7c447f0fc41a89",
+        "sha256_in_prefix": "9ab98082e3d8ca8ada2344937a9a464f44b76a8dd288a3e2eb7c447f0fc41a89",
+        "size_in_bytes": 6134
+      },
+      {
+        "_path": "site-packages/tests/unit/new_position/test_new_position.py",
+        "path_type": "hardlink",
+        "sha256": "21e705f13de192ae5e857855532a81cc1ab0354738fbd39d20dda0f5bae72d0b",
+        "sha256_in_prefix": "21e705f13de192ae5e857855532a81cc1ab0354738fbd39d20dda0f5bae72d0b",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "site-packages/tests/unit/out/test_out.py",
+        "path_type": "hardlink",
+        "sha256": "c31fd96309befd1241880a82082f27e7404d799f20f9cd9010c595daf81344d2",
+        "sha256_in_prefix": "c31fd96309befd1241880a82082f27e7404d799f20f9cd9010c595daf81344d2",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "site-packages/tests/unit/slack/test_slack.py",
+        "path_type": "hardlink",
+        "sha256": "4d20e4cf7ca128aa69295e85115affaa999154842bf3575b937f4f6bc40f867a",
+        "sha256_in_prefix": "4d20e4cf7ca128aa69295e85115affaa999154842bf3575b937f4f6bc40f867a",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/tests/unit/statistics.py",
+        "path_type": "hardlink",
+        "sha256": "c027fafa1ad7011a650bbce5babba09ea49bdaaa0a8f254636e691582f9fce55",
+        "sha256_in_prefix": "c027fafa1ad7011a650bbce5babba09ea49bdaaa0a8f254636e691582f9fce55",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/tests/unit/test_change_chromosome_custom.py",
+        "path_type": "hardlink",
+        "sha256": "46f367f9590b12f3629ff18a7e40b23eb156e42b26fc35d944d7ef4c32c535e4",
+        "sha256_in_prefix": "46f367f9590b12f3629ff18a7e40b23eb156e42b26fc35d944d7ef4c32c535e4",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "site-packages/tests/unit/test_concat.py",
+        "path_type": "hardlink",
+        "sha256": "d0a1120b9670d35f36889004ba77bde49c1418023bb3e4c5621e3ad3dc21cead",
+        "sha256_in_prefix": "d0a1120b9670d35f36889004ba77bde49c1418023bb3e4c5621e3ad3dc21cead",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "site-packages/tests/unit/test_count_overlaps.py",
+        "path_type": "hardlink",
+        "sha256": "c8c05eae822d43fd62a443bc43923d026468feca8fd91c4e0a730a774c4fa977",
+        "sha256_in_prefix": "c8c05eae822d43fd62a443bc43923d026468feca8fd91c4e0a730a774c4fa977",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "site-packages/tests/unit/test_data/ensembl.gtf",
+        "path_type": "hardlink",
+        "sha256": "4600a84339d7907ddc6d918c544f254ecf75dcf5bbe1c91cd92cd38326734edb",
+        "sha256_in_prefix": "4600a84339d7907ddc6d918c544f254ecf75dcf5bbe1c91cd92cd38326734edb",
+        "size_in_bytes": 36057
+      },
+      {
+        "_path": "site-packages/tests/unit/test_data/gencode.gff3",
+        "path_type": "hardlink",
+        "sha256": "3c923104f2edec6aa483d7f221fc1db6fbeb7c8fd39af06e1377d407b04b9c05",
+        "sha256_in_prefix": "3c923104f2edec6aa483d7f221fc1db6fbeb7c8fd39af06e1377d407b04b9c05",
+        "size_in_bytes": 36926
+      },
+      {
+        "_path": "site-packages/tests/unit/test_data/test_sorted.bam",
+        "path_type": "hardlink",
+        "sha256": "5ebf11b0ec11a803cfa5150851d577bdafa22c3ed8c9c73996d1c890df1fccdc",
+        "sha256_in_prefix": "5ebf11b0ec11a803cfa5150851d577bdafa22c3ed8c9c73996d1c890df1fccdc",
+        "size_in_bytes": 71593
+      },
+      {
+        "_path": "site-packages/tests/unit/test_data/test_sorted.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "0f7a7796f183de6c145856794960d18cdc88ab55e57842bfbe4898fa63765784",
+        "sha256_in_prefix": "0f7a7796f183de6c145856794960d18cdc88ab55e57842bfbe4898fa63765784",
+        "size_in_bytes": 1706448
+      },
+      {
+        "_path": "site-packages/tests/unit/test_genomicfeatures.py",
+        "path_type": "hardlink",
+        "sha256": "c853bf459f072e5a7ab2a92cdf287d394669206e682eee1c965fc21f3a1a0728",
+        "sha256_in_prefix": "c853bf459f072e5a7ab2a92cdf287d394669206e682eee1c965fc21f3a1a0728",
+        "size_in_bytes": 4012
+      },
+      {
+        "_path": "site-packages/tests/unit/test_getset_attr.py",
+        "path_type": "hardlink",
+        "sha256": "fbb665a4b26f29eeaa7fbaf1aaac95fbde80228f7838984d7a9cac6442f524f4",
+        "sha256_in_prefix": "fbb665a4b26f29eeaa7fbaf1aaac95fbde80228f7838984d7a9cac6442f524f4",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "site-packages/tests/unit/test_guessers.py",
+        "path_type": "hardlink",
+        "sha256": "dd43e70259fe23b4edae80c68b1679f1889f97f5797638d7e8ecbdbbf79d6613",
+        "sha256_in_prefix": "dd43e70259fe23b4edae80c68b1679f1889f97f5797638d7e8ecbdbbf79d6613",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "site-packages/tests/unit/test_io.py",
+        "path_type": "hardlink",
+        "sha256": "baa8c8e8e46773df539193a059a20a533080d6b8ad91ad4e385997a064ac6382",
+        "sha256_in_prefix": "baa8c8e8e46773df539193a059a20a533080d6b8ad91ad4e385997a064ac6382",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "site-packages/tests/unit/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "df0144128ca727e741b1257de729ac8dc728225040687b7bd0df800053cf5078",
+        "sha256_in_prefix": "df0144128ca727e741b1257de729ac8dc728225040687b7bd0df800053cf5078",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/tests/unit/test_stranded.py",
+        "path_type": "hardlink",
+        "sha256": "38881a8801fa6a7a3322bd4ae21fa10465f02119b8af7f0b5e10766889c28290",
+        "sha256_in_prefix": "38881a8801fa6a7a3322bd4ae21fa10465f02119b8af7f0b5e10766889c28290",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "site-packages/tests/unit/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/unit/unstrand/test_unstrand.py",
+        "path_type": "hardlink",
+        "sha256": "ecf2a4c7b3ab698830cae6e6a0d80fdbefd8aa6fb182380788ee2f4c0f109d36",
+        "sha256_in_prefix": "ecf2a4c7b3ab698830cae6e6a0d80fdbefd8aa6fb182380788ee2f4c0f109d36",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/tests/unit/windows/test_windows.py",
+        "path_type": "hardlink",
+        "sha256": "d5aa0216633171c701eb2ba368413c21529038bb6e3b7243004833d2e98d996a",
+        "sha256_in_prefix": "d5aa0216633171c701eb2ba368413c21529038bb6e3b7243004833d2e98d996a",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "lib/python3.7/site-packages/book/__pycache__/exons.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/book/__pycache__/make_book.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/docs/__pycache__/conf.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/data.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/genomicfeatures.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/get_fasta.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/attr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/boundaries.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/call.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/cluster.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/concat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/coverage.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/drop.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/drop_duplicates.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/getitem.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/init.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/insert.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/intersection.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/itergrs.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/join.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/k_nearest.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/max_disjoint.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/merge.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/nearest.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/new_position.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/sort.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/spliced_subsequence.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/split.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/statistics.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/subsequence.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/subtraction.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/summary.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/to_rle.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/methods/__pycache__/windows.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/multioverlap.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/multithreaded.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/out.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/pyranges_main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/readers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/statistics.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/stats.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/subset.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyranges/__pycache__/tostring2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/__pycache__/helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/property_based/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/property_based/__pycache__/hypothesis_helper.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/property_based/__pycache__/test_binary.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/property_based/__pycache__/test_do_not_error.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/property_based/__pycache__/test_unary.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/conftest.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/data/__pycache__/test_data.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/df_dict_mismatch/__pycache__/test_mismatch.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/getitem/__pycache__/test_getitem.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/join/__pycache__/test_join.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/k_nearest.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/new_position/__pycache__/test_new_position.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/out/__pycache__/test_out.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/slack/__pycache__/test_slack.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/statistics.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_change_chromosome_custom.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_concat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_count_overlaps.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_genomicfeatures.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_getset_attr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_guessers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_pickle.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/__pycache__/test_stranded.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/unit/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/unstrand/__pycache__/test_unstrand.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tests/unit/windows/__pycache__/test_windows.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyranges",
+  "sha256": "4b6af8aa30fc8199061d1c674cd696f8975d77d95725c26bb0c410aa91a32ee5",
+  "size": 1471365,
+  "subdir": "noarch",
+  "timestamp": 1684668832000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/pyranges-0.0.127-pyh7cba7a3_0.tar.bz2",
+  "version": "0.0.127"
+}

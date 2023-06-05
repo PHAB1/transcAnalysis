@@ -1,0 +1,12 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsl
+Description: Library containing NIS functions using TI-RPC (IPv6 enabled)
+Requires: libtirpc >= 1.0.1
+Version: 2.0.0
+Libs: -L${exec_prefix}/lib -lnsl
+Cflags: -I${prefix}/include
+

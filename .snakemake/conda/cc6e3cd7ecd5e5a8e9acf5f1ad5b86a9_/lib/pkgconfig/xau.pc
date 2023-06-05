@@ -1,0 +1,11 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xau
+Description: X authorization file management library
+Version: 1.0.11
+Requires: xproto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXau

@@ -1,0 +1,398 @@
+{
+  "build": "r42ha1e849b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotate >=1.76.0,<1.77.0",
+    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+    "bioconductor-biobase >=2.58.0,<2.59.0",
+    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+    "libblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=12.2.0",
+    "liblapack >=3.9.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "r-base >=4.2,<4.3.0a0",
+    "r-survival"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genefilter-1.80.0-r42ha1e849b_1",
+  "features": "",
+  "files": [
+    "lib/R/library/genefilter/DESCRIPTION",
+    "lib/R/library/genefilter/INDEX",
+    "lib/R/library/genefilter/Meta/Rd.rds",
+    "lib/R/library/genefilter/Meta/data.rds",
+    "lib/R/library/genefilter/Meta/features.rds",
+    "lib/R/library/genefilter/Meta/hsearch.rds",
+    "lib/R/library/genefilter/Meta/links.rds",
+    "lib/R/library/genefilter/Meta/nsInfo.rds",
+    "lib/R/library/genefilter/Meta/package.rds",
+    "lib/R/library/genefilter/Meta/vignette.rds",
+    "lib/R/library/genefilter/NAMESPACE",
+    "lib/R/library/genefilter/NEWS",
+    "lib/R/library/genefilter/R/genefilter",
+    "lib/R/library/genefilter/R/genefilter.rdb",
+    "lib/R/library/genefilter/R/genefilter.rdx",
+    "lib/R/library/genefilter/data/Rdata.rdb",
+    "lib/R/library/genefilter/data/Rdata.rds",
+    "lib/R/library/genefilter/data/Rdata.rdx",
+    "lib/R/library/genefilter/doc/howtogenefilter.R",
+    "lib/R/library/genefilter/doc/howtogenefilter.Rnw",
+    "lib/R/library/genefilter/doc/howtogenefilter.pdf",
+    "lib/R/library/genefilter/doc/howtogenefinder.R",
+    "lib/R/library/genefilter/doc/howtogenefinder.Rnw",
+    "lib/R/library/genefilter/doc/howtogenefinder.pdf",
+    "lib/R/library/genefilter/doc/independent_filtering_plots.R",
+    "lib/R/library/genefilter/doc/independent_filtering_plots.Rnw",
+    "lib/R/library/genefilter/doc/independent_filtering_plots.pdf",
+    "lib/R/library/genefilter/doc/index.html",
+    "lib/R/library/genefilter/help/AnIndex",
+    "lib/R/library/genefilter/help/aliases.rds",
+    "lib/R/library/genefilter/help/genefilter.rdb",
+    "lib/R/library/genefilter/help/genefilter.rdx",
+    "lib/R/library/genefilter/help/paths.rds",
+    "lib/R/library/genefilter/html/00Index.html",
+    "lib/R/library/genefilter/html/R.css",
+    "lib/R/library/genefilter/libs/genefilter.so",
+    "lib/R/library/genefilter/wFun/Anova.xml",
+    "lib/R/library/genefilter/wFun/coxfilter.xml",
+    "lib/R/library/genefilter/wFun/cv.xml",
+    "lib/R/library/genefilter/wFun/gapFilter.xml",
+    "lib/R/library/genefilter/wFun/kOverA.xml",
+    "lib/R/library/genefilter/wFun/maxA.xml",
+    "lib/R/library/genefilter/wFun/pOverA.xml",
+    "lib/R/library/genefilter/wFun/ttest.xml"
+  ],
+  "fn": "bioconductor-genefilter-1.80.0-r42ha1e849b_1.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genefilter-1.80.0-r42ha1e849b_1",
+    "type": 1
+  },
+  "md5": "357c1b03e559ea846ffeaba2a7cd39f3",
+  "name": "bioconductor-genefilter",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genefilter-1.80.0-r42ha1e849b_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/genefilter/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c935c3125497ed60827b4263ccc89231fac28e4037eb81d53fe9cb17a6bc73a6",
+        "sha256_in_prefix": "c935c3125497ed60827b4263ccc89231fac28e4037eb81d53fe9cb17a6bc73a6",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/R/library/genefilter/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2d437e219c34b15dc1f3ab334dc1db824ae0d36012b607fd8414e742baf7be11",
+        "sha256_in_prefix": "2d437e219c34b15dc1f3ab334dc1db824ae0d36012b607fd8414e742baf7be11",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "40f8bc266f7a13289f0f8e9cc39ef13456aa3f6b6bc7489ee47e1297c194bc9d",
+        "sha256_in_prefix": "40f8bc266f7a13289f0f8e9cc39ef13456aa3f6b6bc7489ee47e1297c194bc9d",
+        "size_in_bytes": 1731
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "519bd0f81cdb0161d47f97d0e0349c965e06919bbff923411fc664aa7dc1bdde",
+        "sha256_in_prefix": "519bd0f81cdb0161d47f97d0e0349c965e06919bbff923411fc664aa7dc1bdde",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "sha256_in_prefix": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "9b3a40df3ec5ca1bbc705e6d274cab4ef51fd8353ad5374111b7847bb7e58a64",
+        "sha256_in_prefix": "9b3a40df3ec5ca1bbc705e6d274cab4ef51fd8353ad5374111b7847bb7e58a64",
+        "size_in_bytes": 1696
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4609335d8621596b871fa8b8832707d42d5deead12524877f8f461411802ac00",
+        "sha256_in_prefix": "4609335d8621596b871fa8b8832707d42d5deead12524877f8f461411802ac00",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "f0fcbf208f609a4c95289dca1d75b495d32f84e988bfde838376bed02c4c7b42",
+        "sha256_in_prefix": "f0fcbf208f609a4c95289dca1d75b495d32f84e988bfde838376bed02c4c7b42",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "bbfba400c196bb12dec7f522197f6d81e6d1d23f0c786b29d8b4cd8f7c59506f",
+        "sha256_in_prefix": "bbfba400c196bb12dec7f522197f6d81e6d1d23f0c786b29d8b4cd8f7c59506f",
+        "size_in_bytes": 1173
+      },
+      {
+        "_path": "lib/R/library/genefilter/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "61b5e75b0c01d0548c113b7f14fa1ede36a799718fe7fccebcb1416aa82fcf8e",
+        "sha256_in_prefix": "61b5e75b0c01d0548c113b7f14fa1ede36a799718fe7fccebcb1416aa82fcf8e",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "lib/R/library/genefilter/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "d6df9fd6fc6e1776db6c556515aa41b2f76db8381064f3fab796bc5eb3d67448",
+        "sha256_in_prefix": "d6df9fd6fc6e1776db6c556515aa41b2f76db8381064f3fab796bc5eb3d67448",
+        "size_in_bytes": 2567
+      },
+      {
+        "_path": "lib/R/library/genefilter/NEWS",
+        "path_type": "hardlink",
+        "sha256": "2db13efdd2fb22b36d1aae4eb7a826e0b10c1ed3afa87028ac16cf5f5d7ebe54",
+        "sha256_in_prefix": "2db13efdd2fb22b36d1aae4eb7a826e0b10c1ed3afa87028ac16cf5f5d7ebe54",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/genefilter/R/genefilter",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/genefilter/R/genefilter.rdb",
+        "path_type": "hardlink",
+        "sha256": "08d669b580cefbaddce9198c0b948f7980427ce246bf371a5b97431da32ee0ea",
+        "sha256_in_prefix": "08d669b580cefbaddce9198c0b948f7980427ce246bf371a5b97431da32ee0ea",
+        "size_in_bytes": 438116
+      },
+      {
+        "_path": "lib/R/library/genefilter/R/genefilter.rdx",
+        "path_type": "hardlink",
+        "sha256": "446f7fec6116c443b144334ca4ad673bc9b12178a6c049603c43a3c4230b72cf",
+        "sha256_in_prefix": "446f7fec6116c443b144334ca4ad673bc9b12178a6c049603c43a3c4230b72cf",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "lib/R/library/genefilter/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "67a51810c6ed4744e892b20c79291d8560668ef1392335c51933b9e5d870c68b",
+        "sha256_in_prefix": "67a51810c6ed4744e892b20c79291d8560668ef1392335c51933b9e5d870c68b",
+        "size_in_bytes": 61729
+      },
+      {
+        "_path": "lib/R/library/genefilter/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "66220d6ff8863816db6ece6268e3d07cddbb2891d7723a4a3d184bd4a59f8299",
+        "sha256_in_prefix": "66220d6ff8863816db6ece6268e3d07cddbb2891d7723a4a3d184bd4a59f8299",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "lib/R/library/genefilter/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "7ff354cfaec6b7402aeea4a612e64ba0c9c16ae389f706c9c6cde9625bab7083",
+        "sha256_in_prefix": "7ff354cfaec6b7402aeea4a612e64ba0c9c16ae389f706c9c6cde9625bab7083",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefilter.R",
+        "path_type": "hardlink",
+        "sha256": "e6c2868ec13dfe669b666581f01ad03c04390bd15acd082c13076919cb36d550",
+        "sha256_in_prefix": "e6c2868ec13dfe669b666581f01ad03c04390bd15acd082c13076919cb36d550",
+        "size_in_bytes": 3085
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefilter.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5fc3bf2826308db75a74a87929da1e6529bf5eae9d4c3e7813a442ae81827c3e",
+        "sha256_in_prefix": "5fc3bf2826308db75a74a87929da1e6529bf5eae9d4c3e7813a442ae81827c3e",
+        "size_in_bytes": 6530
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefilter.pdf",
+        "path_type": "hardlink",
+        "sha256": "2a5a030be8cec38e83c4528d14a6606845e0bed6360a0f85400551be2b018151",
+        "sha256_in_prefix": "2a5a030be8cec38e83c4528d14a6606845e0bed6360a0f85400551be2b018151",
+        "size_in_bytes": 89726
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefinder.R",
+        "path_type": "hardlink",
+        "sha256": "a22a4880b29376fd8e6c274947f86b7fef5a899fd9e1465473fe859c117a5384",
+        "sha256_in_prefix": "a22a4880b29376fd8e6c274947f86b7fef5a899fd9e1465473fe859c117a5384",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefinder.Rnw",
+        "path_type": "hardlink",
+        "sha256": "2f5cbc046e9949efbc2c672359e0497be01194bee803860458f112305b4f290f",
+        "sha256_in_prefix": "2f5cbc046e9949efbc2c672359e0497be01194bee803860458f112305b4f290f",
+        "size_in_bytes": 3862
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/howtogenefinder.pdf",
+        "path_type": "hardlink",
+        "sha256": "11979f6ab095d9ea2863813d5610d4e48c180e85afa85d28c605e660487e5149",
+        "sha256_in_prefix": "11979f6ab095d9ea2863813d5610d4e48c180e85afa85d28c605e660487e5149",
+        "size_in_bytes": 124059
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/independent_filtering_plots.R",
+        "path_type": "hardlink",
+        "sha256": "755ef9c1012b8897e825916359352dd4c0851eb32afd6808fcb7ec5e65f56a98",
+        "sha256_in_prefix": "755ef9c1012b8897e825916359352dd4c0851eb32afd6808fcb7ec5e65f56a98",
+        "size_in_bytes": 2847
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/independent_filtering_plots.Rnw",
+        "path_type": "hardlink",
+        "sha256": "19a312869ed7ccac628014ab5d575dd8e4d908e995e56253533bdbe8a87bdc25",
+        "sha256_in_prefix": "19a312869ed7ccac628014ab5d575dd8e4d908e995e56253533bdbe8a87bdc25",
+        "size_in_bytes": 6798
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/independent_filtering_plots.pdf",
+        "path_type": "hardlink",
+        "sha256": "e122732325c8508bf9483a730361367e77bca4feb5250079f4cd270af3f006a8",
+        "sha256_in_prefix": "e122732325c8508bf9483a730361367e77bca4feb5250079f4cd270af3f006a8",
+        "size_in_bytes": 432171
+      },
+      {
+        "_path": "lib/R/library/genefilter/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "0916095f9d81bbde62ebfb0c4f936eb5171207e14886ecfe7dac933d93b9ab34",
+        "sha256_in_prefix": "0916095f9d81bbde62ebfb0c4f936eb5171207e14886ecfe7dac933d93b9ab34",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "lib/R/library/genefilter/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "16c45bd695041d95508361bc6045c1d4acc0930320251b586c94cccbcde8874c",
+        "sha256_in_prefix": "16c45bd695041d95508361bc6045c1d4acc0930320251b586c94cccbcde8874c",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "lib/R/library/genefilter/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3b95b2ad3e0c0acfbde448eba710933519f721c54ccd520b415b209ff25bc409",
+        "sha256_in_prefix": "3b95b2ad3e0c0acfbde448eba710933519f721c54ccd520b415b209ff25bc409",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/R/library/genefilter/help/genefilter.rdb",
+        "path_type": "hardlink",
+        "sha256": "973ceb460415753e82f3cf23df80d5df73630ac20e8a62e64233d39700828317",
+        "sha256_in_prefix": "973ceb460415753e82f3cf23df80d5df73630ac20e8a62e64233d39700828317",
+        "size_in_bytes": 91866
+      },
+      {
+        "_path": "lib/R/library/genefilter/help/genefilter.rdx",
+        "path_type": "hardlink",
+        "sha256": "20858b4c78f602b35991aae13d7cd95ccbe1ad159322da1904d5d4c94dfe6ccc",
+        "sha256_in_prefix": "20858b4c78f602b35991aae13d7cd95ccbe1ad159322da1904d5d4c94dfe6ccc",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "lib/R/library/genefilter/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "05b466467a79f8315dbd28dc855b7e17c8404afc620e2201ac0fff5e9e3caa5e",
+        "sha256_in_prefix": "05b466467a79f8315dbd28dc855b7e17c8404afc620e2201ac0fff5e9e3caa5e",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "lib/R/library/genefilter/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "746fe8c0a23aa23051d990fdd703ffe99d5f83e41437b3e904cb5d6f23878d4a",
+        "sha256_in_prefix": "746fe8c0a23aa23051d990fdd703ffe99d5f83e41437b3e904cb5d6f23878d4a",
+        "size_in_bytes": 9651
+      },
+      {
+        "_path": "lib/R/library/genefilter/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "sha256_in_prefix": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/genefilter/libs/genefilter.so",
+        "path_type": "hardlink",
+        "sha256": "e5bca3c7931db81050979b61e10fbfb67e14bc4d15f8ce9bf7365fcb719548f3",
+        "sha256_in_prefix": "e5bca3c7931db81050979b61e10fbfb67e14bc4d15f8ce9bf7365fcb719548f3",
+        "size_in_bytes": 43080
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/Anova.xml",
+        "path_type": "hardlink",
+        "sha256": "c9231bff6993b6aef0178f58d2fcfe4ead7f6373f7936c33c87c14bc67737968",
+        "sha256_in_prefix": "c9231bff6993b6aef0178f58d2fcfe4ead7f6373f7936c33c87c14bc67737968",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/coxfilter.xml",
+        "path_type": "hardlink",
+        "sha256": "09ee8c239b09ea4547f20003c112b81e4bf2ac8fa1332c0f33e4ee88485d39d9",
+        "sha256_in_prefix": "09ee8c239b09ea4547f20003c112b81e4bf2ac8fa1332c0f33e4ee88485d39d9",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/cv.xml",
+        "path_type": "hardlink",
+        "sha256": "8db20447a0c61f06f4e717a8f304b34d8f14082f5f7d36ed0effb1b58a8e4fb9",
+        "sha256_in_prefix": "8db20447a0c61f06f4e717a8f304b34d8f14082f5f7d36ed0effb1b58a8e4fb9",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/gapFilter.xml",
+        "path_type": "hardlink",
+        "sha256": "2d232d553728e509bd9e28a49465b2cd3072da30870d74158ff7b5922dfadfb4",
+        "sha256_in_prefix": "2d232d553728e509bd9e28a49465b2cd3072da30870d74158ff7b5922dfadfb4",
+        "size_in_bytes": 1252
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/kOverA.xml",
+        "path_type": "hardlink",
+        "sha256": "0164c2e7f6d9d76c1c0339d5bc123e3bc8d1edf048f683bbd2dc0c62520bff48",
+        "sha256_in_prefix": "0164c2e7f6d9d76c1c0339d5bc123e3bc8d1edf048f683bbd2dc0c62520bff48",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/maxA.xml",
+        "path_type": "hardlink",
+        "sha256": "fe3cee5f5c8122bcb04b4593c46b4887c4dbb2df1d7c066416ba24645c4fb16e",
+        "sha256_in_prefix": "fe3cee5f5c8122bcb04b4593c46b4887c4dbb2df1d7c066416ba24645c4fb16e",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/pOverA.xml",
+        "path_type": "hardlink",
+        "sha256": "05b2464db07c0c33ca8fa4450d38105e6c4a17ae88b73f44258e98a3d4debbb7",
+        "sha256_in_prefix": "05b2464db07c0c33ca8fa4450d38105e6c4a17ae88b73f44258e98a3d4debbb7",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/R/library/genefilter/wFun/ttest.xml",
+        "path_type": "hardlink",
+        "sha256": "3de7170734e050865ecee8abb4c6c8ae989b3213c246aeb0ca2677ab258fc33b",
+        "sha256_in_prefix": "3de7170734e050865ecee8abb4c6c8ae989b3213c246aeb0ca2677ab258fc33b",
+        "size_in_bytes": 803
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "106e6ebb8545cee18645fa33611aab6f8a1e621f629add49f6a6ecf90b8151ed",
+  "size": 1146417,
+  "subdir": "linux-64",
+  "timestamp": 1685396409000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-genefilter-1.80.0-r42ha1e849b_1.tar.bz2",
+  "version": "1.80.0"
+}

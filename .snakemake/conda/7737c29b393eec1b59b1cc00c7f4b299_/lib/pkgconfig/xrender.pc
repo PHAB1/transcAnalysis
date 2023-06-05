@@ -1,0 +1,12 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xrender
+Description: X Render Library
+Version: 0.9.10
+Requires: xproto renderproto >= 0.9 x11
+Requires.private: x11
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXrender

@@ -1,0 +1,5 @@
+#!/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,55 @@
+{
+  "build": "r42hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-data-packages >=20221102",
+    "curl",
+    "r-base >=4.2,<4.3.0a0"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genomeinfodbdata-1.2.9-r42hdfd78af_0",
+  "features": "",
+  "files": [
+    "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+    "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-genomeinfodbdata-1.2.9-r42hdfd78af_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genomeinfodbdata-1.2.9-r42hdfd78af_0",
+    "type": 1
+  },
+  "md5": "4af93b040f3a44af5804ab44066ee7cd",
+  "name": "bioconductor-genomeinfodbdata",
+  "noarch": "generic",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-genomeinfodbdata-1.2.9-r42hdfd78af_0",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "00d23637909250ab1aecc113424acefcb7ea8ab359254dbbdd2df0fbf5c8bc9b",
+        "sha256_in_prefix": "00d23637909250ab1aecc113424acefcb7ea8ab359254dbbdd2df0fbf5c8bc9b",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "sha256_in_prefix": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "size_in_bytes": 63
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5c26eb35e4e7306ccff72d2999dcf4817c754fa92a434770c59a63bfd8429197",
+  "size": 7918,
+  "subdir": "noarch",
+  "timestamp": 1667589906000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-genomeinfodbdata-1.2.9-r42hdfd78af_0.tar.bz2",
+  "version": "1.2.9"
+}

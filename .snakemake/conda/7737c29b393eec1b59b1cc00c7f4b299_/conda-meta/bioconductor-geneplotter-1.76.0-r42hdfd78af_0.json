@@ -1,0 +1,291 @@
+{
+  "build": "r42hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotate >=1.76.0,<1.77.0",
+    "bioconductor-annotationdbi >=1.60.0,<1.61.0",
+    "bioconductor-biobase >=2.58.0,<2.59.0",
+    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+    "r-base >=4.2,<4.3.0a0",
+    "r-lattice",
+    "r-rcolorbrewer"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-geneplotter-1.76.0-r42hdfd78af_0",
+  "features": "",
+  "files": [
+    "lib/R/library/geneplotter/DESCRIPTION",
+    "lib/R/library/geneplotter/INDEX",
+    "lib/R/library/geneplotter/Meta/Rd.rds",
+    "lib/R/library/geneplotter/Meta/data.rds",
+    "lib/R/library/geneplotter/Meta/features.rds",
+    "lib/R/library/geneplotter/Meta/hsearch.rds",
+    "lib/R/library/geneplotter/Meta/links.rds",
+    "lib/R/library/geneplotter/Meta/nsInfo.rds",
+    "lib/R/library/geneplotter/Meta/package.rds",
+    "lib/R/library/geneplotter/Meta/vignette.rds",
+    "lib/R/library/geneplotter/NAMESPACE",
+    "lib/R/library/geneplotter/NEWS.Rd",
+    "lib/R/library/geneplotter/R/geneplotter",
+    "lib/R/library/geneplotter/R/geneplotter.rdb",
+    "lib/R/library/geneplotter/R/geneplotter.rdx",
+    "lib/R/library/geneplotter/data/IMCAEntrezLink.R",
+    "lib/R/library/geneplotter/data/expressionSet133a.rda",
+    "lib/R/library/geneplotter/doc/byChroms.R",
+    "lib/R/library/geneplotter/doc/byChroms.Rnw",
+    "lib/R/library/geneplotter/doc/byChroms.pdf",
+    "lib/R/library/geneplotter/doc/index.html",
+    "lib/R/library/geneplotter/doc/visualize.R",
+    "lib/R/library/geneplotter/doc/visualize.Rnw",
+    "lib/R/library/geneplotter/doc/visualize.pdf",
+    "lib/R/library/geneplotter/help/AnIndex",
+    "lib/R/library/geneplotter/help/aliases.rds",
+    "lib/R/library/geneplotter/help/geneplotter.rdb",
+    "lib/R/library/geneplotter/help/geneplotter.rdx",
+    "lib/R/library/geneplotter/help/paths.rds",
+    "lib/R/library/geneplotter/html/00Index.html",
+    "lib/R/library/geneplotter/html/R.css"
+  ],
+  "fn": "bioconductor-geneplotter-1.76.0-r42hdfd78af_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-geneplotter-1.76.0-r42hdfd78af_0",
+    "type": 1
+  },
+  "md5": "936274098486d93cdc981f0cfd25aa58",
+  "name": "bioconductor-geneplotter",
+  "noarch": "generic",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-geneplotter-1.76.0-r42hdfd78af_0",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/geneplotter/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b67857222b59575b2ebfb39ab792ada88fbe63a1fa6387c871b09d383b9bae4b",
+        "sha256_in_prefix": "b67857222b59575b2ebfb39ab792ada88fbe63a1fa6387c871b09d383b9bae4b",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/R/library/geneplotter/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d54fe65652052e4d2b7ba5df384507dcea2bec97b4d48eb5d28a3ec760b11d43",
+        "sha256_in_prefix": "d54fe65652052e4d2b7ba5df384507dcea2bec97b4d48eb5d28a3ec760b11d43",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "035e59272898cef010040846cc88ea0d145ae0228c267070fc92eb1e72a5af9a",
+        "sha256_in_prefix": "035e59272898cef010040846cc88ea0d145ae0228c267070fc92eb1e72a5af9a",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "d66d2b82ab8067f9f6992a96ca791d17cd76242b0de7c32f313a18dc4d702bbc",
+        "sha256_in_prefix": "d66d2b82ab8067f9f6992a96ca791d17cd76242b0de7c32f313a18dc4d702bbc",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "789780f9b1496b7032832b33f03583c7d140ebfbaa8f278683e6bf9cd58b7264",
+        "sha256_in_prefix": "789780f9b1496b7032832b33f03583c7d140ebfbaa8f278683e6bf9cd58b7264",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "d57ea8b0ab9a26d8f7df98bcd682ed4c50d989c7b31556b0289b419d29e6a58c",
+        "sha256_in_prefix": "d57ea8b0ab9a26d8f7df98bcd682ed4c50d989c7b31556b0289b419d29e6a58c",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4672cee984e846ef7add7d5bc8f84d73a8e7b3ef4b737124a8ee1a22433916db",
+        "sha256_in_prefix": "4672cee984e846ef7add7d5bc8f84d73a8e7b3ef4b737124a8ee1a22433916db",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3ef854592f1d8057f8c1b522e752d76d4642e02b1de546ab340f27bd269091d7",
+        "sha256_in_prefix": "3ef854592f1d8057f8c1b522e752d76d4642e02b1de546ab340f27bd269091d7",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ae53db26260135cbefb3c814fdfa1cbce453e4a02aca9ec0bd59afdd1ac4b060",
+        "sha256_in_prefix": "ae53db26260135cbefb3c814fdfa1cbce453e4a02aca9ec0bd59afdd1ac4b060",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/R/library/geneplotter/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a14a4578c015001b3d088c07e15aa2a6626a4566d7df270f1646cb6f82656224",
+        "sha256_in_prefix": "a14a4578c015001b3d088c07e15aa2a6626a4566d7df270f1646cb6f82656224",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "lib/R/library/geneplotter/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0eadcdce21f01fa3a2b2b328f8b21b42af0dd556aa2113de889c8b78e3d74020",
+        "sha256_in_prefix": "0eadcdce21f01fa3a2b2b328f8b21b42af0dd556aa2113de889c8b78e3d74020",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "lib/R/library/geneplotter/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "fe7f27050a6ad67948fb04e419324d14e26aa31eecfc5aa8123d82119473c305",
+        "sha256_in_prefix": "fe7f27050a6ad67948fb04e419324d14e26aa31eecfc5aa8123d82119473c305",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "lib/R/library/geneplotter/R/geneplotter",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/geneplotter/R/geneplotter.rdb",
+        "path_type": "hardlink",
+        "sha256": "61a2495e233c4c77b1cfb5ee76883cb4c8a62ee436e413c5e4210d3f22f33810",
+        "sha256_in_prefix": "61a2495e233c4c77b1cfb5ee76883cb4c8a62ee436e413c5e4210d3f22f33810",
+        "size_in_bytes": 91388
+      },
+      {
+        "_path": "lib/R/library/geneplotter/R/geneplotter.rdx",
+        "path_type": "hardlink",
+        "sha256": "51fd4f80e9677e0c6cb4f62d05aa4063c97e5fb38d061d327659fcdf946f2146",
+        "sha256_in_prefix": "51fd4f80e9677e0c6cb4f62d05aa4063c97e5fb38d061d327659fcdf946f2146",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/geneplotter/data/IMCAEntrezLink.R",
+        "path_type": "hardlink",
+        "sha256": "67bdeb124626ac5e8d44d1c52a3cf17fb8291682404f523b5e86de1717f682d1",
+        "sha256_in_prefix": "67bdeb124626ac5e8d44d1c52a3cf17fb8291682404f523b5e86de1717f682d1",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/R/library/geneplotter/data/expressionSet133a.rda",
+        "path_type": "hardlink",
+        "sha256": "86af7ee6d8bee72f202603ca368eb7e3846c44a0ab43055e1136b338ad97d206",
+        "sha256_in_prefix": "86af7ee6d8bee72f202603ca368eb7e3846c44a0ab43055e1136b338ad97d206",
+        "size_in_bytes": 990912
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/byChroms.R",
+        "path_type": "hardlink",
+        "sha256": "3e1c138603c9be6cc78842baf6883c428be43a145fb53472b0b6db87e37596e1",
+        "sha256_in_prefix": "3e1c138603c9be6cc78842baf6883c428be43a145fb53472b0b6db87e37596e1",
+        "size_in_bytes": 1209
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/byChroms.Rnw",
+        "path_type": "hardlink",
+        "sha256": "e87b56910b4dd5b1b19e448edede915e890d5693e95ad3d35c02e1f85f6daec7",
+        "sha256_in_prefix": "e87b56910b4dd5b1b19e448edede915e890d5693e95ad3d35c02e1f85f6daec7",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/byChroms.pdf",
+        "path_type": "hardlink",
+        "sha256": "1a62bbf778c9cb23f7ffeabbea2fb3dad246c5ca9e5df0baa563dec012ddd47d",
+        "sha256_in_prefix": "1a62bbf778c9cb23f7ffeabbea2fb3dad246c5ca9e5df0baa563dec012ddd47d",
+        "size_in_bytes": 121110
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "84025ac3b06557e30aa5ce1cd95dc0d30b598ca3f7bbc5dc30462ce210ce3d49",
+        "sha256_in_prefix": "84025ac3b06557e30aa5ce1cd95dc0d30b598ca3f7bbc5dc30462ce210ce3d49",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/visualize.R",
+        "path_type": "hardlink",
+        "sha256": "960858863b505ed2811a05621d24e6a0ec1e4a01d8280c77107edf94a0ca6a7a",
+        "sha256_in_prefix": "960858863b505ed2811a05621d24e6a0ec1e4a01d8280c77107edf94a0ca6a7a",
+        "size_in_bytes": 1724
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/visualize.Rnw",
+        "path_type": "hardlink",
+        "sha256": "9cc73d8ae69e198ac1607b39270760f4f51c145c4ee010ef77c265d6a83f4044",
+        "sha256_in_prefix": "9cc73d8ae69e198ac1607b39270760f4f51c145c4ee010ef77c265d6a83f4044",
+        "size_in_bytes": 4938
+      },
+      {
+        "_path": "lib/R/library/geneplotter/doc/visualize.pdf",
+        "path_type": "hardlink",
+        "sha256": "88bd5c228c66b8c270b25f506444e4deb6bb268df501d67e647ca8b827baddc1",
+        "sha256_in_prefix": "88bd5c228c66b8c270b25f506444e4deb6bb268df501d67e647ca8b827baddc1",
+        "size_in_bytes": 279932
+      },
+      {
+        "_path": "lib/R/library/geneplotter/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f4b49a2dd554e6ab1f6d1b780b8120a21a65ab02142f1b699f71400edac8285a",
+        "sha256_in_prefix": "f4b49a2dd554e6ab1f6d1b780b8120a21a65ab02142f1b699f71400edac8285a",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/R/library/geneplotter/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e3cf9435cfcef1afc919e3a79bfeeb799ceb3c65df9e7cf49f0c0d8875e77d3e",
+        "sha256_in_prefix": "e3cf9435cfcef1afc919e3a79bfeeb799ceb3c65df9e7cf49f0c0d8875e77d3e",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/geneplotter/help/geneplotter.rdb",
+        "path_type": "hardlink",
+        "sha256": "77563a0687f5a5050b15c1f98675650e4a9c021b3ac5de934dcaa1fbc5649f88",
+        "sha256_in_prefix": "77563a0687f5a5050b15c1f98675650e4a9c021b3ac5de934dcaa1fbc5649f88",
+        "size_in_bytes": 58718
+      },
+      {
+        "_path": "lib/R/library/geneplotter/help/geneplotter.rdx",
+        "path_type": "hardlink",
+        "sha256": "60d88ebbf62553db41cd8e737fafa94c85b469841b0de819462a74fc794bfe36",
+        "sha256_in_prefix": "60d88ebbf62553db41cd8e737fafa94c85b469841b0de819462a74fc794bfe36",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "lib/R/library/geneplotter/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6e0b58f3c2ada2148da112a34c93b5a08e1c630d3e6a2574411a3db7efaa5115",
+        "sha256_in_prefix": "6e0b58f3c2ada2148da112a34c93b5a08e1c630d3e6a2574411a3db7efaa5115",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/geneplotter/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "699c7cf34ef998fd4cf3596b40a48f4dd637b463aa9b0b60a84cdb05415b94f2",
+        "sha256_in_prefix": "699c7cf34ef998fd4cf3596b40a48f4dd637b463aa9b0b60a84cdb05415b94f2",
+        "size_in_bytes": 9855
+      },
+      {
+        "_path": "lib/R/library/geneplotter/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "sha256_in_prefix": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "size_in_bytes": 1735
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "33cef47b95f0d9020a41c32e496092a1639c097d25af74840ab1c419dcbf1f30",
+  "size": 1537007,
+  "subdir": "noarch",
+  "timestamp": 1667924013000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-geneplotter-1.76.0-r42hdfd78af_0.tar.bz2",
+  "version": "1.76.0"
+}

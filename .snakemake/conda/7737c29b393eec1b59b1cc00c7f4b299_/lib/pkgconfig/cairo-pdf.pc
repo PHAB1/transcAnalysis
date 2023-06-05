@@ -1,0 +1,12 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-pdf
+Description: PDF surface backend for cairo graphics library
+Version: 1.16.0
+
+Requires: cairo 
+Libs: -lz 
+Cflags: -I${includedir}/cairo 

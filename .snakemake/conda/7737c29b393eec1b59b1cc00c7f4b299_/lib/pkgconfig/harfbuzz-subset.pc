@@ -1,0 +1,11 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 7.3.0
+Requires: harfbuzz =  7.3.0
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -lm
+Cflags: -I${includedir}/harfbuzz

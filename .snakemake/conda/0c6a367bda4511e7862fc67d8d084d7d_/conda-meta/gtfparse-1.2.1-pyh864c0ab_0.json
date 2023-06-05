@@ -1,0 +1,157 @@
+{
+  "build": "pyh864c0ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.7,<2.0",
+    "pandas >=0.15",
+    "python"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/gtfparse-1.2.1-pyh864c0ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/gtfparse-1.2.1-py2.7.egg-info/PKG-INFO",
+    "lib/python3.10/site-packages/gtfparse-1.2.1-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.10/site-packages/gtfparse-1.2.1-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.10/site-packages/gtfparse-1.2.1-py2.7.egg-info/requires.txt",
+    "lib/python3.10/site-packages/gtfparse-1.2.1-py2.7.egg-info/top_level.txt",
+    "lib/python3.10/site-packages/gtfparse/__init__.py",
+    "lib/python3.10/site-packages/gtfparse/attribute_parsing.py",
+    "lib/python3.10/site-packages/gtfparse/create_missing_features.py",
+    "lib/python3.10/site-packages/gtfparse/parsing_error.py",
+    "lib/python3.10/site-packages/gtfparse/read_gtf.py",
+    "lib/python3.10/site-packages/gtfparse/required_columns.py",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/attribute_parsing.cpython-310.pyc",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/create_missing_features.cpython-310.pyc",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/parsing_error.cpython-310.pyc",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/read_gtf.cpython-310.pyc",
+    "lib/python3.10/site-packages/gtfparse/__pycache__/required_columns.cpython-310.pyc"
+  ],
+  "fn": "gtfparse-1.2.1-pyh864c0ab_0.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/gtfparse-1.2.1-pyh864c0ab_0",
+    "type": 1
+  },
+  "md5": "5b28075b1539ca196a9ebcdf17849c2a",
+  "name": "gtfparse",
+  "noarch": "python",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/gtfparse-1.2.1-pyh864c0ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gtfparse-1.2.1-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1fbcf06156847dab162bf519fd53228ea4ee8a2b1a369806b3d8b00d93580a79",
+        "sha256_in_prefix": "1fbcf06156847dab162bf519fd53228ea4ee8a2b1a369806b3d8b00d93580a79",
+        "size_in_bytes": 2259
+      },
+      {
+        "_path": "site-packages/gtfparse-1.2.1-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "e55bec99807b2354274349f4c021e6284c60ab63e7062d049203e16322624311",
+        "sha256_in_prefix": "e55bec99807b2354274349f4c021e6284c60ab63e7062d049203e16322624311",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "site-packages/gtfparse-1.2.1-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/gtfparse-1.2.1-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "31b8469a9ce9d9e7fcf667da7d392d78cb3aa4b686f4e2e87ace837a4caa57e4",
+        "sha256_in_prefix": "31b8469a9ce9d9e7fcf667da7d392d78cb3aa4b686f4e2e87ace837a4caa57e4",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/gtfparse-1.2.1-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ee3d8cf56493350c9ee7e1835bfc0b65f2e86b5d1ee187c52b0f9c01e57114f3",
+        "sha256_in_prefix": "ee3d8cf56493350c9ee7e1835bfc0b65f2e86b5d1ee187c52b0f9c01e57114f3",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/gtfparse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8196702208607b792084adec67bce9f3277299411407e399ef55c59cf90fb75d",
+        "sha256_in_prefix": "8196702208607b792084adec67bce9f3277299411407e399ef55c59cf90fb75d",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "site-packages/gtfparse/attribute_parsing.py",
+        "path_type": "hardlink",
+        "sha256": "ce8634b6fc5fc3f23329d20bc2a54774457c8072eb7e601a65aac25b543b04a5",
+        "sha256_in_prefix": "ce8634b6fc5fc3f23329d20bc2a54774457c8072eb7e601a65aac25b543b04a5",
+        "size_in_bytes": 4297
+      },
+      {
+        "_path": "site-packages/gtfparse/create_missing_features.py",
+        "path_type": "hardlink",
+        "sha256": "3bf3a406ee8872049509e6cdffc5db18d277114104311fccea7f91f262e5ba2a",
+        "sha256_in_prefix": "3bf3a406ee8872049509e6cdffc5db18d277114104311fccea7f91f262e5ba2a",
+        "size_in_bytes": 5080
+      },
+      {
+        "_path": "site-packages/gtfparse/parsing_error.py",
+        "path_type": "hardlink",
+        "sha256": "fefd8e19d87d36ef12f9f2b827615ecd10f1144e8c9b8e31bd68ab2885893e1f",
+        "sha256_in_prefix": "fefd8e19d87d36ef12f9f2b827615ecd10f1144e8c9b8e31bd68ab2885893e1f",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "site-packages/gtfparse/read_gtf.py",
+        "path_type": "hardlink",
+        "sha256": "dde512465fd3ef35028eadd9b29306fb4611db43be353aca2ffe8171916951f5",
+        "sha256_in_prefix": "dde512465fd3ef35028eadd9b29306fb4611db43be353aca2ffe8171916951f5",
+        "size_in_bytes": 8573
+      },
+      {
+        "_path": "site-packages/gtfparse/required_columns.py",
+        "path_type": "hardlink",
+        "sha256": "1fc0505c3887a2a13a8c4c38ccc955d64b69c3dc8297e3642fa3dce884ee2ed7",
+        "sha256_in_prefix": "1fc0505c3887a2a13a8c4c38ccc955d64b69c3dc8297e3642fa3dce884ee2ed7",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/attribute_parsing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/create_missing_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/parsing_error.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/read_gtf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gtfparse/__pycache__/required_columns.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gtfparse",
+  "sha256": "ab4da2381e7aac08ef26d28edbd24d21eda4b258acdf4dbece5537fbf9df5566",
+  "size": 13165,
+  "subdir": "noarch",
+  "timestamp": 1596651174000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/gtfparse-1.2.1-pyh864c0ab_0.tar.bz2",
+  "version": "1.2.1"
+}

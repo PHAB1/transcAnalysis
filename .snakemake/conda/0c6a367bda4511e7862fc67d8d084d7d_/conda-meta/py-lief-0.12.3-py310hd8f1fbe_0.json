@@ -1,0 +1,47 @@
+{
+  "build": "py310hd8f1fbe_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "liblief 0.12.3 h27087fc_0",
+    "libstdcxx-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/py-lief-0.12.3-py310hd8f1fbe_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/lief.cpython-310-x86_64-linux-gnu.so"
+  ],
+  "fn": "py-lief-0.12.3-py310hd8f1fbe_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/py-lief-0.12.3-py310hd8f1fbe_0",
+    "type": 1
+  },
+  "md5": "cfd2ef9475d22dbbe277b4c835ac108b",
+  "name": "py-lief",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/py-lief-0.12.3-py310hd8f1fbe_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/lief.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3e8cb6fdd6e8ffc75014f227d7ffb535bef16ee6e11346183a10cb64c584cab0",
+        "sha256_in_prefix": "3e8cb6fdd6e8ffc75014f227d7ffb535bef16ee6e11346183a10cb64c584cab0",
+        "size_in_bytes": 7047520
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5840e925ecf4159c06726268bcdb1775e0a7e7f9cce047724003f96953386e56",
+  "size": 1806575,
+  "subdir": "linux-64",
+  "timestamp": 1667378553000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/py-lief-0.12.3-py310hd8f1fbe_0.tar.bz2",
+  "version": "0.12.3"
+}

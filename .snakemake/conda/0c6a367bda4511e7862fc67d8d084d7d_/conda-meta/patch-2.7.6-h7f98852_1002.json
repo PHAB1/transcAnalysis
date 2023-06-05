@@ -1,0 +1,53 @@
+{
+  "build": "h7f98852_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/patch-2.7.6-h7f98852_1002",
+  "features": "",
+  "files": [
+    "bin/patch",
+    "share/man/man1/patch.1"
+  ],
+  "fn": "patch-2.7.6-h7f98852_1002.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/patch-2.7.6-h7f98852_1002",
+    "type": 1
+  },
+  "md5": "4c1bbbec45149a186b915c67d086ed3b",
+  "name": "patch",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/patch-2.7.6-h7f98852_1002",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/patch",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/patch_1612446458802/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "64eda755a39729bbd8ccd4975a8dfcd2aec7522b3daa3a060cc4ef9d9edf6453",
+        "sha256_in_prefix": "2df7c4ab5343f24eaf22909398950c77336bb7bdfdc850972309335246a6f491",
+        "size_in_bytes": 218016
+      },
+      {
+        "_path": "share/man/man1/patch.1",
+        "path_type": "hardlink",
+        "sha256": "debf3b3def307b644c4e61494afa8ab7691c5fb20ccad484bb31ea5b970892ab",
+        "sha256_in_prefix": "debf3b3def307b644c4e61494afa8ab7691c5fb20ccad484bb31ea5b970892ab",
+        "size_in_bytes": 34708
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc30d1b643c35d82abd294cde6b34f7b9e952856c0386f4f069c3a2b7feb28dd",
+  "size": 123495,
+  "subdir": "linux-64",
+  "timestamp": 1612446599000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/patch-2.7.6-h7f98852_1002.tar.bz2",
+  "version": "2.7.6"
+}

@@ -1,0 +1,14 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+exec_prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+libdir=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/lib
+includedir=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

@@ -1,0 +1,229 @@
+{
+  "build": "py310hff52083_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libarchive",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/python-libarchive-c-4.0-py310hff52083_2",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/libarchive/__init__.py",
+    "lib/python3.10/site-packages/libarchive/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/entry.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/exception.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/extract.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/ffi.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/flags.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/read.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/__pycache__/write.cpython-310.pyc",
+    "lib/python3.10/site-packages/libarchive/entry.py",
+    "lib/python3.10/site-packages/libarchive/exception.py",
+    "lib/python3.10/site-packages/libarchive/extract.py",
+    "lib/python3.10/site-packages/libarchive/ffi.py",
+    "lib/python3.10/site-packages/libarchive/flags.py",
+    "lib/python3.10/site-packages/libarchive/read.py",
+    "lib/python3.10/site-packages/libarchive/write.py",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/LICENSE.md",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/top_level.txt"
+  ],
+  "fn": "python-libarchive-c-4.0-py310hff52083_2.tar.bz2",
+  "license": "CC0-1.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/python-libarchive-c-4.0-py310hff52083_2",
+    "type": 1
+  },
+  "md5": "3330a15f42cf1e5a2e1f7b356109307c",
+  "name": "python-libarchive-c",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/python-libarchive-c-4.0-py310hff52083_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d31fe4830523a6d3aa581c31d28d177085f92083cf93cf984a54aebca16b9aa7",
+        "sha256_in_prefix": "d31fe4830523a6d3aa581c31d28d177085f92083cf93cf984a54aebca16b9aa7",
+        "size_in_bytes": 601
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd854a0142901a5097accab2a3074bfa8643466dc55fabdb69982dcf86215bba",
+        "sha256_in_prefix": "bd854a0142901a5097accab2a3074bfa8643466dc55fabdb69982dcf86215bba",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/entry.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa85ca0700b05caaf3119a0d50b71677e41fbdc3768408bf227bae065601c6c3",
+        "sha256_in_prefix": "fa85ca0700b05caaf3119a0d50b71677e41fbdc3768408bf227bae065601c6c3",
+        "size_in_bytes": 13521
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/exception.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "74712bc70a54addf7e62fa3916be4731d706ef5083a70a1bebaa9e507ae9929d",
+        "sha256_in_prefix": "74712bc70a54addf7e62fa3916be4731d706ef5083a70a1bebaa9e507ae9929d",
+        "size_in_bytes": 713
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/extract.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b6d43bfb83630c0349de71d6fd823a59eb603afbf76df1a5c71298e3bc17a27",
+        "sha256_in_prefix": "9b6d43bfb83630c0349de71d6fd823a59eb603afbf76df1a5c71298e3bc17a27",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/ffi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e82d34db073e1a9395f40b804d2bfb9198b7c6468450060fcb35a146a08b964",
+        "sha256_in_prefix": "7e82d34db073e1a9395f40b804d2bfb9198b7c6468450060fcb35a146a08b964",
+        "size_in_bytes": 8097
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/flags.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae8969b10bdf6c4ba560557d976ede2fca053e89fb37d81fa98f22a06b416fcb",
+        "sha256_in_prefix": "ae8969b10bdf6c4ba560557d976ede2fca053e89fb37d81fa98f22a06b416fcb",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/read.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd1d07df0d959f1f5bb0e51596a8cd60461f761cf5679d9e140a2351fa55346d",
+        "sha256_in_prefix": "bd1d07df0d959f1f5bb0e51596a8cd60461f761cf5679d9e140a2351fa55346d",
+        "size_in_bytes": 5176
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/__pycache__/write.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "635ad4b8a9ba19b765bb4b4c8e1b75a935df23463af20d51ede5c86377f7df0e",
+        "sha256_in_prefix": "635ad4b8a9ba19b765bb4b4c8e1b75a935df23463af20d51ede5c86377f7df0e",
+        "size_in_bytes": 8332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/entry.py",
+        "path_type": "hardlink",
+        "sha256": "317835818d10a0caf4c18eb05d54025e9204e985538276503593c8f1f0044274",
+        "sha256_in_prefix": "317835818d10a0caf4c18eb05d54025e9204e985538276503593c8f1f0044274",
+        "size_in_bytes": 12807
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/exception.py",
+        "path_type": "hardlink",
+        "sha256": "a1b715542f710629f42c2732d0f8bfec3afb4d0d094db5fc76388795127d492f",
+        "sha256_in_prefix": "a1b715542f710629f42c2732d0f8bfec3afb4d0d094db5fc76388795127d492f",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/extract.py",
+        "path_type": "hardlink",
+        "sha256": "dd037ebca0cca6f941dfa0013b13ead222d84ca726bc096ba7f330cd84c02e1a",
+        "sha256_in_prefix": "dd037ebca0cca6f941dfa0013b13ead222d84ca726bc096ba7f330cd84c02e1a",
+        "size_in_bytes": 2694
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/ffi.py",
+        "path_type": "hardlink",
+        "sha256": "cae72158245b3048674b4fd754f1378450dd8d8a099c455384b97d95a80bb123",
+        "sha256_in_prefix": "cae72158245b3048674b4fd754f1378450dd8d8a099c455384b97d95a80bb123",
+        "size_in_bytes": 12247
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/flags.py",
+        "path_type": "hardlink",
+        "sha256": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "sha256_in_prefix": "57954fa9f5c86d87fd995337dd4ae25d3e01a03984ca8de810d3ce83843446b2",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/read.py",
+        "path_type": "hardlink",
+        "sha256": "da99dafc88bcbcb547698a78a844a10bea7c129a1d0fc25b25b35b2d837a9f51",
+        "sha256_in_prefix": "da99dafc88bcbcb547698a78a844a10bea7c129a1d0fc25b25b35b2d837a9f51",
+        "size_in_bytes": 5514
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive/write.py",
+        "path_type": "hardlink",
+        "sha256": "639009da28f1b606fc936fab2021e60e163f195100de3bc1274739c1189f43c2",
+        "sha256_in_prefix": "639009da28f1b606fc936fab2021e60e163f195100de3bc1274739c1189f43c2",
+        "size_in_bytes": 9900
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+        "sha256_in_prefix": "bd1a963f2c77481f0a658b5fa7fe77c2515e73be3972f1e991741b72f6fd7d31",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "738f42ca78386228c653d5f11521e588143590b4db66fa64abd76356a204957b",
+        "sha256_in_prefix": "738f42ca78386228c653d5f11521e588143590b4db66fa64abd76356a204957b",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "affd995bc73df42854b13c057c496256cbfa6fd7e139eac23cdfbb569e2461d3",
+        "sha256_in_prefix": "affd995bc73df42854b13c057c496256cbfa6fd7e139eac23cdfbb569e2461d3",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bf4528e21b87df34c496f8efa2b863985489bbf708029fbae910f19c2ffd4340",
+        "sha256_in_prefix": "bf4528e21b87df34c496f8efa2b863985489bbf708029fbae910f19c2ffd4340",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/python3.10/site-packages/libarchive_c-4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "sha256_in_prefix": "e932b801d70f378801d141e8eba1fb70618948539a1cea38c7463fe074a404fa",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d3d6f097863918ef4be40be98a357ea8ff152f93a6f81e671d9b3fd746e1a7ac",
+  "size": 64075,
+  "subdir": "linux-64",
+  "timestamp": 1666852514000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-libarchive-c-4.0-py310hff52083_2.tar.bz2",
+  "version": "4.0"
+}

@@ -1,0 +1,668 @@
+{
+  "build": "r42ha9d7317_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+    "bioconductor-genomeinfodb >=1.34.0,<1.35.0",
+    "bioconductor-iranges >=2.32.0,<2.33.0",
+    "bioconductor-s4vectors >=0.36.0,<0.37.0",
+    "bioconductor-xvector >=0.38.0,<0.39.0",
+    "libblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "liblapack >=3.9.0,<4.0a0",
+    "r-base >=4.2,<4.3.0a0",
+    "r-crayon"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biostrings-2.66.0-r42ha9d7317_1",
+  "features": "",
+  "files": [
+    "lib/R/library/Biostrings/DESCRIPTION",
+    "lib/R/library/Biostrings/INDEX",
+    "lib/R/library/Biostrings/Meta/Rd.rds",
+    "lib/R/library/Biostrings/Meta/data.rds",
+    "lib/R/library/Biostrings/Meta/features.rds",
+    "lib/R/library/Biostrings/Meta/hsearch.rds",
+    "lib/R/library/Biostrings/Meta/links.rds",
+    "lib/R/library/Biostrings/Meta/nsInfo.rds",
+    "lib/R/library/Biostrings/Meta/package.rds",
+    "lib/R/library/Biostrings/Meta/vignette.rds",
+    "lib/R/library/Biostrings/NAMESPACE",
+    "lib/R/library/Biostrings/NEWS",
+    "lib/R/library/Biostrings/R/Biostrings",
+    "lib/R/library/Biostrings/R/Biostrings.rdb",
+    "lib/R/library/Biostrings/R/Biostrings.rdx",
+    "lib/R/library/Biostrings/data/BLOSUM100.rda",
+    "lib/R/library/Biostrings/data/BLOSUM45.rda",
+    "lib/R/library/Biostrings/data/BLOSUM50.rda",
+    "lib/R/library/Biostrings/data/BLOSUM62.rda",
+    "lib/R/library/Biostrings/data/BLOSUM80.rda",
+    "lib/R/library/Biostrings/data/HNF4alpha.rda",
+    "lib/R/library/Biostrings/data/PAM120.rda",
+    "lib/R/library/Biostrings/data/PAM250.rda",
+    "lib/R/library/Biostrings/data/PAM30.rda",
+    "lib/R/library/Biostrings/data/PAM40.rda",
+    "lib/R/library/Biostrings/data/PAM70.rda",
+    "lib/R/library/Biostrings/data/phiX174Phage.rda",
+    "lib/R/library/Biostrings/data/srPhiX174.rda",
+    "lib/R/library/Biostrings/data/yeastSEQCHR1.rda",
+    "lib/R/library/Biostrings/doc/Biostrings2Classes.R",
+    "lib/R/library/Biostrings/doc/Biostrings2Classes.Rnw",
+    "lib/R/library/Biostrings/doc/Biostrings2Classes.pdf",
+    "lib/R/library/Biostrings/doc/BiostringsQuickOverview.Rnw",
+    "lib/R/library/Biostrings/doc/BiostringsQuickOverview.pdf",
+    "lib/R/library/Biostrings/doc/MultipleAlignments.R",
+    "lib/R/library/Biostrings/doc/MultipleAlignments.Rnw",
+    "lib/R/library/Biostrings/doc/MultipleAlignments.pdf",
+    "lib/R/library/Biostrings/doc/PairwiseAlignments.R",
+    "lib/R/library/Biostrings/doc/PairwiseAlignments.Rnw",
+    "lib/R/library/Biostrings/doc/PairwiseAlignments.pdf",
+    "lib/R/library/Biostrings/doc/index.html",
+    "lib/R/library/Biostrings/doc/matchprobes.R",
+    "lib/R/library/Biostrings/doc/matchprobes.Rnw",
+    "lib/R/library/Biostrings/doc/matchprobes.pdf",
+    "lib/R/library/Biostrings/extdata/Phylip.txt",
+    "lib/R/library/Biostrings/extdata/README",
+    "lib/R/library/Biostrings/extdata/Sc.fa",
+    "lib/R/library/Biostrings/extdata/Sp.fa",
+    "lib/R/library/Biostrings/extdata/dm3_upstream2000.fa.gz",
+    "lib/R/library/Biostrings/extdata/fastaEx.fa",
+    "lib/R/library/Biostrings/extdata/hg18chr8_gap.txt",
+    "lib/R/library/Biostrings/extdata/hg18chrY_gap.txt",
+    "lib/R/library/Biostrings/extdata/msx2_mRNA.aln",
+    "lib/R/library/Biostrings/extdata/s_1_sequence.txt",
+    "lib/R/library/Biostrings/extdata/someORF.fa",
+    "lib/R/library/Biostrings/extdata/someORF.fa.gz",
+    "lib/R/library/Biostrings/help/AnIndex",
+    "lib/R/library/Biostrings/help/Biostrings.rdb",
+    "lib/R/library/Biostrings/help/Biostrings.rdx",
+    "lib/R/library/Biostrings/help/aliases.rds",
+    "lib/R/library/Biostrings/help/paths.rds",
+    "lib/R/library/Biostrings/html/00Index.html",
+    "lib/R/library/Biostrings/html/R.css",
+    "lib/R/library/Biostrings/include/Biostrings_defines.h",
+    "lib/R/library/Biostrings/include/Biostrings_interface.h",
+    "lib/R/library/Biostrings/include/_Biostrings_stubs.c",
+    "lib/R/library/Biostrings/libs/Biostrings.so",
+    "lib/R/library/Biostrings/unitTests/test_MultipleAlignment.R",
+    "lib/R/library/Biostrings/unitTests/test_XString.R",
+    "lib/R/library/Biostrings/unitTests/test_XStringSet-io.R",
+    "lib/R/library/Biostrings/unitTests/test_XStringSet.R",
+    "lib/R/library/Biostrings/unitTests/test_XStringSetList.R",
+    "lib/R/library/Biostrings/unitTests/test_findPalindromes.R",
+    "lib/R/library/Biostrings/unitTests/test_matchDNAPattern.R.FIXME",
+    "lib/R/library/Biostrings/unitTests/test_matchPDict.R",
+    "lib/R/library/Biostrings/unitTests/test_pairwiseAlignment.R",
+    "lib/R/library/Biostrings/unitTests/test_seqinfo-methods.R",
+    "lib/R/library/Biostrings/unitTests/test_twoWayAlphabetFrequency.R"
+  ],
+  "fn": "bioconductor-biostrings-2.66.0-r42ha9d7317_1.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biostrings-2.66.0-r42ha9d7317_1",
+    "type": 1
+  },
+  "md5": "42ec86503c7e99250a649a289e42931b",
+  "name": "bioconductor-biostrings",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biostrings-2.66.0-r42ha9d7317_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/Biostrings/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "905189df1781ba7267462370ced645215869f89761a0bda94be73de9ae236c61",
+        "sha256_in_prefix": "905189df1781ba7267462370ced645215869f89761a0bda94be73de9ae236c61",
+        "size_in_bytes": 2699
+      },
+      {
+        "_path": "lib/R/library/Biostrings/INDEX",
+        "path_type": "hardlink",
+        "sha256": "cd6bb4cdbf749c8ab76ef321896ce6883b7bd5dc58ea009375c2c249b1e9965b",
+        "sha256_in_prefix": "cd6bb4cdbf749c8ab76ef321896ce6883b7bd5dc58ea009375c2c249b1e9965b",
+        "size_in_bytes": 5248
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b151a66f65d5d36db086704f20e9c40aae84aa0814d3a4de4b6107492234cff6",
+        "sha256_in_prefix": "b151a66f65d5d36db086704f20e9c40aae84aa0814d3a4de4b6107492234cff6",
+        "size_in_bytes": 7909
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "0760189b6024200c08d317a9df6b079b098ed2a811844d0f92d6f0b5116974e0",
+        "sha256_in_prefix": "0760189b6024200c08d317a9df6b079b098ed2a811844d0f92d6f0b5116974e0",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "sha256_in_prefix": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ef33c54d742ccdf2e1f0401e4de86db95be3cdd8821447e7d961041b6697baf6",
+        "sha256_in_prefix": "ef33c54d742ccdf2e1f0401e4de86db95be3cdd8821447e7d961041b6697baf6",
+        "size_in_bytes": 8103
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "b4a5ab9fa6eadc95ef7d4e312948c5e4c898a358f70299090e180249ba30e011",
+        "sha256_in_prefix": "b4a5ab9fa6eadc95ef7d4e312948c5e4c898a358f70299090e180249ba30e011",
+        "size_in_bytes": 6474
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a5055d03afebbb6cb2d83a64b7a1443a570b49040d98961f13e0150a396b46af",
+        "sha256_in_prefix": "a5055d03afebbb6cb2d83a64b7a1443a570b49040d98961f13e0150a396b46af",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "446ce75dcbfd7e45438804e615b1fb1b5f805ef6ea1d448ca65720d7fdadbb7f",
+        "sha256_in_prefix": "446ce75dcbfd7e45438804e615b1fb1b5f805ef6ea1d448ca65720d7fdadbb7f",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "lib/R/library/Biostrings/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "f9136b90f19383d8a9ceef1026d5e7674ddc83dd4fdbd85fdb25c20dc28220c5",
+        "sha256_in_prefix": "f9136b90f19383d8a9ceef1026d5e7674ddc83dd4fdbd85fdb25c20dc28220c5",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/R/library/Biostrings/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0f577ad468013184deac958f0f2b8876770a1efa9d22b465365a5b39ece0144c",
+        "sha256_in_prefix": "0f577ad468013184deac958f0f2b8876770a1efa9d22b465365a5b39ece0144c",
+        "size_in_bytes": 11224
+      },
+      {
+        "_path": "lib/R/library/Biostrings/NEWS",
+        "path_type": "hardlink",
+        "sha256": "439b9c7eae0b415d8644b150910604305f8269ef8f12561e13977e9a53437e1b",
+        "sha256_in_prefix": "439b9c7eae0b415d8644b150910604305f8269ef8f12561e13977e9a53437e1b",
+        "size_in_bytes": 17344
+      },
+      {
+        "_path": "lib/R/library/Biostrings/R/Biostrings",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/Biostrings/R/Biostrings.rdb",
+        "path_type": "hardlink",
+        "sha256": "069a82a148ee08f927ee112765382839f412bdb91b8ef7dafe6fac2419e82b39",
+        "sha256_in_prefix": "069a82a148ee08f927ee112765382839f412bdb91b8ef7dafe6fac2419e82b39",
+        "size_in_bytes": 1780495
+      },
+      {
+        "_path": "lib/R/library/Biostrings/R/Biostrings.rdx",
+        "path_type": "hardlink",
+        "sha256": "5e1a0402d3aaa5ffa4005a4ff32e655c91a3bf91c66b2221cd539e539f17d180",
+        "sha256_in_prefix": "5e1a0402d3aaa5ffa4005a4ff32e655c91a3bf91c66b2221cd539e539f17d180",
+        "size_in_bytes": 16794
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/BLOSUM100.rda",
+        "path_type": "hardlink",
+        "sha256": "fd057fce1a2b1adbabe0d1ce989ad505a17b19ff9f1aab3544f40c263e21e386",
+        "sha256_in_prefix": "fd057fce1a2b1adbabe0d1ce989ad505a17b19ff9f1aab3544f40c263e21e386",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/BLOSUM45.rda",
+        "path_type": "hardlink",
+        "sha256": "88a80b715182f2413bccd6a9372696d3e0a6aec77f842bc48ab6a6a9a6b86acb",
+        "sha256_in_prefix": "88a80b715182f2413bccd6a9372696d3e0a6aec77f842bc48ab6a6a9a6b86acb",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/BLOSUM50.rda",
+        "path_type": "hardlink",
+        "sha256": "bc8c9ad06c4c404f7d86bbc8ddba97eda6b3066d7a4233ad9b4217f927bb6cbc",
+        "sha256_in_prefix": "bc8c9ad06c4c404f7d86bbc8ddba97eda6b3066d7a4233ad9b4217f927bb6cbc",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/BLOSUM62.rda",
+        "path_type": "hardlink",
+        "sha256": "adf90ce41a5156bac20b486d104140f0bb713df3794af387c9ca0dc11d4563d6",
+        "sha256_in_prefix": "adf90ce41a5156bac20b486d104140f0bb713df3794af387c9ca0dc11d4563d6",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/BLOSUM80.rda",
+        "path_type": "hardlink",
+        "sha256": "5b65337ac3045c2bbc62ad27e319b76e702aef35a9f60b91c5448ed4604b383b",
+        "sha256_in_prefix": "5b65337ac3045c2bbc62ad27e319b76e702aef35a9f60b91c5448ed4604b383b",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/HNF4alpha.rda",
+        "path_type": "hardlink",
+        "sha256": "ff4427e1a2f0baabc0a2181a11475e1292580d537121462047a7f68ae8731c38",
+        "sha256_in_prefix": "ff4427e1a2f0baabc0a2181a11475e1292580d537121462047a7f68ae8731c38",
+        "size_in_bytes": 4533
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/PAM120.rda",
+        "path_type": "hardlink",
+        "sha256": "0d537b8a271cb2a0316e7be91687d1f7ab5afa6ea82e026be3aad11c9e11101c",
+        "sha256_in_prefix": "0d537b8a271cb2a0316e7be91687d1f7ab5afa6ea82e026be3aad11c9e11101c",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/PAM250.rda",
+        "path_type": "hardlink",
+        "sha256": "06bf5dbadb58059b0aa6b72ebc3c3d9b4e040c6342ab0588a652b6ec24eaf858",
+        "sha256_in_prefix": "06bf5dbadb58059b0aa6b72ebc3c3d9b4e040c6342ab0588a652b6ec24eaf858",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/PAM30.rda",
+        "path_type": "hardlink",
+        "sha256": "c908fba9c84fac71e9ac6e7ce978a2e6717755b396023fc07e2b1d003994ff9f",
+        "sha256_in_prefix": "c908fba9c84fac71e9ac6e7ce978a2e6717755b396023fc07e2b1d003994ff9f",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/PAM40.rda",
+        "path_type": "hardlink",
+        "sha256": "300fae85d4e68a379a25659667cc9df8c572b6114b3de76e6ce3fe86b1b24a77",
+        "sha256_in_prefix": "300fae85d4e68a379a25659667cc9df8c572b6114b3de76e6ce3fe86b1b24a77",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/PAM70.rda",
+        "path_type": "hardlink",
+        "sha256": "90d60c47bd2eb49a98c7f2ec64004608bda7c6533d64a000bd3b69cdbfaeb9ac",
+        "sha256_in_prefix": "90d60c47bd2eb49a98c7f2ec64004608bda7c6533d64a000bd3b69cdbfaeb9ac",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/phiX174Phage.rda",
+        "path_type": "hardlink",
+        "sha256": "6a05a89eb9a8b1455b81bb015b85576f81aa961c782bc39fd663781bed1e850c",
+        "sha256_in_prefix": "6a05a89eb9a8b1455b81bb015b85576f81aa961c782bc39fd663781bed1e850c",
+        "size_in_bytes": 6445
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/srPhiX174.rda",
+        "path_type": "hardlink",
+        "sha256": "8fd4f28894dc53b1a709c6ed2b25a0b3f4af5036e596bc15d402666088ae1bcf",
+        "sha256_in_prefix": "8fd4f28894dc53b1a709c6ed2b25a0b3f4af5036e596bc15d402666088ae1bcf",
+        "size_in_bytes": 37751
+      },
+      {
+        "_path": "lib/R/library/Biostrings/data/yeastSEQCHR1.rda",
+        "path_type": "hardlink",
+        "sha256": "e928fe4b7b146d39749d2c96311420e2cf6381bdcb18697d653d72fedb84105b",
+        "sha256_in_prefix": "e928fe4b7b146d39749d2c96311420e2cf6381bdcb18697d653d72fedb84105b",
+        "size_in_bytes": 66419
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/Biostrings2Classes.R",
+        "path_type": "hardlink",
+        "sha256": "b6e0daa8ca103fd141c22b540e71fd28716e62654d6fee360d317e8448fac247",
+        "sha256_in_prefix": "b6e0daa8ca103fd141c22b540e71fd28716e62654d6fee360d317e8448fac247",
+        "size_in_bytes": 3614
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/Biostrings2Classes.Rnw",
+        "path_type": "hardlink",
+        "sha256": "fe414ab58a12c63c4f4ce44b71550aede4b97d6ee25d55b81f62e0811d754fbe",
+        "sha256_in_prefix": "fe414ab58a12c63c4f4ce44b71550aede4b97d6ee25d55b81f62e0811d754fbe",
+        "size_in_bytes": 8514
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/Biostrings2Classes.pdf",
+        "path_type": "hardlink",
+        "sha256": "c2ee04d3983308451a1affde74bedda04927b1e72dae2dd5a2631714dce0fc3a",
+        "sha256_in_prefix": "c2ee04d3983308451a1affde74bedda04927b1e72dae2dd5a2631714dce0fc3a",
+        "size_in_bytes": 121832
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/BiostringsQuickOverview.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7cbfff985845aff7c179845f0333170e5e7ca4e496dd4d655ffc025886d13f79",
+        "sha256_in_prefix": "7cbfff985845aff7c179845f0333170e5e7ca4e496dd4d655ffc025886d13f79",
+        "size_in_bytes": 9790
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/BiostringsQuickOverview.pdf",
+        "path_type": "hardlink",
+        "sha256": "651b82cbea3eebc3a64c01c4d0c36deb11630b60ac43648f3fc90c539985a11f",
+        "sha256_in_prefix": "651b82cbea3eebc3a64c01c4d0c36deb11630b60ac43648f3fc90c539985a11f",
+        "size_in_bytes": 68749
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/MultipleAlignments.R",
+        "path_type": "hardlink",
+        "sha256": "734b7c37172f28df0a81480b88985fcd72def50674b7458aeb2695626e4ae12a",
+        "sha256_in_prefix": "734b7c37172f28df0a81480b88985fcd72def50674b7458aeb2695626e4ae12a",
+        "size_in_bytes": 5239
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/MultipleAlignments.Rnw",
+        "path_type": "hardlink",
+        "sha256": "92c0089775ec3d049db041b63f2049ae3528dd32993600cec440eb50e676e1da",
+        "sha256_in_prefix": "92c0089775ec3d049db041b63f2049ae3528dd32993600cec440eb50e676e1da",
+        "size_in_bytes": 10512
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/MultipleAlignments.pdf",
+        "path_type": "hardlink",
+        "sha256": "1bec1b1b0917135e34af214359f3e7c684ac15098f58d3b2bf5fd6511279e9e4",
+        "sha256_in_prefix": "1bec1b1b0917135e34af214359f3e7c684ac15098f58d3b2bf5fd6511279e9e4",
+        "size_in_bytes": 98851
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/PairwiseAlignments.R",
+        "path_type": "hardlink",
+        "sha256": "19eb3781e369b37dc3fe7028c22ad5c2ff5a88d45ac1dc8636a99ce46d70c7d6",
+        "sha256_in_prefix": "19eb3781e369b37dc3fe7028c22ad5c2ff5a88d45ac1dc8636a99ce46d70c7d6",
+        "size_in_bytes": 25135
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/PairwiseAlignments.Rnw",
+        "path_type": "hardlink",
+        "sha256": "c0edf92ce568d11870ec5e9197975820f110fde36bc4e0ccb95b2bc226993b89",
+        "sha256_in_prefix": "c0edf92ce568d11870ec5e9197975820f110fde36bc4e0ccb95b2bc226993b89",
+        "size_in_bytes": 53393
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/PairwiseAlignments.pdf",
+        "path_type": "hardlink",
+        "sha256": "7e6b8b506c0fce44efc34644c346d1ff0e6c7e2220c9b62229658806fc2d43a0",
+        "sha256_in_prefix": "7e6b8b506c0fce44efc34644c346d1ff0e6c7e2220c9b62229658806fc2d43a0",
+        "size_in_bytes": 223879
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "8ba8db230666b5f2e9c26d40ebbb7854e8b70af72516208cc4ac9461438d4fca",
+        "sha256_in_prefix": "8ba8db230666b5f2e9c26d40ebbb7854e8b70af72516208cc4ac9461438d4fca",
+        "size_in_bytes": 3805
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/matchprobes.R",
+        "path_type": "hardlink",
+        "sha256": "52e708e20b4328479adf7de3501f8ca900a4e2ee74e0547df78e2fe1f456a53a",
+        "sha256_in_prefix": "52e708e20b4328479adf7de3501f8ca900a4e2ee74e0547df78e2fe1f456a53a",
+        "size_in_bytes": 3664
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/matchprobes.Rnw",
+        "path_type": "hardlink",
+        "sha256": "81c562f68666c6c0185e9f7d38914d99cbb9a46de6e41f0eade91eab7bc97bd7",
+        "sha256_in_prefix": "81c562f68666c6c0185e9f7d38914d99cbb9a46de6e41f0eade91eab7bc97bd7",
+        "size_in_bytes": 9923
+      },
+      {
+        "_path": "lib/R/library/Biostrings/doc/matchprobes.pdf",
+        "path_type": "hardlink",
+        "sha256": "5206c34c74becb4ce685d7f7e539fec222372400a20ab3557fcbea923eef55a2",
+        "sha256_in_prefix": "5206c34c74becb4ce685d7f7e539fec222372400a20ab3557fcbea923eef55a2",
+        "size_in_bytes": 227831
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/Phylip.txt",
+        "path_type": "hardlink",
+        "sha256": "0f21239cae29f8513d2ab6c4a513c8a00374a0a2a345ec5d36779637b7f684e3",
+        "sha256_in_prefix": "0f21239cae29f8513d2ab6c4a513c8a00374a0a2a345ec5d36779637b7f684e3",
+        "size_in_bytes": 6313
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/README",
+        "path_type": "hardlink",
+        "sha256": "9deadc2c358cf779f39952412463ff16957553f789ab1d4b0d25aafa1e0e4493",
+        "sha256_in_prefix": "9deadc2c358cf779f39952412463ff16957553f789ab1d4b0d25aafa1e0e4493",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/Sc.fa",
+        "path_type": "hardlink",
+        "sha256": "8bde1f20039225c3c8cbfe68952045e3f3fbd3c6e8b0586c0ddce22b5d675f81",
+        "sha256_in_prefix": "8bde1f20039225c3c8cbfe68952045e3f3fbd3c6e8b0586c0ddce22b5d675f81",
+        "size_in_bytes": 1633
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/Sp.fa",
+        "path_type": "hardlink",
+        "sha256": "18de44c7bb057d8feb71e630fc3e67c388fca337b61e164a8a19d772cb7dfdfa",
+        "sha256_in_prefix": "18de44c7bb057d8feb71e630fc3e67c388fca337b61e164a8a19d772cb7dfdfa",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/dm3_upstream2000.fa.gz",
+        "path_type": "hardlink",
+        "sha256": "8f3b72f4223479696c21748c769b1896551830be77d6e1b2cdcfff3bdbee3656",
+        "sha256_in_prefix": "8f3b72f4223479696c21748c769b1896551830be77d6e1b2cdcfff3bdbee3656",
+        "size_in_bytes": 11525633
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/fastaEx.fa",
+        "path_type": "hardlink",
+        "sha256": "a6ce5382dfb3a7027f18aa7d74ea82a5a977c9e92ea8a9ef2650646d0bff55f9",
+        "sha256_in_prefix": "a6ce5382dfb3a7027f18aa7d74ea82a5a977c9e92ea8a9ef2650646d0bff55f9",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/hg18chr8_gap.txt",
+        "path_type": "hardlink",
+        "sha256": "26d28a5df3565ec57e8c68ade31528602a6f4e113da6b4cba0f379ab2e2b2358",
+        "sha256_in_prefix": "26d28a5df3565ec57e8c68ade31528602a6f4e113da6b4cba0f379ab2e2b2358",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/hg18chrY_gap.txt",
+        "path_type": "hardlink",
+        "sha256": "f13b8f59bfd43823ac9e959278af8526232706f2a871de07ef5550de2e2d81bc",
+        "sha256_in_prefix": "f13b8f59bfd43823ac9e959278af8526232706f2a871de07ef5550de2e2d81bc",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/msx2_mRNA.aln",
+        "path_type": "hardlink",
+        "sha256": "1e1941aba7183ca4e297e047fe8e8d72919dc7902bdba0cb3a06de2352757ccd",
+        "sha256_in_prefix": "1e1941aba7183ca4e297e047fe8e8d72919dc7902bdba0cb3a06de2352757ccd",
+        "size_in_bytes": 37906
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/s_1_sequence.txt",
+        "path_type": "hardlink",
+        "sha256": "24e90d5e1de0833992806132afc622798b409935ef3bfdcafc22c824ac92ccc2",
+        "sha256_in_prefix": "24e90d5e1de0833992806132afc622798b409935ef3bfdcafc22c824ac92ccc2",
+        "size_in_bytes": 31740
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/someORF.fa",
+        "path_type": "hardlink",
+        "sha256": "befe319269ed368b97c900c1ef75a5be257d9dcb13708e61fc80002fe949f431",
+        "sha256_in_prefix": "befe319269ed368b97c900c1ef75a5be257d9dcb13708e61fc80002fe949f431",
+        "size_in_bytes": 27326
+      },
+      {
+        "_path": "lib/R/library/Biostrings/extdata/someORF.fa.gz",
+        "path_type": "hardlink",
+        "sha256": "3ca24a88beae36b256179f7a01d822ebd65274687b61f824aec2ab00177c9684",
+        "sha256_in_prefix": "3ca24a88beae36b256179f7a01d822ebd65274687b61f824aec2ab00177c9684",
+        "size_in_bytes": 8093
+      },
+      {
+        "_path": "lib/R/library/Biostrings/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9f83154c79c2bda1aea1a057c8e3f7c57d86c4e8a2e1bfa15522b50f56967e16",
+        "sha256_in_prefix": "9f83154c79c2bda1aea1a057c8e3f7c57d86c4e8a2e1bfa15522b50f56967e16",
+        "size_in_bytes": 42062
+      },
+      {
+        "_path": "lib/R/library/Biostrings/help/Biostrings.rdb",
+        "path_type": "hardlink",
+        "sha256": "e08dd9aef582d48541a0abab1c5ca4d1723dd815ae596ab32315b01b3fb8776c",
+        "sha256_in_prefix": "e08dd9aef582d48541a0abab1c5ca4d1723dd815ae596ab32315b01b3fb8776c",
+        "size_in_bytes": 410963
+      },
+      {
+        "_path": "lib/R/library/Biostrings/help/Biostrings.rdx",
+        "path_type": "hardlink",
+        "sha256": "95b171e86e29110003dff1c2f2300c0f1ab4a0266a5f65c00f8f56d110b62f55",
+        "sha256_in_prefix": "95b171e86e29110003dff1c2f2300c0f1ab4a0266a5f65c00f8f56d110b62f55",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "lib/R/library/Biostrings/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "06ef25ca98850388944ce6bfeff4184444811885642134f903ddefec89c77410",
+        "sha256_in_prefix": "06ef25ca98850388944ce6bfeff4184444811885642134f903ddefec89c77410",
+        "size_in_bytes": 6751
+      },
+      {
+        "_path": "lib/R/library/Biostrings/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ee04604ec8704ea0e175ac828d592b37fc530e988d95d3c6cfd784acc5e4b324",
+        "sha256_in_prefix": "ee04604ec8704ea0e175ac828d592b37fc530e988d95d3c6cfd784acc5e4b324",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/R/library/Biostrings/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0c45c7cc143dcfd368172b2d133a7af8dbb261524f98b8e0e013340df5a2753a",
+        "sha256_in_prefix": "0c45c7cc143dcfd368172b2d133a7af8dbb261524f98b8e0e013340df5a2753a",
+        "size_in_bytes": 90038
+      },
+      {
+        "_path": "lib/R/library/Biostrings/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "sha256_in_prefix": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/Biostrings/include/Biostrings_defines.h",
+        "path_type": "hardlink",
+        "sha256": "b4854da69628902e18aa078468bad8499b0b6b248bb50161fdeeca89f8750b06",
+        "sha256_in_prefix": "b4854da69628902e18aa078468bad8499b0b6b248bb50161fdeeca89f8750b06",
+        "size_in_bytes": 6264
+      },
+      {
+        "_path": "lib/R/library/Biostrings/include/Biostrings_interface.h",
+        "path_type": "hardlink",
+        "sha256": "05c6fd717fe50db1ee6826103d54f5f5c3bc4e68dcf5e3a027e14912b73b414b",
+        "sha256_in_prefix": "05c6fd717fe50db1ee6826103d54f5f5c3bc4e68dcf5e3a027e14912b73b414b",
+        "size_in_bytes": 6554
+      },
+      {
+        "_path": "lib/R/library/Biostrings/include/_Biostrings_stubs.c",
+        "path_type": "hardlink",
+        "sha256": "dee6051618724755dc715ea5cd2e3a867749b2393c9f0af95e08c7f372615c13",
+        "sha256_in_prefix": "dee6051618724755dc715ea5cd2e3a867749b2393c9f0af95e08c7f372615c13",
+        "size_in_bytes": 4006
+      },
+      {
+        "_path": "lib/R/library/Biostrings/libs/Biostrings.so",
+        "path_type": "hardlink",
+        "sha256": "80ecad6d8e28876293abf11af294ae1d169c773029d68598f1677835bd15e9f1",
+        "sha256_in_prefix": "80ecad6d8e28876293abf11af294ae1d169c773029d68598f1677835bd15e9f1",
+        "size_in_bytes": 266928
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_MultipleAlignment.R",
+        "path_type": "hardlink",
+        "sha256": "eac582f01527d80c8e313a91d585a52a7e040d6d321d53845eab41324e891309",
+        "sha256_in_prefix": "eac582f01527d80c8e313a91d585a52a7e040d6d321d53845eab41324e891309",
+        "size_in_bytes": 10984
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_XString.R",
+        "path_type": "hardlink",
+        "sha256": "8d33686f64a9f8c1726c9d7af41cd64c40782e69eb3be565b5182df03880c306",
+        "sha256_in_prefix": "8d33686f64a9f8c1726c9d7af41cd64c40782e69eb3be565b5182df03880c306",
+        "size_in_bytes": 1929
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_XStringSet-io.R",
+        "path_type": "hardlink",
+        "sha256": "4d674b107ece783e4109e19b5f800015c756b749135c9ef74527c0cc8eded850",
+        "sha256_in_prefix": "4d674b107ece783e4109e19b5f800015c756b749135c9ef74527c0cc8eded850",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_XStringSet.R",
+        "path_type": "hardlink",
+        "sha256": "a4e1e9b1684ef18ff7671e44d4ad9c4eda357426621f8ccc0832d0e985decc34",
+        "sha256_in_prefix": "a4e1e9b1684ef18ff7671e44d4ad9c4eda357426621f8ccc0832d0e985decc34",
+        "size_in_bytes": 3929
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_XStringSetList.R",
+        "path_type": "hardlink",
+        "sha256": "0b3813dc4f77637cc68a80c4989ee3447b12f8f3be0f532809375dba0eb914b8",
+        "sha256_in_prefix": "0b3813dc4f77637cc68a80c4989ee3447b12f8f3be0f532809375dba0eb914b8",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_findPalindromes.R",
+        "path_type": "hardlink",
+        "sha256": "07747fbed6b3c3c1f7ccabadae07fc28df10f82f6ad226841e46e7fef87c2683",
+        "sha256_in_prefix": "07747fbed6b3c3c1f7ccabadae07fc28df10f82f6ad226841e46e7fef87c2683",
+        "size_in_bytes": 6229
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_matchDNAPattern.R.FIXME",
+        "path_type": "hardlink",
+        "sha256": "4d040a6d4bc9aa5d57126bc1aba349ff51e8293897a7d9cd6c7cde02a26d9749",
+        "sha256_in_prefix": "4d040a6d4bc9aa5d57126bc1aba349ff51e8293897a7d9cd6c7cde02a26d9749",
+        "size_in_bytes": 8250
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_matchPDict.R",
+        "path_type": "hardlink",
+        "sha256": "1c8f6f49a99b81f5afbdd61d9ea38f23c1be30679e03d251cefadc919c5bb6dd",
+        "sha256_in_prefix": "1c8f6f49a99b81f5afbdd61d9ea38f23c1be30679e03d251cefadc919c5bb6dd",
+        "size_in_bytes": 4411
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_pairwiseAlignment.R",
+        "path_type": "hardlink",
+        "sha256": "b17b76585fc6c72b8a9475e818e9cc04862ea776ec0c053ef0143b857e741932",
+        "sha256_in_prefix": "b17b76585fc6c72b8a9475e818e9cc04862ea776ec0c053ef0143b857e741932",
+        "size_in_bytes": 10331
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_seqinfo-methods.R",
+        "path_type": "hardlink",
+        "sha256": "e0ecbfeb5c36d0aa1ba0abe0e4291cf59be30e6f15b39cc34a717772f0a8aea6",
+        "sha256_in_prefix": "e0ecbfeb5c36d0aa1ba0abe0e4291cf59be30e6f15b39cc34a717772f0a8aea6",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/R/library/Biostrings/unitTests/test_twoWayAlphabetFrequency.R",
+        "path_type": "hardlink",
+        "sha256": "82761f506b20fcd1aa5a3e1d14e79ff26eaeb69324251f9651919f8486863382",
+        "sha256_in_prefix": "82761f506b20fcd1aa5a3e1d14e79ff26eaeb69324251f9651919f8486863382",
+        "size_in_bytes": 5381
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8090dd3506c4f47fe5b86e6a47eb15947d3c36897b1123235d834c84e27d419f",
+  "size": 14246271,
+  "subdir": "linux-64",
+  "timestamp": 1684455200000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-biostrings-2.66.0-r42ha9d7317_1.tar.bz2",
+  "version": "2.66.0"
+}

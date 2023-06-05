@@ -1,0 +1,12 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lm -lz -lm 
+Cflags: -I${includedir}

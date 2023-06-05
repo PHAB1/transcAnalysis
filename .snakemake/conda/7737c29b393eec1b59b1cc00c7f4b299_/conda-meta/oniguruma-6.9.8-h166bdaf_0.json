@@ -1,0 +1,109 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/oniguruma-6.9.8-h166bdaf_0",
+  "features": "",
+  "files": [
+    "bin/onig-config",
+    "include/oniggnu.h",
+    "include/onigposix.h",
+    "include/oniguruma.h",
+    "lib/libonig.a",
+    "lib/libonig.so",
+    "lib/libonig.so.5",
+    "lib/libonig.so.5.3.0",
+    "lib/pkgconfig/oniguruma.pc"
+  ],
+  "fn": "oniguruma-6.9.8-h166bdaf_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/oniguruma-6.9.8-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "5be58359dbbf568c1ec0be87e0c6cb1b",
+  "name": "oniguruma",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/oniguruma-6.9.8-h166bdaf_0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/onig-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/oniguruma_1653405839532/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "55dabb0bc7d7749cb1170140a37e04b514b1841ff4245c5669328c4e7996f90b",
+        "sha256_in_prefix": "f25bed1a9e15b8f658afdac6702ddf804bc784f24232168d0b8b10de81a06289",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "include/oniggnu.h",
+        "path_type": "hardlink",
+        "sha256": "fdb9bfc28287f7573a5ccad2ba45c7759aa2cbc11c57b05b86908809e1ac5f9a",
+        "sha256_in_prefix": "fdb9bfc28287f7573a5ccad2ba45c7759aa2cbc11c57b05b86908809e1ac5f9a",
+        "size_in_bytes": 3361
+      },
+      {
+        "_path": "include/onigposix.h",
+        "path_type": "hardlink",
+        "sha256": "a4002b01d62f5c91d851190b9225737ad059a85cfa2a04ca6d1d4ff67f4a08de",
+        "sha256_in_prefix": "a4002b01d62f5c91d851190b9225737ad059a85cfa2a04ca6d1d4ff67f4a08de",
+        "size_in_bytes": 6766
+      },
+      {
+        "_path": "include/oniguruma.h",
+        "path_type": "hardlink",
+        "sha256": "c0d9b4c0008cffb77d0a47f64f84d9cf12716040b33a67423c080c2a1f3b58b8",
+        "sha256_in_prefix": "c0d9b4c0008cffb77d0a47f64f84d9cf12716040b33a67423c080c2a1f3b58b8",
+        "size_in_bytes": 48923
+      },
+      {
+        "_path": "lib/libonig.a",
+        "path_type": "hardlink",
+        "sha256": "cb9cef4d4be82148a575dc4566cd62eb53f4f84b4a3306bb2dd5825d71dc84e4",
+        "sha256_in_prefix": "cb9cef4d4be82148a575dc4566cd62eb53f4f84b4a3306bb2dd5825d71dc84e4",
+        "size_in_bytes": 952978
+      },
+      {
+        "_path": "lib/libonig.so",
+        "path_type": "softlink",
+        "sha256": "b4c53df0d27e728f9686884979210734c800ffac7de5556caae0cf88c2686fd6",
+        "size_in_bytes": 683256
+      },
+      {
+        "_path": "lib/libonig.so.5",
+        "path_type": "softlink",
+        "sha256": "b4c53df0d27e728f9686884979210734c800ffac7de5556caae0cf88c2686fd6",
+        "size_in_bytes": 683256
+      },
+      {
+        "_path": "lib/libonig.so.5.3.0",
+        "path_type": "hardlink",
+        "sha256": "b4c53df0d27e728f9686884979210734c800ffac7de5556caae0cf88c2686fd6",
+        "sha256_in_prefix": "b4c53df0d27e728f9686884979210734c800ffac7de5556caae0cf88c2686fd6",
+        "size_in_bytes": 683256
+      },
+      {
+        "_path": "lib/pkgconfig/oniguruma.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/oniguruma_1653405839532/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "bf7385d388e3e68887312574ac3099f00f07a1873a7491a4c28d86a4fb1cf96f",
+        "sha256_in_prefix": "841d662c316283b8dd70677e8a3dc5c355f8284eb92fda4375b7726c3df4222d",
+        "size_in_bytes": 1748
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f6c470ba56c43e5f6c75fd28b05256fd8f5d54d76df29c0652496bf3b104ae2b",
+  "size": 440009,
+  "subdir": "linux-64",
+  "timestamp": 1653405951000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/oniguruma-6.9.8-h166bdaf_0.tar.bz2",
+  "version": "6.9.8"
+}

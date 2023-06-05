@@ -1,0 +1,10 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+exec_prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+libdir=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/lib
+includedir=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.1.5.1
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

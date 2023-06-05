@@ -1,0 +1,143 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "jsonpointer >=1.9",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/jsonpatch-1.32-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/jsondiff",
+    "bin/jsonpatch",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/AUTHORS",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/COPYING",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/METADATA",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/RECORD",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/WHEEL",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/jsonpatch-1.32.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/jsonpatch.py",
+    "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc"
+  ],
+  "fn": "jsonpatch-1.32-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/jsonpatch-1.32-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "09150b51b0528a31a0f6500b96fdde82",
+  "name": "jsonpatch",
+  "noarch": "python",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/jsonpatch-1.32-pyhd8ed1ab_0",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/jsondiff",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/jsonpatch_1632759296524/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "d2e244182b7d4ec9c24c173a9f85bf1d7cf313c8b40890480e4c9a5a03ae1933",
+        "sha256_in_prefix": "2fbe766aade83051af18a5dfe442b06c36973d7dfb8c20c6720b9d3c17f7a476",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "python-scripts/jsonpatch",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/jsonpatch_1632759296524/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "3ffe21ff3315b5fa53056418be4e6744abaa64fe0aa512c34e00be3c52080cc9",
+        "sha256_in_prefix": "8beabed7d0faaf6d20d2756ac12124518ede7e96875b723d9f3e5907003fbadf",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+        "sha256_in_prefix": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "d8b24f15d472885f788a2d6e985850f264627b86012a17bb242c83f310d907e5",
+        "sha256_in_prefix": "d8b24f15d472885f788a2d6e985850f264627b86012a17bb242c83f310d907e5",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "135c15d68948b24cd472983602e0971612a09f3740c5130b5d2aeff0d987f25f",
+        "sha256_in_prefix": "135c15d68948b24cd472983602e0971612a09f3740c5130b5d2aeff0d987f25f",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "afe1eb34c1bc7f8a6a28a4042ab61b8f9fd4b78cef39b933654772c544484af5",
+        "sha256_in_prefix": "afe1eb34c1bc7f8a6a28a4042ab61b8f9fd4b78cef39b933654772c544484af5",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3e97dddce03cd15d994531e49dea383a831dac074462bba6461ef3de5c427bd4",
+        "sha256_in_prefix": "3e97dddce03cd15d994531e49dea383a831dac074462bba6461ef3de5c427bd4",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/jsonpatch-1.32.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+        "sha256_in_prefix": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/jsonpatch.py",
+        "path_type": "hardlink",
+        "sha256": "046483ef62370cead667463a12aa32a6ca3b1d8675a626f0d0e3c4ba4facce1e",
+        "sha256_in_prefix": "046483ef62370cead667463a12aa32a6ca3b1d8675a626f0d0e3c4ba4facce1e",
+        "size_in_bytes": 28813
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d87fd8da2d3327744821b6b1d1e5b76e4077224fb626ce02d6623a1bc6ee2563",
+  "size": 14638,
+  "subdir": "noarch",
+  "timestamp": 1632759439000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jsonpatch-1.32-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.32"
+}

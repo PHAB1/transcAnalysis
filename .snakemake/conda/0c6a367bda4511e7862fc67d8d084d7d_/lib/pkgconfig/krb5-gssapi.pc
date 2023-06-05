@@ -1,0 +1,10 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/0c6a367bda4511e7862fc67d8d084d7d_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.20.1
+Requires: mit-krb5-gssapi

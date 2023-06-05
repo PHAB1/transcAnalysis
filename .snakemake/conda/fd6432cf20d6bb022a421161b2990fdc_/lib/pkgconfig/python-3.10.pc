@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/fd6432cf20d6bb022a421161b2990fdc_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Build a C extension for Python
+Requires:
+Version: 3.10
+Libs.private: -lcrypt -lpthread -ldl  -lutil -lrt -lm
+Libs:
+Cflags: -I${includedir}/python3.10

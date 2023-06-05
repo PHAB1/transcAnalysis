@@ -1,0 +1,3 @@
+include "/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/share/X11/locale/en_US.UTF-8/Compose"
+<dead_acute> <C>	: "Ç" Ccedilla # LATIN CAPITAL LETTER C WITH CEDILLA
+<dead_acute> <c>	: "ç" ccedilla # LATIN SMALL LETTER C WITH CEDILLA

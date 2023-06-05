@@ -1,0 +1,8 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+includedir=${prefix}/include
+
+Name: Pango OT
+Description: OpenType font support for Pango (deprecated)
+Version: 1.50.14
+Requires: pangoft2
+Cflags: -I${includedir}/pango-1.0

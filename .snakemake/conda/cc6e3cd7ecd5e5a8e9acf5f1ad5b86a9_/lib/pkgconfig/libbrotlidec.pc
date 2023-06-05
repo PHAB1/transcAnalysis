@@ -1,0 +1,12 @@
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+exec_prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlidec
+URL: https://github.com/google/brotli
+Description: Brotli decoder library
+Version: 1.0.9
+Libs: -L${libdir} -lbrotlidec
+Requires.private: libbrotlicommon >= 1.0.2
+Cflags: -I${includedir}

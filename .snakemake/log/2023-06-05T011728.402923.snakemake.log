@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Creating conda environment envs/resume.yaml...
+Downloading and installing remote packages.
+Environment for /array2/pedrobarros/transcAnalysis/envs/resume.yaml created (location: .snakemake/conda/0c6a367bda4511e7862fc67d8d084d7d_)
+Creating conda environment envs/deseq2.yaml...
+Downloading and installing remote packages.
+Environment for /array2/pedrobarros/transcAnalysis/envs/deseq2.yaml created (location: .snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_)
+Creating conda environment envs/rmats.yaml...
+Downloading and installing remote packages.
+Environment for /array2/pedrobarros/transcAnalysis/envs/rmats.yaml created (location: .snakemake/conda/fd6432cf20d6bb022a421161b2990fdc_)
+Creating conda environment envs/htseq.yaml...
+Downloading and installing remote packages.
+Environment for /array2/pedrobarros/transcAnalysis/envs/htseq.yaml created (location: .snakemake/conda/cc6e3cd7ecd5e5a8e9acf5f1ad5b86a9_)
+Creating conda environment envs/reditools.yaml...
+Downloading and installing remote packages.
+Environment for /array2/pedrobarros/transcAnalysis/envs/reditools.yaml created (location: .snakemake/conda/f354c447986014a2d888c0a769ba5781_)
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+dif_exp            1              1              1
+dif_exp_nc         1              1              1
+htseq              1              1              1
+htseq_nc           1              1              1
+integration        1              1              1
+preprocess         1              1              1
+redProcess         1              1              1
+reditools          1             12             12
+redits             1              1              1
+rmats              1              1              1
+total             11              1             12
+
+Select jobs to execute...
+
+[Mon Jun  5 01:21:42 2023]
+rule reditools:
+    input: /array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A3Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A2Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A3Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A1Aligned_sorted.out.bam
+    output: RED, RED/RedFreqMat.csv
+    jobid: 10
+    reason: Missing output files: RED/RedFreqMat.csv
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/f354c447986014a2d888c0a769ba5781_
+Activating conda environment: .snakemake/conda/f354c447986014a2d888c0a769ba5781_
+[Mon Jun  5 01:21:45 2023]
+Error in rule reditools:
+    jobid: 10
+    input: /array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A3Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A2Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A3Aligned_sorted.out.bam, /array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A1Aligned_sorted.out.bam
+    output: RED, RED/RedFreqMat.csv
+    conda-env: /array2/pedrobarros/transcAnalysis/.snakemake/conda/f354c447986014a2d888c0a769ba5781_
+
+Removing output files of failed job reditools since they might be corrupted:
+RED
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-06-05T011728.402923.snakemake.log

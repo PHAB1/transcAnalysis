@@ -1,0 +1,35 @@
+{
+  "build": "hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "htslib >=1.9"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/tabix-1.11-hdfd78af_0",
+  "features": "",
+  "files": [],
+  "fn": "tabix-1.11-hdfd78af_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/tabix-1.11-hdfd78af_0",
+    "type": 1
+  },
+  "md5": "cb68d74b5a5ca94b745ce168b1043dfd",
+  "name": "tabix",
+  "noarch": "generic",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/tabix-1.11-hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "tabix",
+  "sha256": "9cc71617773a5d12e696d707b8bfa8934984b59e75913a32b65ea3c2121669a7",
+  "size": 6062,
+  "subdir": "noarch",
+  "timestamp": 1619076843000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/tabix-1.11-hdfd78af_0.tar.bz2",
+  "version": "1.11"
+}

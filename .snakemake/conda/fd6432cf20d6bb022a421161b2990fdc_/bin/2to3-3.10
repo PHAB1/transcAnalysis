@@ -1,0 +1,5 @@
+#!/array2/pedrobarros/transcAnalysis/.snakemake/conda/fd6432cf20d6bb022a421161b2990fdc_/bin/python3.10
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

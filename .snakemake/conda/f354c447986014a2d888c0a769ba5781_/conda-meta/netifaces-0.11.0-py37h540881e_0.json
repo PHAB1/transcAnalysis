@@ -1,0 +1,117 @@
+{
+  "build": "py37h540881e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/netifaces-0.11.0-py37h540881e_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/zip-safe",
+    "lib/python3.7/site-packages/netifaces.cpython-37m-x86_64-linux-gnu.so"
+  ],
+  "fn": "netifaces-0.11.0-py37h540881e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/netifaces-0.11.0-py37h540881e_0",
+    "type": 1
+  },
+  "md5": "ee45a202f94aca88169bfa3db3054cbf",
+  "name": "netifaces",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/netifaces-0.11.0-py37h540881e_0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b20b895164b72b9cc0170e6c0d60b14f9aaacc6862c0556eed41eaa348883705",
+        "sha256_in_prefix": "b20b895164b72b9cc0170e6c0d60b14f9aaacc6862c0556eed41eaa348883705",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f6b8dc39aaefc39914b6e0404840a168a523409e4ed9c1e72dbd01a1a4103167",
+        "sha256_in_prefix": "f6b8dc39aaefc39914b6e0404840a168a523409e4ed9c1e72dbd01a1a4103167",
+        "size_in_bytes": 8931
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ef255349905f3fdb1654b66634c03bb51ea9ffa9c78a7ecb8fa9cdbf39e85f74",
+        "sha256_in_prefix": "ef255349905f3fdb1654b66634c03bb51ea9ffa9c78a7ecb8fa9cdbf39e85f74",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6bcfa513c0836377d373ed90ec4299865e06602c57e6d9eeaf792c42eb315aee",
+        "sha256_in_prefix": "6bcfa513c0836377d373ed90ec4299865e06602c57e6d9eeaf792c42eb315aee",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6a26c97df0c9d55e8e5415c485d3b49f3f4aa91c144eb231eb2e864ce03608ae",
+        "sha256_in_prefix": "6a26c97df0c9d55e8e5415c485d3b49f3f4aa91c144eb231eb2e864ce03608ae",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3ea313688b96b528e47501d7ea51f52e6a6fd9aa81518006a804c1f33dc0e934",
+        "sha256_in_prefix": "3ea313688b96b528e47501d7ea51f52e6a6fd9aa81518006a804c1f33dc0e934",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces-0.11.0.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/netifaces.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "df78b1e30d46584663dca541b45f255174eef1b13451ee7b292bb7684aa3f02b",
+        "sha256_in_prefix": "df78b1e30d46584663dca541b45f255174eef1b13451ee7b292bb7684aa3f02b",
+        "size_in_bytes": 26144
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "netifaces",
+  "sha256": "01246400a5695d74f1fa52e229d1312328f33a467690d6ec259bed188d6673bb",
+  "size": 17930,
+  "subdir": "linux-64",
+  "timestamp": 1655699614000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/netifaces-0.11.0-py37h540881e_0.tar.bz2",
+  "version": "0.11.0"
+}

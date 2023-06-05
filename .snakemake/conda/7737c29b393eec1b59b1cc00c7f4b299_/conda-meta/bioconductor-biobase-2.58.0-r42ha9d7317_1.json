@@ -1,0 +1,1015 @@
+{
+  "build": "r42ha9d7317_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.44.0,<0.45.0",
+    "libblas >=3.9.0,<4.0a0",
+    "libgcc-ng >=12",
+    "liblapack >=3.9.0,<4.0a0",
+    "r-base >=4.2,<4.3.0a0"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biobase-2.58.0-r42ha9d7317_1",
+  "features": "",
+  "files": [
+    "lib/R/library/Biobase/CITATION",
+    "lib/R/library/Biobase/Code/DESCRIPTION",
+    "lib/R/library/Biobase/Code/R/get@PKGNAME@.R",
+    "lib/R/library/Biobase/Code/man/@PKGNAME@.Rd",
+    "lib/R/library/Biobase/Code/man/get@PKGNAME@.Rd",
+    "lib/R/library/Biobase/DESCRIPTION",
+    "lib/R/library/Biobase/ExpressionSet/DESCRIPTION",
+    "lib/R/library/Biobase/ExpressionSet/man/@PKGNAME@.Rd",
+    "lib/R/library/Biobase/INDEX",
+    "lib/R/library/Biobase/Meta/Rd.rds",
+    "lib/R/library/Biobase/Meta/data.rds",
+    "lib/R/library/Biobase/Meta/features.rds",
+    "lib/R/library/Biobase/Meta/hsearch.rds",
+    "lib/R/library/Biobase/Meta/links.rds",
+    "lib/R/library/Biobase/Meta/nsInfo.rds",
+    "lib/R/library/Biobase/Meta/package.rds",
+    "lib/R/library/Biobase/Meta/vignette.rds",
+    "lib/R/library/Biobase/NAMESPACE",
+    "lib/R/library/Biobase/NEWS",
+    "lib/R/library/Biobase/R/Biobase",
+    "lib/R/library/Biobase/R/Biobase.rdb",
+    "lib/R/library/Biobase/R/Biobase.rdx",
+    "lib/R/library/Biobase/data/SW.rda",
+    "lib/R/library/Biobase/data/aaMap.R",
+    "lib/R/library/Biobase/data/geneCov.R",
+    "lib/R/library/Biobase/data/geneCovariate.rda",
+    "lib/R/library/Biobase/data/geneData.R",
+    "lib/R/library/Biobase/data/reporter.rda",
+    "lib/R/library/Biobase/data/sample.ExpressionSet.rda",
+    "lib/R/library/Biobase/data/sample.MultiSet.rda",
+    "lib/R/library/Biobase/data/seD.rda",
+    "lib/R/library/Biobase/doc/BiobaseDevelopment.R",
+    "lib/R/library/Biobase/doc/BiobaseDevelopment.Rmd",
+    "lib/R/library/Biobase/doc/BiobaseDevelopment.html",
+    "lib/R/library/Biobase/doc/ExpressionSetIntroduction.R",
+    "lib/R/library/Biobase/doc/ExpressionSetIntroduction.Rnw",
+    "lib/R/library/Biobase/doc/ExpressionSetIntroduction.pdf",
+    "lib/R/library/Biobase/doc/esApply.R",
+    "lib/R/library/Biobase/doc/esApply.Rmd",
+    "lib/R/library/Biobase/doc/esApply.html",
+    "lib/R/library/Biobase/doc/index.html",
+    "lib/R/library/Biobase/extdata/exprsData.txt",
+    "lib/R/library/Biobase/extdata/pData.txt",
+    "lib/R/library/Biobase/help/AnIndex",
+    "lib/R/library/Biobase/help/Biobase.rdb",
+    "lib/R/library/Biobase/help/Biobase.rdx",
+    "lib/R/library/Biobase/help/aliases.rds",
+    "lib/R/library/Biobase/help/paths.rds",
+    "lib/R/library/Biobase/html/00Index.html",
+    "lib/R/library/Biobase/html/R.css",
+    "lib/R/library/Biobase/libs/Biobase.so",
+    "lib/R/library/Biobase/scripts/esetTesting.R",
+    "lib/R/library/Biobase/scripts/getBioC.R",
+    "lib/R/library/Biobase/scripts/getBioCHelp",
+    "lib/R/library/Biobase/scripts/getBioCPkgNames.R",
+    "lib/R/library/Biobase/scripts/makeExpressionSetPackage.R",
+    "lib/R/library/Biobase/scripts/query.packages.R",
+    "lib/R/library/Biobase/testClass.R",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/AnnotatedDataFrame.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/ExpressionSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/MIAME.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/exprSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/phenoData.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/AnnotatedDataFrame.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/ExpressionSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/MIAME.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/MultiSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/ScalarCharacter.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/SnpSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/Versioned.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/VersionedBiobase.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/Versions.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/VersionsNull.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/aggregator.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/container.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/exprSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/phenoData.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/AnnotatedDataFrame.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ExpressionSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/MIAME.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/MultiSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/NChannelSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/SWPD.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarCharacter.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarInteger.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarLogical.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarNumeric.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/SnpSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/Versioned.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/VersionedBiobase.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/Versions.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/VersionsNull.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/aggregator.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/bbsym.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/container.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/eset.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/exprSet.Rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/golubMergeSub.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.eSet.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.exprSet.1.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.exprSet.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/swrep.rda",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/exprs.tab",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/pData.tab",
+    "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/varMetadata.tab",
+    "lib/R/library/Biobase/unitTests/test_AnnotatedDataFrame.R",
+    "lib/R/library/Biobase/unitTests/test_AssayData.R",
+    "lib/R/library/Biobase/unitTests/test_DataClasses.R",
+    "lib/R/library/Biobase/unitTests/test_EsetSubclasses.R",
+    "lib/R/library/Biobase/unitTests/test_ExpressionSet.R",
+    "lib/R/library/Biobase/unitTests/test_NChannelSet.R",
+    "lib/R/library/Biobase/unitTests/test_SnpSet.R",
+    "lib/R/library/Biobase/unitTests/test_UpdateObject.R",
+    "lib/R/library/Biobase/unitTests/test_VersionedClass.R",
+    "lib/R/library/Biobase/unitTests/test_cache.R",
+    "lib/R/library/Biobase/unitTests/test_checkClass.R",
+    "lib/R/library/Biobase/unitTests/test_combine.R",
+    "lib/R/library/Biobase/unitTests/test_copyEnv.R",
+    "lib/R/library/Biobase/unitTests/test_esApply.R",
+    "lib/R/library/Biobase/unitTests/test_subListExtract.R",
+    "lib/R/library/Biobase/unitTests/test_unsaveSetSlot.R",
+    "lib/R/library/Biobase/unitTests/utilities.R"
+  ],
+  "fn": "bioconductor-biobase-2.58.0-r42ha9d7317_1.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biobase-2.58.0-r42ha9d7317_1",
+    "type": 1
+  },
+  "md5": "8f466258daed48876021958b5fa66686",
+  "name": "bioconductor-biobase",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/bioconductor-biobase-2.58.0-r42ha9d7317_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/Biobase/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9f67c9f1d60367bc8c3bf96103fca3e36cef5d55564f435d547aa1134b19f913",
+        "sha256_in_prefix": "9f67c9f1d60367bc8c3bf96103fca3e36cef5d55564f435d547aa1134b19f913",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "lib/R/library/Biobase/Code/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e81a5e1a0be6623d52da88aefc4e26fe5c9e26c91a3f732e0930c1f1b8dd498b",
+        "sha256_in_prefix": "e81a5e1a0be6623d52da88aefc4e26fe5c9e26c91a3f732e0930c1f1b8dd498b",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/R/library/Biobase/Code/R/get@PKGNAME@.R",
+        "path_type": "hardlink",
+        "sha256": "839ebc2ee0c7e3f5326ab89256c64f3125542ee6997e019cb91175a86563d713",
+        "sha256_in_prefix": "839ebc2ee0c7e3f5326ab89256c64f3125542ee6997e019cb91175a86563d713",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/R/library/Biobase/Code/man/@PKGNAME@.Rd",
+        "path_type": "hardlink",
+        "sha256": "31d37d5f618240ee1437adea8cefa84322e524249831725295746a96040468fe",
+        "sha256_in_prefix": "31d37d5f618240ee1437adea8cefa84322e524249831725295746a96040468fe",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "lib/R/library/Biobase/Code/man/get@PKGNAME@.Rd",
+        "path_type": "hardlink",
+        "sha256": "21737fcd1721ac6314caab06c3e95ec191ecc0dfa511d34434aefda152a81b71",
+        "sha256_in_prefix": "21737fcd1721ac6314caab06c3e95ec191ecc0dfa511d34434aefda152a81b71",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/Biobase/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b7d907a4545ec7b5085c32b62ed37e55c398b3a95876514f3fcd76197f4c576d",
+        "sha256_in_prefix": "b7d907a4545ec7b5085c32b62ed37e55c398b3a95876514f3fcd76197f4c576d",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "lib/R/library/Biobase/ExpressionSet/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "38800e48d68bac2c029ba3ceb79c8d525baa5bb8a140165c5c686437fac9446a",
+        "sha256_in_prefix": "38800e48d68bac2c029ba3ceb79c8d525baa5bb8a140165c5c686437fac9446a",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/Biobase/ExpressionSet/man/@PKGNAME@.Rd",
+        "path_type": "hardlink",
+        "sha256": "f121745d7dc8a39ad676dcac2bf60bb8026849bdecd67f8c3df09aa40a3a6ff3",
+        "sha256_in_prefix": "f121745d7dc8a39ad676dcac2bf60bb8026849bdecd67f8c3df09aa40a3a6ff3",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/Biobase/INDEX",
+        "path_type": "hardlink",
+        "sha256": "45e886e91d06a74dff50a107b7dfa1d44f674ee6330fcb663ef206aa09bcd1ce",
+        "sha256_in_prefix": "45e886e91d06a74dff50a107b7dfa1d44f674ee6330fcb663ef206aa09bcd1ce",
+        "size_in_bytes": 6274
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "3e0516c4e108b40e556c8a29a76e58e04368cdcc3fead235a9ab4d5f9dbaa3ac",
+        "sha256_in_prefix": "3e0516c4e108b40e556c8a29a76e58e04368cdcc3fead235a9ab4d5f9dbaa3ac",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "9f0bf253bed0b6a250e06bd5a9208fcef03f1c25fe4a5c96a6ccafc9a0cffaf4",
+        "sha256_in_prefix": "9f0bf253bed0b6a250e06bd5a9208fcef03f1c25fe4a5c96a6ccafc9a0cffaf4",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "sha256_in_prefix": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "57e96b0b18b682928fa5168e53cfc33809d792c86a1978dcc7fff8dc559598c6",
+        "sha256_in_prefix": "57e96b0b18b682928fa5168e53cfc33809d792c86a1978dcc7fff8dc559598c6",
+        "size_in_bytes": 5598
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "492dc09c76f33a863514396dd22bfca28433a807c05d324db235aaae8921af44",
+        "sha256_in_prefix": "492dc09c76f33a863514396dd22bfca28433a807c05d324db235aaae8921af44",
+        "size_in_bytes": 3464
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d0094e80e1eb33ab760b601c7618e73a8255d7d27e1e512a1e1d8713be105e5b",
+        "sha256_in_prefix": "d0094e80e1eb33ab760b601c7618e73a8255d7d27e1e512a1e1d8713be105e5b",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e9bbb4a30fe09f9369d042bea75e1a3101913fcdbda3e86cfa50f7c1118d42cb",
+        "sha256_in_prefix": "e9bbb4a30fe09f9369d042bea75e1a3101913fcdbda3e86cfa50f7c1118d42cb",
+        "size_in_bytes": 1453
+      },
+      {
+        "_path": "lib/R/library/Biobase/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "bc76bdb54c2cf847461a5647a34e80d6cc02258230f7d693a08e10fca652b484",
+        "sha256_in_prefix": "bc76bdb54c2cf847461a5647a34e80d6cc02258230f7d693a08e10fca652b484",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/Biobase/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "926a81c7796ac7b5fc32c6fc6b3a2d2c8a742136708713241a9dc530661241cd",
+        "sha256_in_prefix": "926a81c7796ac7b5fc32c6fc6b3a2d2c8a742136708713241a9dc530661241cd",
+        "size_in_bytes": 3123
+      },
+      {
+        "_path": "lib/R/library/Biobase/NEWS",
+        "path_type": "hardlink",
+        "sha256": "06eb727da098a65e5955c88fca78e16f9afc92c3f01bebdfe5e3f0fb81b621d2",
+        "sha256_in_prefix": "06eb727da098a65e5955c88fca78e16f9afc92c3f01bebdfe5e3f0fb81b621d2",
+        "size_in_bytes": 5473
+      },
+      {
+        "_path": "lib/R/library/Biobase/R/Biobase",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/Biobase/R/Biobase.rdb",
+        "path_type": "hardlink",
+        "sha256": "64ba1ef6d44fb167c59f549dc27c6e0a9e4e27dde6dfd15caf19e51a5b195b08",
+        "sha256_in_prefix": "64ba1ef6d44fb167c59f549dc27c6e0a9e4e27dde6dfd15caf19e51a5b195b08",
+        "size_in_bytes": 668103
+      },
+      {
+        "_path": "lib/R/library/Biobase/R/Biobase.rdx",
+        "path_type": "hardlink",
+        "sha256": "50873b5adcae4512f3dda34375b707dac643db2bdc3a9dffa141d10c5a368d6d",
+        "sha256_in_prefix": "50873b5adcae4512f3dda34375b707dac643db2bdc3a9dffa141d10c5a368d6d",
+        "size_in_bytes": 6995
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/SW.rda",
+        "path_type": "hardlink",
+        "sha256": "03e290974cd6486bb4de665d657a99259aaf4ce4670ca951884e9ce1ee723fef",
+        "sha256_in_prefix": "03e290974cd6486bb4de665d657a99259aaf4ce4670ca951884e9ce1ee723fef",
+        "size_in_bytes": 267872
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/aaMap.R",
+        "path_type": "hardlink",
+        "sha256": "d98bfd692c464d9fddb895076781298eb406b647260c55a0fb62e2c5a73e906d",
+        "sha256_in_prefix": "d98bfd692c464d9fddb895076781298eb406b647260c55a0fb62e2c5a73e906d",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/geneCov.R",
+        "path_type": "hardlink",
+        "sha256": "7f238ea5ccc4ec260b8c33b9869351ecdc01f57243588825e583bd0ba0899454",
+        "sha256_in_prefix": "7f238ea5ccc4ec260b8c33b9869351ecdc01f57243588825e583bd0ba0899454",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/geneCovariate.rda",
+        "path_type": "hardlink",
+        "sha256": "407ab4a9b319bd3097d2cab6aba9f429bbde3bb56c68f3a826a4c38903e83659",
+        "sha256_in_prefix": "407ab4a9b319bd3097d2cab6aba9f429bbde3bb56c68f3a826a4c38903e83659",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/geneData.R",
+        "path_type": "hardlink",
+        "sha256": "08dddb2f9fe61bd161e94b67e4004843e2d4d260016a2dc8b2d45c4592706438",
+        "sha256_in_prefix": "08dddb2f9fe61bd161e94b67e4004843e2d4d260016a2dc8b2d45c4592706438",
+        "size_in_bytes": 125627
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/reporter.rda",
+        "path_type": "hardlink",
+        "sha256": "61f546af8cdca75a62c3be0ac65914623596aa31d837939bb22bd383b7fdf5ed",
+        "sha256_in_prefix": "61f546af8cdca75a62c3be0ac65914623596aa31d837939bb22bd383b7fdf5ed",
+        "size_in_bytes": 2032
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/sample.ExpressionSet.rda",
+        "path_type": "hardlink",
+        "sha256": "52bea98a0fd60db06e0c50694e373194f3d13a19791bd61f0d44b17e2e19239c",
+        "sha256_in_prefix": "52bea98a0fd60db06e0c50694e373194f3d13a19791bd61f0d44b17e2e19239c",
+        "size_in_bytes": 72860
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/sample.MultiSet.rda",
+        "path_type": "hardlink",
+        "sha256": "2c1987e6664bf1fbe1fc96ba14d624d416ace492d1f75f24e9822a2e690fcf3a",
+        "sha256_in_prefix": "2c1987e6664bf1fbe1fc96ba14d624d416ace492d1f75f24e9822a2e690fcf3a",
+        "size_in_bytes": 19936
+      },
+      {
+        "_path": "lib/R/library/Biobase/data/seD.rda",
+        "path_type": "hardlink",
+        "sha256": "6c7879a19dd8c04b388f881122bd8df4cf59b5f3242025daa96daf69615cc81d",
+        "sha256_in_prefix": "6c7879a19dd8c04b388f881122bd8df4cf59b5f3242025daa96daf69615cc81d",
+        "size_in_bytes": 18047
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/BiobaseDevelopment.R",
+        "path_type": "hardlink",
+        "sha256": "3107f6d39e9ca86f30950edba2a27e1d4a94ce3b6ec4bdfe4209dcfe5dbc6fbd",
+        "sha256_in_prefix": "3107f6d39e9ca86f30950edba2a27e1d4a94ce3b6ec4bdfe4209dcfe5dbc6fbd",
+        "size_in_bytes": 6486
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/BiobaseDevelopment.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7d9639e1261e89f84fe5c8673c75b38d1c6db2ef821d23606466f8b5f7cef618",
+        "sha256_in_prefix": "7d9639e1261e89f84fe5c8673c75b38d1c6db2ef821d23606466f8b5f7cef618",
+        "size_in_bytes": 24733
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/BiobaseDevelopment.html",
+        "path_type": "hardlink",
+        "sha256": "e91970aa1032078dfedd3871750175138bb972fcb35abfa52de49bdb3af806c8",
+        "sha256_in_prefix": "e91970aa1032078dfedd3871750175138bb972fcb35abfa52de49bdb3af806c8",
+        "size_in_bytes": 673033
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/ExpressionSetIntroduction.R",
+        "path_type": "hardlink",
+        "sha256": "9ac6c51b4bbb4a368c7b34da901343c151c3913abda32358077e57f3d4cb603f",
+        "sha256_in_prefix": "9ac6c51b4bbb4a368c7b34da901343c151c3913abda32358077e57f3d4cb603f",
+        "size_in_bytes": 6627
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/ExpressionSetIntroduction.Rnw",
+        "path_type": "hardlink",
+        "sha256": "18ac888b43618e61404843c41bfe267f52327e9238927a39d8342db71075065f",
+        "sha256_in_prefix": "18ac888b43618e61404843c41bfe267f52327e9238927a39d8342db71075065f",
+        "size_in_bytes": 17982
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/ExpressionSetIntroduction.pdf",
+        "path_type": "hardlink",
+        "sha256": "fa9aea8c5156eb2f6121b632625f746b1fe9ae4287c7de509af4e2ea8befc5b2",
+        "sha256_in_prefix": "fa9aea8c5156eb2f6121b632625f746b1fe9ae4287c7de509af4e2ea8befc5b2",
+        "size_in_bytes": 188057
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/esApply.R",
+        "path_type": "hardlink",
+        "sha256": "0fb459be38c66a31103fa3f827cd2cdbb61e8568e428a941deef1bba010a8ee7",
+        "sha256_in_prefix": "0fb459be38c66a31103fa3f827cd2cdbb61e8568e428a941deef1bba010a8ee7",
+        "size_in_bytes": 1142
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/esApply.Rmd",
+        "path_type": "hardlink",
+        "sha256": "baca786876c197f48cd59ff118d64a144779c1d7122f5825c70d5104265ed19f",
+        "sha256_in_prefix": "baca786876c197f48cd59ff118d64a144779c1d7122f5825c70d5104265ed19f",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/esApply.html",
+        "path_type": "hardlink",
+        "sha256": "7323c0915f6668ddc4bd1d3ed1fac119a530f85afddcc06823c41e8d0f8d1c39",
+        "sha256_in_prefix": "7323c0915f6668ddc4bd1d3ed1fac119a530f85afddcc06823c41e8d0f8d1c39",
+        "size_in_bytes": 638244
+      },
+      {
+        "_path": "lib/R/library/Biobase/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "8dea8df2d5386de087915d5efa945fd16716eee5959c5043fc668f9091f3c80f",
+        "sha256_in_prefix": "8dea8df2d5386de087915d5efa945fd16716eee5959c5043fc668f9091f3c80f",
+        "size_in_bytes": 2607
+      },
+      {
+        "_path": "lib/R/library/Biobase/extdata/exprsData.txt",
+        "path_type": "hardlink",
+        "sha256": "03d7fc047dc8a41b26fed7fd6d34af2e247815e8ac280a481b9aabe11cdf5b61",
+        "sha256_in_prefix": "03d7fc047dc8a41b26fed7fd6d34af2e247815e8ac280a481b9aabe11cdf5b61",
+        "size_in_bytes": 109039
+      },
+      {
+        "_path": "lib/R/library/Biobase/extdata/pData.txt",
+        "path_type": "hardlink",
+        "sha256": "c12143d4f6a16b6a7e37a9227baf083e304f6fc283397f6bed08c20077f20072",
+        "sha256_in_prefix": "c12143d4f6a16b6a7e37a9227baf083e304f6fc283397f6bed08c20077f20072",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/R/library/Biobase/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b75037ea2bf788166184901a37383318670561b045c000599ac4e97848bb488a",
+        "sha256_in_prefix": "b75037ea2bf788166184901a37383318670561b045c000599ac4e97848bb488a",
+        "size_in_bytes": 15011
+      },
+      {
+        "_path": "lib/R/library/Biobase/help/Biobase.rdb",
+        "path_type": "hardlink",
+        "sha256": "deed68df91668e0e8792d6e8515dd30b9ee29e9f2a91f78979aa00cac8448b1a",
+        "sha256_in_prefix": "deed68df91668e0e8792d6e8515dd30b9ee29e9f2a91f78979aa00cac8448b1a",
+        "size_in_bytes": 235420
+      },
+      {
+        "_path": "lib/R/library/Biobase/help/Biobase.rdx",
+        "path_type": "hardlink",
+        "sha256": "9576fea6c62bfccb422528505dc87cf1372bb3b4f9e7505ef97e4ddb69568071",
+        "sha256_in_prefix": "9576fea6c62bfccb422528505dc87cf1372bb3b4f9e7505ef97e4ddb69568071",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "lib/R/library/Biobase/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8f7e6a44e3508ac2706796fb90b84ba9c8d3cf23159ad450c74cfa39aa4641ec",
+        "sha256_in_prefix": "8f7e6a44e3508ac2706796fb90b84ba9c8d3cf23159ad450c74cfa39aa4641ec",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "lib/R/library/Biobase/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "09bf805b639e8e501012b2d6aba5ebbab6a657fbb44863d77020c3de26a72001",
+        "sha256_in_prefix": "09bf805b639e8e501012b2d6aba5ebbab6a657fbb44863d77020c3de26a72001",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "lib/R/library/Biobase/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6d1421fcff2db685770fc0b175f8bd200a094f324085743933ec087bb3618529",
+        "sha256_in_prefix": "6d1421fcff2db685770fc0b175f8bd200a094f324085743933ec087bb3618529",
+        "size_in_bytes": 55349
+      },
+      {
+        "_path": "lib/R/library/Biobase/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "sha256_in_prefix": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/Biobase/libs/Biobase.so",
+        "path_type": "hardlink",
+        "sha256": "0f3416bf68bd8ba5c6403caa624d09a784d6a49c2985d4d730a67a6b074d2266",
+        "sha256_in_prefix": "0f3416bf68bd8ba5c6403caa624d09a784d6a49c2985d4d730a67a6b074d2266",
+        "size_in_bytes": 26072
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/esetTesting.R",
+        "path_type": "hardlink",
+        "sha256": "c3bb02d03bbf49f290f8f1dbb9fbc7b5196c0c8d1c2c7dabd1b2c40c040d26c3",
+        "sha256_in_prefix": "c3bb02d03bbf49f290f8f1dbb9fbc7b5196c0c8d1c2c7dabd1b2c40c040d26c3",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/getBioC.R",
+        "path_type": "hardlink",
+        "sha256": "80f9897d80486a23d19af08fad918a4ddc45ca5e22354326c71d4d71d2a68b26",
+        "sha256_in_prefix": "80f9897d80486a23d19af08fad918a4ddc45ca5e22354326c71d4d71d2a68b26",
+        "size_in_bytes": 5365
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/getBioCHelp",
+        "path_type": "hardlink",
+        "sha256": "87f5d79491ac2a9cff79ff04931c720ab304380b88ed28389f7b40f3e5600922",
+        "sha256_in_prefix": "87f5d79491ac2a9cff79ff04931c720ab304380b88ed28389f7b40f3e5600922",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/getBioCPkgNames.R",
+        "path_type": "hardlink",
+        "sha256": "a97b85da47a6b1d23a38f9b33798f0aa72eab1396a048c616e10feb485be7276",
+        "sha256_in_prefix": "a97b85da47a6b1d23a38f9b33798f0aa72eab1396a048c616e10feb485be7276",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/makeExpressionSetPackage.R",
+        "path_type": "hardlink",
+        "sha256": "d8f8b0d32079e81102787d247634490449934986a0a924af5f736e1d4f99e45c",
+        "sha256_in_prefix": "d8f8b0d32079e81102787d247634490449934986a0a924af5f736e1d4f99e45c",
+        "size_in_bytes": 2008
+      },
+      {
+        "_path": "lib/R/library/Biobase/scripts/query.packages.R",
+        "path_type": "hardlink",
+        "sha256": "81a1c2383012aed5f99a72ae48b9bb67fc7df1a81515197c8ed8e90a2c827719",
+        "sha256_in_prefix": "81a1c2383012aed5f99a72ae48b9bb67fc7df1a81515197c8ed8e90a2c827719",
+        "size_in_bytes": 6808
+      },
+      {
+        "_path": "lib/R/library/Biobase/testClass.R",
+        "path_type": "hardlink",
+        "sha256": "763fe68500ed7cbb68e1b5f63ceb5d6a27ba20f80e6707d750a70c8d08ac56e3",
+        "sha256_in_prefix": "763fe68500ed7cbb68e1b5f63ceb5d6a27ba20f80e6707d750a70c8d08ac56e3",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/AnnotatedDataFrame.Rda",
+        "path_type": "hardlink",
+        "sha256": "ebb4d71fb39cb43beeefcd50e6da2206870c18c55ff67cbce6d40775b2df24e9",
+        "sha256_in_prefix": "ebb4d71fb39cb43beeefcd50e6da2206870c18c55ff67cbce6d40775b2df24e9",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/ExpressionSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "f9a38fd5ca73f117d6191b721391aef93c716cd17bf7ac95f94ad9147e63e892",
+        "sha256_in_prefix": "f9a38fd5ca73f117d6191b721391aef93c716cd17bf7ac95f94ad9147e63e892",
+        "size_in_bytes": 4678
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/MIAME.Rda",
+        "path_type": "hardlink",
+        "sha256": "660fe41b02bcc13fab2c850c89ed3dc76beed50e1142bde1bd9865932efe8d9a",
+        "sha256_in_prefix": "660fe41b02bcc13fab2c850c89ed3dc76beed50e1142bde1bd9865932efe8d9a",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/exprSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "32aaec1159af897888de84e02e34c6450e65d0dd0ac12ba062195cec3d3e585a",
+        "sha256_in_prefix": "32aaec1159af897888de84e02e34c6450e65d0dd0ac12ba062195cec3d3e585a",
+        "size_in_bytes": 4588
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/1.8/phenoData.Rda",
+        "path_type": "hardlink",
+        "sha256": "ce829b6ba734101cf7e830edde53185b609e46952e91cbe331a97037d22397cb",
+        "sha256_in_prefix": "ce829b6ba734101cf7e830edde53185b609e46952e91cbe331a97037d22397cb",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/AnnotatedDataFrame.Rda",
+        "path_type": "hardlink",
+        "sha256": "c72c0a3f5243d00b5bd81e24625eb121ff46153ca9092936cc903d0600b5e184",
+        "sha256_in_prefix": "c72c0a3f5243d00b5bd81e24625eb121ff46153ca9092936cc903d0600b5e184",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/ExpressionSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "f1e43257d5c20cc05a5ec3859b824248508286e6a430750cda9d5d317a163d5a",
+        "sha256_in_prefix": "f1e43257d5c20cc05a5ec3859b824248508286e6a430750cda9d5d317a163d5a",
+        "size_in_bytes": 4822
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/MIAME.Rda",
+        "path_type": "hardlink",
+        "sha256": "7b9095e052fe5f761d591522d7ee7c8d5b2f1d4df638d4d35b15b870263f5ae8",
+        "sha256_in_prefix": "7b9095e052fe5f761d591522d7ee7c8d5b2f1d4df638d4d35b15b870263f5ae8",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/MultiSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "c05c795cddc0fa616a2d5a13c8183d4a9527ef33087ad7a57abacc56c8583583",
+        "sha256_in_prefix": "c05c795cddc0fa616a2d5a13c8183d4a9527ef33087ad7a57abacc56c8583583",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/ScalarCharacter.Rda",
+        "path_type": "hardlink",
+        "sha256": "9bdd15dda6b1f379b93660ce734e9c0e7f7210a6bcac1dad7265fcd11719a61f",
+        "sha256_in_prefix": "9bdd15dda6b1f379b93660ce734e9c0e7f7210a6bcac1dad7265fcd11719a61f",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/SnpSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "bad4d41fa370e44723a4adaecab63b89985224f56419ad2f6de7b152d2969141",
+        "sha256_in_prefix": "bad4d41fa370e44723a4adaecab63b89985224f56419ad2f6de7b152d2969141",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/Versioned.Rda",
+        "path_type": "hardlink",
+        "sha256": "5a52d807b38278177f741a1e5a97fa8d5b81d5b45eb4c284809fd68fe750bb93",
+        "sha256_in_prefix": "5a52d807b38278177f741a1e5a97fa8d5b81d5b45eb4c284809fd68fe750bb93",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/VersionedBiobase.Rda",
+        "path_type": "hardlink",
+        "sha256": "7b782a75cb0571d7a68b75974ab03636c8cd434ce5cb15725251cb452c850d10",
+        "sha256_in_prefix": "7b782a75cb0571d7a68b75974ab03636c8cd434ce5cb15725251cb452c850d10",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/Versions.Rda",
+        "path_type": "hardlink",
+        "sha256": "42e4bc6542d79372ef545e29c20c46bbe7768284cb33492456cd3e62a0a0f846",
+        "sha256_in_prefix": "42e4bc6542d79372ef545e29c20c46bbe7768284cb33492456cd3e62a0a0f846",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/VersionsNull.Rda",
+        "path_type": "hardlink",
+        "sha256": "809219448a68001bef22d10dd1f4624ed6dc0f3dc12d4e7279195fc4598a4add",
+        "sha256_in_prefix": "809219448a68001bef22d10dd1f4624ed6dc0f3dc12d4e7279195fc4598a4add",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/aggregator.Rda",
+        "path_type": "hardlink",
+        "sha256": "c8a89948133bad81ccff80a182b59aad0a4fb05728b70c9060d37b01e123211e",
+        "sha256_in_prefix": "c8a89948133bad81ccff80a182b59aad0a4fb05728b70c9060d37b01e123211e",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/container.Rda",
+        "path_type": "hardlink",
+        "sha256": "9f1357b46e7dd944e141ba335b8b45ed1eae33cbf12ffcb55950bc4065502022",
+        "sha256_in_prefix": "9f1357b46e7dd944e141ba335b8b45ed1eae33cbf12ffcb55950bc4065502022",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/exprSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "1e1bea537c4caac5e65de0624be0c3437877e40dc5f6a592382d2c6fa4431f47",
+        "sha256_in_prefix": "1e1bea537c4caac5e65de0624be0c3437877e40dc5f6a592382d2c6fa4431f47",
+        "size_in_bytes": 4705
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/2.0/phenoData.Rda",
+        "path_type": "hardlink",
+        "sha256": "094ebdfcd0b5e5e6d47f4ab6473ba9ed143bed3779462466b1ad907f94d5cfb5",
+        "sha256_in_prefix": "094ebdfcd0b5e5e6d47f4ab6473ba9ed143bed3779462466b1ad907f94d5cfb5",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/AnnotatedDataFrame.Rda",
+        "path_type": "hardlink",
+        "sha256": "d9f2f40a055a4fd2213c0d6e2f5db980b71b41aa5452c74e2d3bc963b4e68e27",
+        "sha256_in_prefix": "d9f2f40a055a4fd2213c0d6e2f5db980b71b41aa5452c74e2d3bc963b4e68e27",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ExpressionSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "93b75c9c2fd884c57ed81ecb6e0680c042ec27f32484a28be9126232b062ecd0",
+        "sha256_in_prefix": "93b75c9c2fd884c57ed81ecb6e0680c042ec27f32484a28be9126232b062ecd0",
+        "size_in_bytes": 5537
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/MIAME.Rda",
+        "path_type": "hardlink",
+        "sha256": "0bdd7586c4736a04d5b58db49e825f6abc1b46a513fd1f0bb06086e1f0406e10",
+        "sha256_in_prefix": "0bdd7586c4736a04d5b58db49e825f6abc1b46a513fd1f0bb06086e1f0406e10",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/MultiSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "25549f0f105327a9b6daa4f7bf1f5372a02cbe1fd145c8b83f977293f50778e2",
+        "sha256_in_prefix": "25549f0f105327a9b6daa4f7bf1f5372a02cbe1fd145c8b83f977293f50778e2",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/NChannelSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "6cf5c8c659964c96e4f6dd5d88c4e2fda510821d1ceaa60295be3f684ac8a1c9",
+        "sha256_in_prefix": "6cf5c8c659964c96e4f6dd5d88c4e2fda510821d1ceaa60295be3f684ac8a1c9",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/SWPD.rda",
+        "path_type": "hardlink",
+        "sha256": "060b74e5f5989a32be1aaffac700199015d772df3b137ac95354c3696bcd95a8",
+        "sha256_in_prefix": "060b74e5f5989a32be1aaffac700199015d772df3b137ac95354c3696bcd95a8",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarCharacter.Rda",
+        "path_type": "hardlink",
+        "sha256": "dc1259dbdee17159938b42806f8b8d9afecd6f1c737dbd5a87c5111ddba31006",
+        "sha256_in_prefix": "dc1259dbdee17159938b42806f8b8d9afecd6f1c737dbd5a87c5111ddba31006",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarInteger.Rda",
+        "path_type": "hardlink",
+        "sha256": "f2d76de8907b89170a26fa964b66da24df4011124c91aa560dd04efc32acc7e0",
+        "sha256_in_prefix": "f2d76de8907b89170a26fa964b66da24df4011124c91aa560dd04efc32acc7e0",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarLogical.Rda",
+        "path_type": "hardlink",
+        "sha256": "9ceafcff06c89100ffbdc4b0c72c1057a638ab22a4069fa85230b0edde50957c",
+        "sha256_in_prefix": "9ceafcff06c89100ffbdc4b0c72c1057a638ab22a4069fa85230b0edde50957c",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/ScalarNumeric.Rda",
+        "path_type": "hardlink",
+        "sha256": "935f37e55dcdb0f3176e0817bad8abdcc9e44b40fd2b7522f13889bb02b4ed0e",
+        "sha256_in_prefix": "935f37e55dcdb0f3176e0817bad8abdcc9e44b40fd2b7522f13889bb02b4ed0e",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/SnpSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "aa5158df2900b554914dfb5ddee802ce6aa1688d1a8fc32f07c1ac9b07b5b152",
+        "sha256_in_prefix": "aa5158df2900b554914dfb5ddee802ce6aa1688d1a8fc32f07c1ac9b07b5b152",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/Versioned.Rda",
+        "path_type": "hardlink",
+        "sha256": "59a2b942cc8d79fc6903d8e15f9f58b2cc9207e86b34588e7e6c4321113c6b7c",
+        "sha256_in_prefix": "59a2b942cc8d79fc6903d8e15f9f58b2cc9207e86b34588e7e6c4321113c6b7c",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/VersionedBiobase.Rda",
+        "path_type": "hardlink",
+        "sha256": "01dda5b1c84704f31cc094565300147e4b8289112ada8d449f41a56ee5ed6b5d",
+        "sha256_in_prefix": "01dda5b1c84704f31cc094565300147e4b8289112ada8d449f41a56ee5ed6b5d",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/Versions.Rda",
+        "path_type": "hardlink",
+        "sha256": "0eb8c7938fe9ae95a699c972ad4f4e5e871ea0d731c939a1fe5dc5a78022a85c",
+        "sha256_in_prefix": "0eb8c7938fe9ae95a699c972ad4f4e5e871ea0d731c939a1fe5dc5a78022a85c",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/VersionsNull.Rda",
+        "path_type": "hardlink",
+        "sha256": "cc5bbdf61afe0632c0c8b8f4e97310cf93cbb2eec3128178e4825e9ab4b20e85",
+        "sha256_in_prefix": "cc5bbdf61afe0632c0c8b8f4e97310cf93cbb2eec3128178e4825e9ab4b20e85",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/aggregator.Rda",
+        "path_type": "hardlink",
+        "sha256": "d0ade8f9a679486044a1c643b400cdf03eea109b364fe53921449fee3621651c",
+        "sha256_in_prefix": "d0ade8f9a679486044a1c643b400cdf03eea109b364fe53921449fee3621651c",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/bbsym.rda",
+        "path_type": "hardlink",
+        "sha256": "eb1f83cfa442a318f413ad97a8ea6e9c5917c9667d54574b758c533ac14aae5d",
+        "sha256_in_prefix": "eb1f83cfa442a318f413ad97a8ea6e9c5917c9667d54574b758c533ac14aae5d",
+        "size_in_bytes": 76485
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/container.Rda",
+        "path_type": "hardlink",
+        "sha256": "2186cdd688b03054ff537289b7ed63f454ea27b831a82a6d8deeda412b7ab653",
+        "sha256_in_prefix": "2186cdd688b03054ff537289b7ed63f454ea27b831a82a6d8deeda412b7ab653",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/eset.rda",
+        "path_type": "hardlink",
+        "sha256": "fa8717cfd337b2be7019dbe1e62eebb50837846a6f2cdf0424b726b3292be5ac",
+        "sha256_in_prefix": "fa8717cfd337b2be7019dbe1e62eebb50837846a6f2cdf0424b726b3292be5ac",
+        "size_in_bytes": 62201
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/exprSet.Rda",
+        "path_type": "hardlink",
+        "sha256": "1e3832123ca97ff7dd3394b1ebbc1a72979db19ede11bc848b897a746012e17a",
+        "sha256_in_prefix": "1e3832123ca97ff7dd3394b1ebbc1a72979db19ede11bc848b897a746012e17a",
+        "size_in_bytes": 4704
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/golubMergeSub.rda",
+        "path_type": "hardlink",
+        "sha256": "d744e25680ecade7d7ededb86b4eaaf86a44e9c0395563faa767b61f5b5d9791",
+        "sha256_in_prefix": "d744e25680ecade7d7ededb86b4eaaf86a44e9c0395563faa767b61f5b5d9791",
+        "size_in_bytes": 167662
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.eSet.rda",
+        "path_type": "hardlink",
+        "sha256": "f06b13d099544e268f576df9e79b0a74c2b8c39b49567a3d04eafa590062df92",
+        "sha256_in_prefix": "f06b13d099544e268f576df9e79b0a74c2b8c39b49567a3d04eafa590062df92",
+        "size_in_bytes": 25005
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.exprSet.1.rda",
+        "path_type": "hardlink",
+        "sha256": "58e79e67d17eaca0f99cd9fd7f7db57106c8ba4ba0fab0308266117fffe137fd",
+        "sha256_in_prefix": "58e79e67d17eaca0f99cd9fd7f7db57106c8ba4ba0fab0308266117fffe137fd",
+        "size_in_bytes": 62219
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/sample.exprSet.rda",
+        "path_type": "hardlink",
+        "sha256": "1e36dbafb4552c4eadd0054b01e8f6e9a729711f55e547631430452dd49eb240",
+        "sha256_in_prefix": "1e36dbafb4552c4eadd0054b01e8f6e9a729711f55e547631430452dd49eb240",
+        "size_in_bytes": 92336
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/devel/swrep.rda",
+        "path_type": "hardlink",
+        "sha256": "78260be11b1c52eea7204ac47882a63aed341a0900d9fa16a5e9ffde198ea478",
+        "sha256_in_prefix": "78260be11b1c52eea7204ac47882a63aed341a0900d9fa16a5e9ffde198ea478",
+        "size_in_bytes": 95238
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/exprs.tab",
+        "path_type": "hardlink",
+        "sha256": "5161412467b24dc1ce2359fdf328e929ea147f9f4deb1580da607413a08e9ba7",
+        "sha256_in_prefix": "5161412467b24dc1ce2359fdf328e929ea147f9f4deb1580da607413a08e9ba7",
+        "size_in_bytes": 6194
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/pData.tab",
+        "path_type": "hardlink",
+        "sha256": "70b16dac598e0e7cdee6d39a90f56a2eaf9cddfe6a549a96e6a77ac15c995315",
+        "sha256_in_prefix": "70b16dac598e0e7cdee6d39a90f56a2eaf9cddfe6a549a96e6a77ac15c995315",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/VersionedClass_data/raw/varMetadata.tab",
+        "path_type": "hardlink",
+        "sha256": "68879b2f8b8c3f37a2c905d839169ec9e887dfe0168a6fa485fb966c67b8c15e",
+        "sha256_in_prefix": "68879b2f8b8c3f37a2c905d839169ec9e887dfe0168a6fa485fb966c67b8c15e",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_AnnotatedDataFrame.R",
+        "path_type": "hardlink",
+        "sha256": "62a31a13747f430e71df421cfe3d59a8f2ef101722ca323cb0a6e287c2212b05",
+        "sha256_in_prefix": "62a31a13747f430e71df421cfe3d59a8f2ef101722ca323cb0a6e287c2212b05",
+        "size_in_bytes": 11605
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_AssayData.R",
+        "path_type": "hardlink",
+        "sha256": "14216bee9dba994fe9c64fc766c09171194083d5f510b6a1056453ed98396580",
+        "sha256_in_prefix": "14216bee9dba994fe9c64fc766c09171194083d5f510b6a1056453ed98396580",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_DataClasses.R",
+        "path_type": "hardlink",
+        "sha256": "64d7d184664a0e7aef86e74750db5b7c8f154b45d549e2dc6497ab44e5285d44",
+        "sha256_in_prefix": "64d7d184664a0e7aef86e74750db5b7c8f154b45d549e2dc6497ab44e5285d44",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_EsetSubclasses.R",
+        "path_type": "hardlink",
+        "sha256": "0a6b3f1044175f030256dd061cec1d6505677defc9f2c1986d364b2e1e24992b",
+        "sha256_in_prefix": "0a6b3f1044175f030256dd061cec1d6505677defc9f2c1986d364b2e1e24992b",
+        "size_in_bytes": 20211
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_ExpressionSet.R",
+        "path_type": "hardlink",
+        "sha256": "045f08cee99e5eea3d514e1bcdf689c9d16e786e6f62847002090aa6d813e7e9",
+        "sha256_in_prefix": "045f08cee99e5eea3d514e1bcdf689c9d16e786e6f62847002090aa6d813e7e9",
+        "size_in_bytes": 6704
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_NChannelSet.R",
+        "path_type": "hardlink",
+        "sha256": "752c30dbe374498861f17b1c441f7502e880264c9859a7c100e985ac4f743807",
+        "sha256_in_prefix": "752c30dbe374498861f17b1c441f7502e880264c9859a7c100e985ac4f743807",
+        "size_in_bytes": 9740
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_SnpSet.R",
+        "path_type": "hardlink",
+        "sha256": "aef6bdc8dad828d3dd3bbd5be070e3cff94fb2954a9e1e83e5ea43f7b697d10a",
+        "sha256_in_prefix": "aef6bdc8dad828d3dd3bbd5be070e3cff94fb2954a9e1e83e5ea43f7b697d10a",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_UpdateObject.R",
+        "path_type": "hardlink",
+        "sha256": "1cb8f31103f1c7c146f4da084ce2560bb9f656f7477709cbc19eca035ec8298f",
+        "sha256_in_prefix": "1cb8f31103f1c7c146f4da084ce2560bb9f656f7477709cbc19eca035ec8298f",
+        "size_in_bytes": 6030
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_VersionedClass.R",
+        "path_type": "hardlink",
+        "sha256": "65a213c60bade5ea56e82e8799bc5c8e4356f5b6ea656b772cd39ff9eca02c29",
+        "sha256_in_prefix": "65a213c60bade5ea56e82e8799bc5c8e4356f5b6ea656b772cd39ff9eca02c29",
+        "size_in_bytes": 5015
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_cache.R",
+        "path_type": "hardlink",
+        "sha256": "d11286fa5a52467aae475601be636ced4f51282f307dde17471c4406a3b05e99",
+        "sha256_in_prefix": "d11286fa5a52467aae475601be636ced4f51282f307dde17471c4406a3b05e99",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_checkClass.R",
+        "path_type": "hardlink",
+        "sha256": "3fd336f25a3a96f5167e4a6f0662250912103a6057cd182abb9f3fffdf2e6cf7",
+        "sha256_in_prefix": "3fd336f25a3a96f5167e4a6f0662250912103a6057cd182abb9f3fffdf2e6cf7",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_combine.R",
+        "path_type": "hardlink",
+        "sha256": "1391965600945397b66e4ee04ef5d8a4f88cbde282524c51b66c616cad74e4f0",
+        "sha256_in_prefix": "1391965600945397b66e4ee04ef5d8a4f88cbde282524c51b66c616cad74e4f0",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_copyEnv.R",
+        "path_type": "hardlink",
+        "sha256": "7b5d428caf9eb5e7587b277074a8a1286d193cdf7f48f61dfc8a3b9409ed50f3",
+        "sha256_in_prefix": "7b5d428caf9eb5e7587b277074a8a1286d193cdf7f48f61dfc8a3b9409ed50f3",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_esApply.R",
+        "path_type": "hardlink",
+        "sha256": "023c1f3b03ece08b400e68679e1dc62e55339efc9b23684f47e4bb63f9fabf89",
+        "sha256_in_prefix": "023c1f3b03ece08b400e68679e1dc62e55339efc9b23684f47e4bb63f9fabf89",
+        "size_in_bytes": 2096
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_subListExtract.R",
+        "path_type": "hardlink",
+        "sha256": "cec83781c1351a8b42ddf1bb8883fe264a7868f0b8480c8addee458e82513f4a",
+        "sha256_in_prefix": "cec83781c1351a8b42ddf1bb8883fe264a7868f0b8480c8addee458e82513f4a",
+        "size_in_bytes": 1907
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/test_unsaveSetSlot.R",
+        "path_type": "hardlink",
+        "sha256": "9a7f3433b8bb86b34ff125275bb50b0f34f69fa5c487b1ef229df29c0c5d38f0",
+        "sha256_in_prefix": "9a7f3433b8bb86b34ff125275bb50b0f34f69fa5c487b1ef229df29c0c5d38f0",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "lib/R/library/Biobase/unitTests/utilities.R",
+        "path_type": "hardlink",
+        "sha256": "67c047f5e52befa76ce4e81e5ae1fc2031f3f59fe75672952cee9a06aaf3e7f1",
+        "sha256_in_prefix": "67c047f5e52befa76ce4e81e5ae1fc2031f3f59fe75672952cee9a06aaf3e7f1",
+        "size_in_bytes": 1257
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e28a1b9c9e86a3b218a4aa6e6c3d56c00482fcad82ecfc27b084a99dbcc866ef",
+  "size": 2508886,
+  "subdir": "linux-64",
+  "timestamp": 1684304792000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-biobase-2.58.0-r42ha9d7317_1.tar.bz2",
+  "version": "2.58.0"
+}

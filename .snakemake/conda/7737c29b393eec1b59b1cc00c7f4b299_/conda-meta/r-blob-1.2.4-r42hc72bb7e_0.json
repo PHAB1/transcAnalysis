@@ -1,0 +1,207 @@
+{
+  "build": "r42hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.2,<4.3.0a0",
+    "r-rlang",
+    "r-vctrs >=0.2.1"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/r-blob-1.2.4-r42hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/blob/DESCRIPTION",
+    "lib/R/library/blob/INDEX",
+    "lib/R/library/blob/LICENSE",
+    "lib/R/library/blob/Meta/Rd.rds",
+    "lib/R/library/blob/Meta/features.rds",
+    "lib/R/library/blob/Meta/hsearch.rds",
+    "lib/R/library/blob/Meta/links.rds",
+    "lib/R/library/blob/Meta/nsInfo.rds",
+    "lib/R/library/blob/Meta/package.rds",
+    "lib/R/library/blob/NAMESPACE",
+    "lib/R/library/blob/NEWS.md",
+    "lib/R/library/blob/R/blob",
+    "lib/R/library/blob/R/blob.rdb",
+    "lib/R/library/blob/R/blob.rdx",
+    "lib/R/library/blob/help/AnIndex",
+    "lib/R/library/blob/help/aliases.rds",
+    "lib/R/library/blob/help/blob.rdb",
+    "lib/R/library/blob/help/blob.rdx",
+    "lib/R/library/blob/help/paths.rds",
+    "lib/R/library/blob/html/00Index.html",
+    "lib/R/library/blob/html/R.css"
+  ],
+  "fn": "r-blob-1.2.4-r42hc72bb7e_0.conda",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/r-blob-1.2.4-r42hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "c1ca3fcfc8cbff48ccd3796e22c9daf9",
+  "name": "r-blob",
+  "noarch": "generic",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/r-blob-1.2.4-r42hc72bb7e_0",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/blob/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1d38188f5660e23e6da4ad85bac2fea45c94575cf22f5f2759431d4bcb5f3848",
+        "sha256_in_prefix": "1d38188f5660e23e6da4ad85bac2fea45c94575cf22f5f2759431d4bcb5f3848",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "lib/R/library/blob/INDEX",
+        "path_type": "hardlink",
+        "sha256": "4ad6a2e85d04f2201b28b6c2ba874260877403f828713673fe745fd417654721",
+        "sha256_in_prefix": "4ad6a2e85d04f2201b28b6c2ba874260877403f828713673fe745fd417654721",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/R/library/blob/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "28dd64ba4bf3288237ed8c749affe45a28292853c245e983ba732ecff408070b",
+        "sha256_in_prefix": "28dd64ba4bf3288237ed8c749affe45a28292853c245e983ba732ecff408070b",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "189b173302f80a66faa91ed4aef491ed5528dd7af9043cbde9e28005c9a61b1c",
+        "sha256_in_prefix": "189b173302f80a66faa91ed4aef491ed5528dd7af9043cbde9e28005c9a61b1c",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "sha256_in_prefix": "04eebe0ed07cb3a56d7c6e12d4dfd405eb443d53e3d8e6dfbb3fe39af71e0e97",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1e39358a499c83a412337bad88f16062b4a904bf9e438d83130f166cbf3e0f3a",
+        "sha256_in_prefix": "1e39358a499c83a412337bad88f16062b4a904bf9e438d83130f166cbf3e0f3a",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "c7a0e45b455da11ebc337cfc28779d44161cd44c77245e48bcf0f046bdd91850",
+        "sha256_in_prefix": "c7a0e45b455da11ebc337cfc28779d44161cd44c77245e48bcf0f046bdd91850",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bf3c3ef622fb9106cbd402e166748c0ec58df9be16881d65cb07fb77af53df65",
+        "sha256_in_prefix": "bf3c3ef622fb9106cbd402e166748c0ec58df9be16881d65cb07fb77af53df65",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/R/library/blob/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0b8f015c94e451bb3baf3f270181e30b9a23727083e9083f422797473a8e82b5",
+        "sha256_in_prefix": "0b8f015c94e451bb3baf3f270181e30b9a23727083e9083f422797473a8e82b5",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/R/library/blob/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b66c159b673a45fc2c9f2fafafbc09e9cc2994ca0f66a36fdce5d200ee1146c6",
+        "sha256_in_prefix": "b66c159b673a45fc2c9f2fafafbc09e9cc2994ca0f66a36fdce5d200ee1146c6",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "lib/R/library/blob/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "f6a779d99bf30d278ae37af84e9fd27d09b38faaff83423ad44c292aaa7e543c",
+        "sha256_in_prefix": "f6a779d99bf30d278ae37af84e9fd27d09b38faaff83423ad44c292aaa7e543c",
+        "size_in_bytes": 1784
+      },
+      {
+        "_path": "lib/R/library/blob/R/blob",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/blob/R/blob.rdb",
+        "path_type": "hardlink",
+        "sha256": "673767eeb7988c5943d5f1e00a1faaf81c609685724a92187136b6ecf472abe8",
+        "sha256_in_prefix": "673767eeb7988c5943d5f1e00a1faaf81c609685724a92187136b6ecf472abe8",
+        "size_in_bytes": 31473
+      },
+      {
+        "_path": "lib/R/library/blob/R/blob.rdx",
+        "path_type": "hardlink",
+        "sha256": "6668b34a5e3be56be1183cfc52506c93d8b2e5965c9400708efb22f054f19389",
+        "sha256_in_prefix": "6668b34a5e3be56be1183cfc52506c93d8b2e5965c9400708efb22f054f19389",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "lib/R/library/blob/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "12d8e96f369a6ce2cfd821cb303437afa6e0ab5a96f318a8b33a18fdbc4479dc",
+        "sha256_in_prefix": "12d8e96f369a6ce2cfd821cb303437afa6e0ab5a96f318a8b33a18fdbc4479dc",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/blob/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "13fc62da704d23bec9bb83fb71cb5f4887608ac0a1b6309fa05728ee3ad27a8e",
+        "sha256_in_prefix": "13fc62da704d23bec9bb83fb71cb5f4887608ac0a1b6309fa05728ee3ad27a8e",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/R/library/blob/help/blob.rdb",
+        "path_type": "hardlink",
+        "sha256": "1663d668653d3a21b80e129b3e15b9ba25bf4a6f50c2ce8009048bce1a104ddf",
+        "sha256_in_prefix": "1663d668653d3a21b80e129b3e15b9ba25bf4a6f50c2ce8009048bce1a104ddf",
+        "size_in_bytes": 6637
+      },
+      {
+        "_path": "lib/R/library/blob/help/blob.rdx",
+        "path_type": "hardlink",
+        "sha256": "8e1436ffc47559bd250ed3523164752dd0f854c892a204a74e3de7ac23185a46",
+        "sha256_in_prefix": "8e1436ffc47559bd250ed3523164752dd0f854c892a204a74e3de7ac23185a46",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/R/library/blob/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "69e0733c98398b51dc8f1bfccd0ca03b359c11aa585c916a8f123d380371c3ef",
+        "sha256_in_prefix": "69e0733c98398b51dc8f1bfccd0ca03b359c11aa585c916a8f123d380371c3ef",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/R/library/blob/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ef3152470ddc320171911789a2d60f66a1c645e53e8150306ec57a8c79a9b952",
+        "sha256_in_prefix": "ef3152470ddc320171911789a2d60f66a1c645e53e8150306ec57a8c79a9b952",
+        "size_in_bytes": 1675
+      },
+      {
+        "_path": "lib/R/library/blob/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "sha256_in_prefix": "7378544281fb630e3e62a6b7855b428c008332a0249156e72aac5343078654df",
+        "size_in_bytes": 1735
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5d299d5dab34ced9a2ad2ef669f1731ad71b08656a19a39c181f5b33e5115deb",
+  "size": 65950,
+  "subdir": "noarch",
+  "timestamp": 1679065704000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-blob-1.2.4-r42hc72bb7e_0.conda",
+  "version": "1.2.4"
+}

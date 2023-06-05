@@ -1,0 +1,80 @@
+#! /bin/sh
+
+prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+exec_prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_
+includedir=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include
+
+usage()
+{
+    cat <<EOF
+Usage: gsl-config [OPTION]
+
+Known values for OPTION are:
+
+  --prefix		show GSL installation prefix 
+  --libs		print library linking information, with cblas
+  --libs-without-cblas	print library linking information, without cblas
+  --cflags		print pre-processor and compiler flags
+  --help		display this help and exit
+  --version		output version information
+
+An external CBLAS library can be specified using the GSL_CBLAS_LIB
+environment variable. The GSL CBLAS library is used by default.
+
+EOF
+
+    exit $1
+}
+
+if test $# -eq 0; then
+    usage 1
+fi
+
+cflags=false
+libs=false
+
+while test $# -gt 0; do
+    case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+    esac
+
+    case "$1" in
+    --prefix=*)
+	prefix=$optarg
+	;;
+
+    --prefix)
+	echo $prefix
+	;;
+
+    --version)
+	echo 2.7
+	exit 0
+	;;
+
+    --help)
+	usage 0
+	;;
+
+    --cflags)
+       	echo -I/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include 
+       	;;
+
+    --libs)
+        : ${GSL_CBLAS_LIB=-lgslcblas}
+	echo -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -lgsl $GSL_CBLAS_LIB -lm
+       	;;
+
+    --libs-without-cblas)
+	echo -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -lgsl -lm
+       	;;
+    *)
+	usage
+	exit 1
+	;;
+    esac
+    shift
+done
+
+exit 0

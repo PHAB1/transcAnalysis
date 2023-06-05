@@ -1,0 +1,199 @@
+R_HOME=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib/R
+# etc/Makeconf.  Generated from Makeconf.in by configure.
+#
+# ${R_HOME}/etc/Makeconf
+#
+# R was configured using the following call
+# (not including env. vars and site configuration)
+# configure  '--prefix=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_' '--host=x86_64-conda-linux-gnu' '--build=x86_64-conda-linux-gnu' '--enable-shared' '--enable-R-shlib' '--disable-prebuilt-html' '--enable-memory-profiling' '--with-tk-config=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib/tkConfig.sh' '--with-tcl-config=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib/tclConfig.sh' '--with-pic' '--with-cairo' '--with-readline' '--with-recommended-packages=no' '--without-libintl-prefix' '--with-x' '--with-blas=-lblas' '--with-lapack=-llapack' 'LIBnn=lib' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib/pkgconfig' 'CC=x86_64-conda-linux-gnu-cc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -Wl,-rpath-link,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -I/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -Wl,-rpath-link,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib' 'CPP=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/_build_env/bin/x86_64-conda-linux-gnu-cpp' 'FC=x86_64-conda-linux-gnu-gfortran' 'CXX=x86_64-conda-linux-gnu-c++' 'CXXFLAGS=-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix' 'OBJC=x86_64-conda-linux-gnu-cc'
+
+## This fails if it contains spaces, or if it is quoted
+include $(R_SHARE_DIR)/make/vars.mk
+
+AR = x86_64-conda-linux-gnu-ar
+BLAS_LIBS = -lblas
+C_VISIBILITY = -fvisibility=hidden
+CC = x86_64-conda-linux-gnu-cc
+CFLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CPICFLAGS = -fpic
+CPPFLAGS = -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -I/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -Wl,-rpath-link,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib
+CXX = x86_64-conda-linux-gnu-c++ -std=gnu++14
+CXXFLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CXXPICFLAGS = -fpic
+CXX11 = x86_64-conda-linux-gnu-c++
+CXX11FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CXX11PICFLAGS = -fpic
+CXX11STD = -std=gnu++11
+CXX14 = x86_64-conda-linux-gnu-c++
+CXX14FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CXX14PICFLAGS = -fpic
+CXX14STD = -std=gnu++14
+CXX17 = x86_64-conda-linux-gnu-c++
+CXX17FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CXX17PICFLAGS = -fpic
+CXX17STD = -std=gnu++17
+CXX20 = x86_64-conda-linux-gnu-c++
+CXX20FLAGS = -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO)
+CXX20PICFLAGS = -fpic
+CXX20STD = -std=gnu++20
+CXX_VISIBILITY = -fvisibility=hidden
+DYLIB_EXT = .so
+DYLIB_LD = $(CC)
+DYLIB_LDFLAGS = -shared -fopenmp# $(CFLAGS) $(CPICFLAGS) 
+## should be used by packages for dylibs, but at the time of writing was not
+DYLIB_LINK = $(DYLIB_LD) $(DYLIB_LDFLAGS) $(LDFLAGS)
+ECHO = echo
+ECHO_C = 
+ECHO_N = -n
+ECHO_T = 
+F_VISIBILITY = -fvisibility=hidden
+## FC is the compiler used for all Fortran as from R 3.6.0
+FC = x86_64-conda-linux-gnu-gfortran
+FCFLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO_FC)
+## additional libs needed when linking with $(FC), e.g. on some Oracle compilers
+FCLIBS_XTRA = 
+FFLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix $(LTO_FC)
+FLIBS =  -lgfortran -lm -lquadmath
+FPICFLAGS = -fpic
+FPIEFLAGS = -fPIE
+FOUNDATION_CPPFLAGS = 
+FOUNDATION_LIBS = 
+JAR = /usr/bin/jar
+JAVA = /usr/bin/java
+JAVAC = /usr/bin/javac
+JAVAH = 
+## JAVA_HOME might be used in the next three.  
+## They are for packages 'JavaGD' and 'rJava'
+JAVA_HOME = /usr/lib/jvm/java-17-openjdk-amd64
+JAVA_CPPFLAGS = -I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
+JAVA_LIBS = -L$(JAVA_HOME)/lib/server -ljvm
+JAVA_LD_LIBRARY_PATH = /home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/_build_env/lib/jvm/lib/server
+LAPACK_LIBS = -llapack
+LDFLAGS = -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -Wl,-rpath-link,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib
+## we only need this is if it is external, as otherwise link to R
+LIBINTL= 
+LIBM = -lm
+LIBR0 = -L"$(R_HOME)/lib$(R_ARCH)"
+LIBR1 = -lR
+LIBR = -L"$(R_HOME)/lib$(R_ARCH)" -lR
+LIBS = -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -lpcre2-8 -llzma -lbz2 -lz -lrt -ldl -lm -liconv -licuuc -licui18n
+## needed by R CMD config
+LIBnn = lib
+LIBTOOL = $(SHELL) "$(R_HOME)/bin/libtool"
+## set for --enable-lto, --enable-lto=check
+LTO = 
+LTO_FC = 
+LTO_LD = 
+## set for --enable-lto=R, used in INSTALL
+LTO_OPT = 
+LTO_FC_OPT = 
+## needed to build applications linking to static libR
+MAIN_LD = $(CC)
+MAIN_LDFLAGS = -Wl,--export-dynamic -fopenmp
+RPATH_LDFLAGS = -Wl,-rpath,$(abs_top_builddir)/lib -Wl,-rpath,/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib
+MAIN_LINK = $(MAIN_LD) $(MAIN_LDFLAGS) $(LDFLAGS) $(RPATH_LDFLAGS)
+MKINSTALLDIRS = "$(R_HOME)/bin/mkinstalldirs"
+NM = /home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/_build_env/bin/x86_64-conda-linux-gnu-nm
+OBJC = x86_64-conda-linux-gnu-cc
+OBJCFLAGS = -g -O2 -fobjc-exceptions $(LTO)
+OBJC_LIBS =  
+OBJCXX = 
+R_ARCH = 
+RANLIB = x86_64-conda-linux-gnu-ranlib
+SAFE_FFLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1684501397976/work=/usr/local/src/conda/r-base-4.2.3 -fdebug-prefix-map=/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_=/usr/local/src/conda-prefix -msse2 -mfpmath=sse
+SED = /array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/bin/sed
+SHELL = /bin/sh
+SHLIB_CFLAGS = 
+SHLIB_CXXFLAGS = 
+SHLIB_CXXLD = $(CXX)
+SHLIB_CXXLDFLAGS = -shared# $(CXXFLAGS) $(CXXPICFLAGS) $(LTO_LD)
+SHLIB_CXX11LD = $(CXX11) $(CXX11STD)
+SHLIB_CXX11LDFLAGS = -shared# $(CXX11FLAGS) $(CXX11PICFLAGS) $(LTO_LD)
+SHLIB_CXX14LD = $(CXX14) $(CXX14STD)
+SHLIB_CXX14LDFLAGS = -shared# $(CXX14FLAGS) $(CXX14PICFLAGS) $(LTO_LD)
+SHLIB_CXX17LD = $(CXX17) $(CXX17STD)
+SHLIB_CXX17LDFLAGS = -shared# $(CXX17FLAGS) $(CXX17PICFLAGS) $(LTO_LD)
+SHLIB_CXX20LD = $(CXX20) $(CXX20STD)
+SHLIB_CXX20LDFLAGS = -shared# $(CXX20FLAGS) $(CXX20PICFLAGS) $(LTO_LD)
+SHLIB_EXT = .so
+SHLIB_FCLD = $(FC)
+SHLIB_FCLDFLAGS = -shared# $(FCFLAGS) $(FPICFLAGS)
+SHLIB_FFLAGS = 
+SHLIB_LD = $(CC)
+## used for add-on packages linked by C
+SHLIB_LDFLAGS = -shared# $(CFLAGS) $(CPICFLAGS) $(LTO_LD)
+## used for standard packages
+SHLIB_LDFLAGS_R = -shared# $(CFLAGS) $(CPICFLAGS) $(LTO_LD)
+SHLIB_LIBADD = 
+## We want to ensure libR is picked up from $(R_HOME)/lib
+## before e.g. /usr/local/lib if a version is already installed.
+SHLIB_LINK = $(SHLIB_LD) $(SHLIB_LDFLAGS) $(LIBR0) $(LDFLAGS)
+SHLIB_OPENMP_CFLAGS = -fopenmp
+SHLIB_OPENMP_CXXFLAGS = -fopenmp
+SHLIB_OPENMP_FFLAGS = -fopenmp
+STRIP_STATIC_LIB = x86_64-conda-linux-gnu-strip --strip-debug
+STRIP_SHARED_LIB = x86_64-conda-linux-gnu-strip --strip-unneeded
+TCLTK_CPPFLAGS = -I/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include -I/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/include 
+TCLTK_LIBS = -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -ltcl8.6 -L/array2/pedrobarros/transcAnalysis/.snakemake/conda/7737c29b393eec1b59b1cc00c7f4b299_/lib -ltk8.6 -lX11
+YACC = yacc
+
+## for linking to libR.a
+STATIC_LIBR = # -Wl,--whole-archive "$(R_HOME)/lib$(R_ARCH)/libR.a" -Wl,--no-whole-archive $(BLAS_LIBS) $(FLIBS)  $(LIBINTL) -lreadline  $(LIBS)
+
+## These are recorded as macros for legacy use in packages
+## set on AIX, formerly for old glibc (-D__NO_MATH_INLINES)
+R_XTRA_CFLAGS = 
+##  was formerly set on HP-UX
+R_XTRA_CPPFLAGS =  -I"$(R_INCLUDE_DIR)" -DNDEBUG
+## currently unset
+R_XTRA_CXXFLAGS = 
+## used for gfortran >= 7 in R > 3.6.0
+R_XTRA_FFLAGS = -fno-optimize-sibling-calls
+
+## SHLIB_CFLAGS SHLIB_CXXFLAGS SHLIB_FFLAGS are apparently currently unused
+## SHLIB_CXXFLAGS is undocumented, there is no SHLIB_FCFLAGS
+ALL_CFLAGS =  $(PKG_CFLAGS) $(CPICFLAGS) $(SHLIB_CFLAGS) $(CFLAGS)
+ALL_CPPFLAGS =  -I"$(R_INCLUDE_DIR)" -DNDEBUG $(PKG_CPPFLAGS) $(CLINK_CPPFLAGS) $(CPPFLAGS) 
+ALL_CXXFLAGS =  $(PKG_CXXFLAGS) $(CXXPICFLAGS) $(SHLIB_CXXFLAGS) $(CXXFLAGS)
+ALL_OBJCFLAGS = $(PKG_OBJCFLAGS) $(CPICFLAGS) $(SHLIB_CFLAGS) $(OBJCFLAGS)
+ALL_OBJCXXFLAGS = $(PKG_OBJCXXFLAGS) $(CXXPICFLAGS) $(SHLIB_CXXFLAGS) $(OBJCXXFLAGS)
+ALL_FFLAGS = -fno-optimize-sibling-calls $(PKG_FFLAGS) $(FPICFLAGS) $(SHLIB_FFLAGS) $(FFLAGS)
+## can be overridden by R CMD SHLIB
+P_FCFLAGS = $(PKG_FFLAGS)
+ALL_FCFLAGS = -fno-optimize-sibling-calls $(P_FCFLAGS) $(FPICFLAGS) $(SHLIB_FFLAGS) $(FCFLAGS)
+## LIBR here as a couple of packages use this without SHLIB_LINK
+ALL_LIBS = $(PKG_LIBS) $(SHLIB_LIBADD) $(LIBR)# $(LIBINTL)
+
+.SUFFIXES:
+.SUFFIXES: .c .cc .cpp .d .f .f90 .f95 .m .mm .M .o
+
+.c.o:
+	$(CC) $(ALL_CPPFLAGS) $(ALL_CFLAGS) -c $< -o $@
+.c.d:
+	@echo "making $@ from $<"
+	@$(CC) -MM $(ALL_CPPFLAGS) $< > $@
+.cc.o:
+	$(CXX) $(ALL_CPPFLAGS) $(ALL_CXXFLAGS) -c $< -o $@
+.cpp.o:
+	$(CXX) $(ALL_CPPFLAGS) $(ALL_CXXFLAGS) -c $< -o $@
+.cc.d:
+	@echo "making $@ from $<"
+	@$(CXX) -M $(ALL_CPPFLAGS) $< > $@
+.cpp.d:
+	@echo "making $@ from $<"
+	@$(CXX) -M $(ALL_CPPFLAGS) $< > $@
+.m.o:
+	$(OBJC) $(ALL_CPPFLAGS) $(ALL_OBJCFLAGS) -c $< -o $@
+.m.d:
+	@echo "making $@ from $<"
+	@$(OBJC) -MM $(ALL_CPPFLAGS) $< > $@
+.mm.o:
+	$(OBJCXX) $(ALL_CPPFLAGS) $(ALL_OBJCXXFLAGS) -c $< -o $@
+.M.o:
+	$(OBJCXX) $(ALL_CPPFLAGS) $(ALL_OBJCXXFLAGS) -c $< -o $@
+.f.o:
+	$(FC) $(ALL_FFLAGS) -c $< -o $@
+.f95.o:
+	$(FC) $(ALL_FCFLAGS) -c  $< -o $@
+.f90.o:
+	$(FC) $(ALL_FCFLAGS) -c  $< -o $@

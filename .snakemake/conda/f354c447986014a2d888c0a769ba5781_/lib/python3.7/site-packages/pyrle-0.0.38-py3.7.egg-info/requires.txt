@@ -1,0 +1,11 @@
+pandas
+tabulate
+numpy
+natsort
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest

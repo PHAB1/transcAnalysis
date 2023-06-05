@@ -1,0 +1,59 @@
+{
+  "build": "h2f28480_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/ripgrep-13.0.0-h2f28480_2",
+  "features": "",
+  "files": [
+    ".crates2.json",
+    "bin/rg",
+    "share/man/man1/rg.1"
+  ],
+  "fn": "ripgrep-13.0.0-h2f28480_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/ripgrep-13.0.0-h2f28480_2",
+    "type": 1
+  },
+  "md5": "15a0bf4a1260b0a08198eb683eb272fb",
+  "name": "ripgrep",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/ripgrep-13.0.0-h2f28480_2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": ".crates2.json",
+        "path_type": "hardlink",
+        "sha256": "3df28ee508a817e7155a4db70fca550d9444bf4ce9eb930a3156fbb6637a0558",
+        "sha256_in_prefix": "3df28ee508a817e7155a4db70fca550d9444bf4ce9eb930a3156fbb6637a0558",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "bin/rg",
+        "path_type": "hardlink",
+        "sha256": "40cdd6943e869bb5edcf367ce67c12472a8bc60d087baad14341c5744b7013bc",
+        "sha256_in_prefix": "40cdd6943e869bb5edcf367ce67c12472a8bc60d087baad14341c5744b7013bc",
+        "size_in_bytes": 4997024
+      },
+      {
+        "_path": "share/man/man1/rg.1",
+        "path_type": "hardlink",
+        "sha256": "6e782e0539325cbb9fcc4ce793b978ac0918d771ab71750f8c40fcd06ba3714b",
+        "sha256_in_prefix": "6e782e0539325cbb9fcc4ce793b978ac0918d771ab71750f8c40fcd06ba3714b",
+        "size_in_bytes": 67295
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d98b4816de502658080e62014b1ccaa296e54c3a161418e344c52aebf9044c79",
+  "size": 1832119,
+  "subdir": "linux-64",
+  "timestamp": 1646467746000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ripgrep-13.0.0-h2f28480_2.tar.bz2",
+  "version": "13.0.0"
+}

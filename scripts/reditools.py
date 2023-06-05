@@ -26,7 +26,7 @@ os.system("mkdir -p %s"%output)
 
 def do_reditools(i):
     f = (i.split("/")[-1]).split(".")[0]
-    os.system("python3 reditools2.0/src/cineca/reditools.py -f %s -o %s/%s -r %s -S"%(i,output,f,genome))
+    os.system("python3 REDItools2/src/cineca/reditools.py -f %s -o %s/%s -r %s -S"%(i,output,f,genome))
     
 p=mp.Pool(snakemake.threads)
 p.map(do_reditools,red_files)

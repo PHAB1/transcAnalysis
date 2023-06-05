@@ -1,0 +1,311 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/array2/pedrobarros/anaconda3/pkgs/argcomplete-3.0.8-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/activate-global-python-argcomplete",
+    "bin/python-argcomplete-check-easy-install-script",
+    "bin/register-python-argcomplete",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/LICENSE.rst",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/METADATA",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/NOTICE",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/RECORD",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/WHEEL",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/argcomplete-3.0.8.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/argcomplete/__init__.py",
+    "lib/python3.11/site-packages/argcomplete/_check_console_script.py",
+    "lib/python3.11/site-packages/argcomplete/_check_module.py",
+    "lib/python3.11/site-packages/argcomplete/bash_completion.d/python-argcomplete",
+    "lib/python3.11/site-packages/argcomplete/completers.py",
+    "lib/python3.11/site-packages/argcomplete/exceptions.py",
+    "lib/python3.11/site-packages/argcomplete/finders.py",
+    "lib/python3.11/site-packages/argcomplete/io.py",
+    "lib/python3.11/site-packages/argcomplete/lexers.py",
+    "lib/python3.11/site-packages/argcomplete/packages/__init__.py",
+    "lib/python3.11/site-packages/argcomplete/packages/_argparse.py",
+    "lib/python3.11/site-packages/argcomplete/packages/_shlex.py",
+    "lib/python3.11/site-packages/argcomplete/py.typed",
+    "lib/python3.11/site-packages/argcomplete/shell_integration.py",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/_check_console_script.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/_check_module.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/completers.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/finders.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/io.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/lexers.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/packages/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/packages/__pycache__/_argparse.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/packages/__pycache__/_shlex.cpython-311.pyc",
+    "lib/python3.11/site-packages/argcomplete/__pycache__/shell_integration.cpython-311.pyc"
+  ],
+  "fn": "argcomplete-3.0.8-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/array2/pedrobarros/anaconda3/pkgs/argcomplete-3.0.8-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0b3460f5bf4ae27dfd72fdcccc9667a9",
+  "name": "argcomplete",
+  "noarch": "python",
+  "package_tarball_full_path": "/array2/pedrobarros/anaconda3/pkgs/argcomplete-3.0.8-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/activate-global-python-argcomplete",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/argcomplete_1682324182515/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4c3e08823c898b82667875d3667f10dd09ddbb7630a34b1b2931859db100d007",
+        "sha256_in_prefix": "0937250299c986c8c544a443d0292f361bef6a44e2b66d142ad6b152c304eca7",
+        "size_in_bytes": 3620
+      },
+      {
+        "_path": "python-scripts/python-argcomplete-check-easy-install-script",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/argcomplete_1682324182515/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "db76854328d6ba0722e9d67e9a966ce39f013b24796f31a4dc2859aa44e2eadd",
+        "sha256_in_prefix": "51ba445493fe9fc1aa98bafed785325b8769d7dd41be7519063d0f4a5c9e3c26",
+        "size_in_bytes": 2855
+      },
+      {
+        "_path": "python-scripts/register-python-argcomplete",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/argcomplete_1682324182515/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e8994631891b46dbe4ef53a226a26dac74a47fde087617dd34fb4546647c416a",
+        "sha256_in_prefix": "fd8bc2a4bfa5812279e3a38fd5fbc1054c6a7e7cc541d405062964933634f57f",
+        "size_in_bytes": 2243
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "sha256_in_prefix": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size_in_bytes": 10174
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b9afa89f0f8ac156cafa685fe35367e9668706add4fc43f71b6493ebb925bccb",
+        "sha256_in_prefix": "b9afa89f0f8ac156cafa685fe35367e9668706add4fc43f71b6493ebb925bccb",
+        "size_in_bytes": 16805
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "2c889c721ec8ae6d7664680afaefbb4c7620976f434b57a506ecd92f0649b6a0",
+        "sha256_in_prefix": "2c889c721ec8ae6d7664680afaefbb4c7620976f434b57a506ecd92f0649b6a0",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "602bac2cd29b5df2fd03b0f65180e36f1910f3f8bfdf02f41d91db0ecef72a73",
+        "sha256_in_prefix": "602bac2cd29b5df2fd03b0f65180e36f1910f3f8bfdf02f41d91db0ecef72a73",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "896557fd4af2757891218d1e6e67d4a4d23777b7fa7d1f523900734bdde48bf6",
+        "sha256_in_prefix": "896557fd4af2757891218d1e6e67d4a4d23777b7fa7d1f523900734bdde48bf6",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/argcomplete-3.0.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8b0b063b9f94c44841f34f4eb166ce98b8ddf2bf17d71b5763ae663f4d408658",
+        "sha256_in_prefix": "8b0b063b9f94c44841f34f4eb166ce98b8ddf2bf17d71b5763ae663f4d408658",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/argcomplete/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c85eb1aef7cad16a4ef2b96a4258a57d27205d3247d51497700322e6ce2267a4",
+        "sha256_in_prefix": "c85eb1aef7cad16a4ef2b96a4258a57d27205d3247d51497700322e6ce2267a4",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "site-packages/argcomplete/_check_console_script.py",
+        "path_type": "hardlink",
+        "sha256": "b244c4ba5b43556913ad768fe7e2b81abc2a90b4e31cf180b90ba9e29ad528b5",
+        "sha256_in_prefix": "b244c4ba5b43556913ad768fe7e2b81abc2a90b4e31cf180b90ba9e29ad528b5",
+        "size_in_bytes": 2140
+      },
+      {
+        "_path": "site-packages/argcomplete/_check_module.py",
+        "path_type": "hardlink",
+        "sha256": "46c0619c31c5a29a36f9db189e7b945145db9cb7e76473d45592e26829c125af",
+        "sha256_in_prefix": "46c0619c31c5a29a36f9db189e7b945145db9cb7e76473d45592e26829c125af",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "site-packages/argcomplete/bash_completion.d/python-argcomplete",
+        "path_type": "hardlink",
+        "sha256": "9f3fca391233e2082b9aa36b34fe1b33c6ccd4af77b3f9a9cfcb47933ca2b2ec",
+        "sha256_in_prefix": "9f3fca391233e2082b9aa36b34fe1b33c6ccd4af77b3f9a9cfcb47933ca2b2ec",
+        "size_in_bytes": 5422
+      },
+      {
+        "_path": "site-packages/argcomplete/completers.py",
+        "path_type": "hardlink",
+        "sha256": "b14032a292d9dac2c6f8889119b8af3910c57238d5d8dc81fbec605d6e4ca5bf",
+        "sha256_in_prefix": "b14032a292d9dac2c6f8889119b8af3910c57238d5d8dc81fbec605d6e4ca5bf",
+        "size_in_bytes": 3980
+      },
+      {
+        "_path": "site-packages/argcomplete/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "b688e97ad6ebb5c99a6cb4550bf62a8851afd31f90cc73ce200d9f106ea5f5a0",
+        "sha256_in_prefix": "b688e97ad6ebb5c99a6cb4550bf62a8851afd31f90cc73ce200d9f106ea5f5a0",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/argcomplete/finders.py",
+        "path_type": "hardlink",
+        "sha256": "c15ecfb5569f13d677843f863da3a50700f982b6d548a0e942bce9c9846e0969",
+        "sha256_in_prefix": "c15ecfb5569f13d677843f863da3a50700f982b6d548a0e942bce9c9846e0969",
+        "size_in_bytes": 26975
+      },
+      {
+        "_path": "site-packages/argcomplete/io.py",
+        "path_type": "hardlink",
+        "sha256": "3c27a939a362ef5e2fe9a13343b00096d583628f9a3f95e66e6ebe7c9e2d6b95",
+        "sha256_in_prefix": "3c27a939a362ef5e2fe9a13343b00096d583628f9a3f95e66e6ebe7c9e2d6b95",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "site-packages/argcomplete/lexers.py",
+        "path_type": "hardlink",
+        "sha256": "b1ee766cf4d42bdee6f28183a8fd26af0c5011460c9cec6f190d85744a3cbf55",
+        "sha256_in_prefix": "b1ee766cf4d42bdee6f28183a8fd26af0c5011460c9cec6f190d85744a3cbf55",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "site-packages/argcomplete/packages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/argcomplete/packages/_argparse.py",
+        "path_type": "hardlink",
+        "sha256": "b8c4b5b21fdc2e722ea6c4ec38d59c46322089a99050fbf08d1010d76a4b4a9c",
+        "sha256_in_prefix": "b8c4b5b21fdc2e722ea6c4ec38d59c46322089a99050fbf08d1010d76a4b4a9c",
+        "size_in_bytes": 15846
+      },
+      {
+        "_path": "site-packages/argcomplete/packages/_shlex.py",
+        "path_type": "hardlink",
+        "sha256": "a9ea8804071313fd45cfcdd7cfed51ac672253b7ef111251ecdfe072d0c695d8",
+        "sha256_in_prefix": "a9ea8804071313fd45cfcdd7cfed51ac672253b7ef111251ecdfe072d0c695d8",
+        "size_in_bytes": 12766
+      },
+      {
+        "_path": "site-packages/argcomplete/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/argcomplete/shell_integration.py",
+        "path_type": "hardlink",
+        "sha256": "7de58e0c32985d5f6c8c69673b39b4abb7d9812bc2b7373080b4e398c86d8232",
+        "sha256_in_prefix": "7de58e0c32985d5f6c8c69673b39b4abb7d9812bc2b7373080b4e398c86d8232",
+        "size_in_bytes": 7012
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/_check_console_script.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/_check_module.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/completers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/finders.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/io.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/lexers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/packages/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/packages/__pycache__/_argparse.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/packages/__pycache__/_shlex.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/argcomplete/__pycache__/shell_integration.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "18aad01518cb08e4eff18e507e14ebf6c522d89ef53ca267c48080933c4435f7",
+  "size": 38186,
+  "subdir": "noarch",
+  "timestamp": 1682324308000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/argcomplete-3.0.8-pyhd8ed1ab_0.conda",
+  "version": "3.0.8"
+}
