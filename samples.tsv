@@ -1,5 +1,5 @@
 sample,letter,group
-/array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A3Aligned_sorted.out.bam,R_Ctrl_3,R_Ctrl
-/array2/pedrobarros/Amanda_RNA_seq/R_Ctrl_A2Aligned_sorted.out.bam,R_Ctrl_2,R_Ctrl
-/array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A3Aligned_sorted.out.bam,S_Ctrl_3,S_Ctrl
-/array2/pedrobarros/Amanda_RNA_seq/S_Ctrl_A1Aligned_sorted.out.bam,S_Ctrl_1,S_Ctrl
+R_Ctrl_A3Aligned_sorted.out.bam,R_Ctrl_3,R_Ctrl
+R_Ctrl_A2Aligned_sorted.out.bam,R_Ctrl_2,R_Ctrl
+S_Ctrl_A3Aligned_sorted.out.bam,S_Ctrl_3,S_Ctrl
+S_Ctrl_A1Aligned_sorted.out.bam,S_Ctrl_1,S_Ctrl
