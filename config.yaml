@@ -3,6 +3,7 @@ samples: samples.tsv
 files_path:
     genome_reg: /array2/genomes/hg38.ensGene.gtf
     genome_fa: /array2/pedrobarros/genomes/hg38.fa
+    transcript_fa: /array2/pedrobarros/genomes/hg38.ensGene.fa
 
 params:
     stranded: yes

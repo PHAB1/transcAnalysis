@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python-devtools
   - python=3
+  - pandas
   - htslib=1.9
   - pysam
   - tabix
@@ -17,3 +18,5 @@ dependencies:
   - mpi4py
   - openmpi
   - git
+  - pybedtools
+  - pyranges
