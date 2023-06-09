@@ -8,3 +8,12 @@ files_path:
 params:
     stranded: yes
     read_len: 150
+
+    # Expression parameters
+    expFDR_threshold: 0.05
+    foldChange_threshold: 1
+    # Alternative splicing parameters
+    AS_FDR_threshold: 0.05
+    AS_incLevel_threshold: 0.1
+    # RNA editing parameters
+    RED_FDR_threshold: 0.05

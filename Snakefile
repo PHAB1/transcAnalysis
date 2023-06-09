@@ -167,6 +167,12 @@ rule integration:
 	#salmon = "salmon_out/"
     conda:
         "envs/resume.yaml"
+    params:
+    	expFDR_threshold=config["params"]["expFDR_threshold"],
+    	foldChange_threshold=config["params"]["foldChange_threshold"],
+	AS_FDR_threshold=config["params"]["AS_FDR_threshold"],
+	AS_incLevel_threshold=config["params"]["AS_incLevel_threshold"],
+	RED_FDR_threshold=config["params"]["RED_FDR_threshold"]
     output:
         "resume.csv"
     script:
