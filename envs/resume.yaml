@@ -8,7 +8,7 @@ dependencies:
   - conda-build
   - numpy
   - cython
-  - gtfparse
+  - gtfparse==1.2.1
   - pybedtools
   - pandas==1.4
   - bedtools
